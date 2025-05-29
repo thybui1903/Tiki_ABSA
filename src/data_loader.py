@@ -2,7 +2,7 @@
 import json
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from src.config import LABELED_DATA_PATH, SPLIT_DATA_DIR
+from config import LABELED_DATA_PATH, SPLIT_DATA_DIR
 
 
 def load_labeled_data(filepath=LABELED_DATA_PATH):
@@ -12,7 +12,7 @@ def load_labeled_data(filepath=LABELED_DATA_PATH):
     """
     if filepath.endswith(".json"):
         with open(filepath, "r", encoding="utf-8") as f:
-            data = [json.loads(line) for line in f]
+            data = json.load(f)
         return pd.DataFrame(data)
     elif filepath.endswith(".csv"):
         return pd.read_csv(filepath)
