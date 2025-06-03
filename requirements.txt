@@ -7,3 +7,6 @@ ipython
 matplotlib
 seaborn
 numpy
+wordcloud
+scikit-learn
+google.generativeai
