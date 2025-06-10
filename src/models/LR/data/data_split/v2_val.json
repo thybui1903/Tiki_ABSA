@@ -1,0 +1,7430 @@
+[
+  {
+    "text": "giao nhanh sip thân thiên",
+    "labels": [
+      [
+        0,
+        9,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        10,
+        22,
+        "sip thân thiên",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "OK. phím nhẹ. bàn phím nhìn cũng đẹp. tiki nên cho thêm câu thông báo yêu cầu bảo nhiêu ký tự.Ghi ít ký tự quá không cmt được mà chả có thông báo cho user tại sao.",
+    "labels": [
+      [
+        3,
+        11,
+        "phím nhẹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        29,
+        "bàn phím nhìn cũng đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        31,
+        130,
+        "tiki nên cho thêm câu thông báo yêu cầu bảo nhiêu ký tự.Ghi ít ký tự quá không cmt được mà chả có thông báo cho user tại sao",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Thoáng khí, hút ẩm tốt, chống tràn",
+    "labels": [
+      [
+        0,
+        9,
+        "Thoáng khí",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        11,
+        22,
+        "hút ẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        33,
+        "chống tràn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bé đã uống quen sữa này. Quan trọng là thích giao hàng nhanh của tiki, giá sp hợp lý",
+    "labels": [
+      [
+        29,
+        50,
+        "thích giao hàng nhanh của tiki",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        52,
+        66,
+        "giá sp hợp lý",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "rất đẹp, tiếng bấm chuột nhỏ lắm, kết nối nhanh, dày dặn chắc chắn",
+    "labels": [
+      [
+        0,
+        8,
+        "rất đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        10,
+        29,
+        "tiếng bấm chuột nhỏ lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        31,
+        43,
+        "kết nối nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        45,
+        64,
+        "dày dặn chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chuối tốt. Hơi nhỏ phù hợp tay con gái",
+    "labels": [
+      [
+        0,
+        8,
+        "Chuối tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        9,
+        32,
+        "Hơi nhỏ phù hợp tay con gái",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "bao bì rất kỹ nói chung rất ok",
+    "labels": [
+      [
+        0,
+        12,
+        "bao bì rất kỹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        22,
+        "nói chung rất ok",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm đẹp giống như mô tả chất lượng thì OK dầy dặn chắc chắn độ bền thì chưa biết vì chưa có sử dụng",
+    "labels": [
+      [
+        0,
+        31,
+        "Sản phẩm đẹp giống như mô tả",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        52,
+        "chất lượng thì OK dầy dặn chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        53,
+        87,
+        "độ bền thì chưa biết vì chưa có sử dụng",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Rất hài lòng về sản phẩm nhận được. Hàng brandnew, đệm cao su không bị xước như nhiều review khác. Nói chung mình đánh giá cao con logitech M331 silent này, dùng mượt mà, click chuột êm ru.",
+    "labels": [
+      [
+        0,
+        30,
+        "Rất hài lòng về sản phẩm nhận được.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        79,
+        "Hàng brandnew, đệm cao su không bị xước như nhiều review khác.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        81,
+        150,
+        "Nói chung mình đánh giá cao con logitech M331 silent này, dùng mượt mà, click chuột êm ru.",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Frisolac Gold 3 1400g to giá rẻ giao hàng nhanh",
+    "labels": [
+      [
+        20,
+        26,
+        "giá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        27,
+        39,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Máy xinh, đóng gói kĩ, nguyên vẹn, mình chưa hấp thử thức ăn, nhưng sống 1 mình xài quá này quá ok. Giao hàng rất đúng hẹn, mình săn sale mua giá tầm hơn 270k thoi",
+    "labels": [
+      [
+        0,
+        38,
+        "Máy xinh, đóng gói kĩ, nguyên vẹn, mình chưa hấp thử thức ăn, nhưng sống 1 mình xài quá này quá ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        39,
+        61,
+        "Giao hàng rất đúng hẹn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        63,
+        89,
+        "mình săn sale mua giá tầm hơn 270k thoi",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Phân loại sản phẩm màu xanh. Giao hàng nhanh, đặt tối 261 mà trưa 281 đã giao lịch dự kiến giao hàng là 72 sau tết. Đóng gói sản chẩm chắc, đủ và giống như hình. Độ giữ nhiệt thì để tối về bỏ thử cơm cảnh vô rồi cũng cấp thông tin tiếp. Tuy nhiên LockLock thì cũng yên tâm về chất lượng",
+    "labels": [
+      [
+        28,
+        41,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        81,
+        110,
+        "Đóng gói sản chẩm chắc, đủ và giống như hình",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        183,
+        210,
+        "LockLock thì cũng yên tâm về chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "đóng gói cẩn thận sẽ ủng hộ",
+    "labels": [
+      [
+        0,
+        12,
+        "đóng gói cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        21,
+        "sẽ ủng hộ",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đã mua vài lần, giá cả tạm ổn, tuy nhiên lần này giao hàng trễ 1 ngày so với thông báo.",
+    "labels": [
+      [
+        16,
+        24,
+        "giá cả tạm ổn",
+        "Giá cả#Bình thường"
+      ],
+      [
+        38,
+        66,
+        "giao hàng trễ 1 ngày so với thông báo",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm nhận đúng theo mô tả của Tiki. Tiki đóng hàng cẳn thận. Nhân viên giao hàng nhiệt tình. Ủng hộ Tiki những đơn tiếp theo.",
+    "labels": [
+      [
+        0,
+        35,
+        "Sản phẩm nhận đúng theo mô tả của Tiki",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        37,
+        56,
+        "Tiki đóng hàng cẳn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        58,
+        87,
+        "Nhân viên giao hàng nhiệt tình",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        89,
+        124,
+        "Ủng hộ Tiki những đơn tiếp theo",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, chuyên nghiệp. Đóng gói đảm bảo. Máy tắm nước chất lượng, chạy êm.",
+    "labels": [
+      [
+        0,
+        27,
+        "Giao hàng nhanh, chuyên nghiệp.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        28,
+        44,
+        "Đóng gói đảm bảo.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        45,
+        76,
+        "Máy tắm nước chất lượng, chạy êm.",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "hàng giao nhanh uống thơm ok",
+    "labels": [
+      [
+        0,
+        12,
+        "hàng giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        13,
+        22,
+        "uống thơm ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Trộm vía bé hợp tác, tăng cân đều và đi phân tốt",
+    "labels": [
+      [
+        0,
+        36,
+        "Trộm vía bé hợp tác, tăng cân đều và đi phân tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "hàng còn nguyên seal, tải driver logitech về check được hàng chính hãng, tùy biến được chức năng của chuột giữa, tốc độ chuột,... thiết kế đẹp, nhỏ gọn, dùng êm tay.",
+    "labels": [
+      [
+        0,
+        25,
+        "hàng còn nguyên seal",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        27,
+        58,
+        "tải driver logitech về check được hàng chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        60,
+        89,
+        "tùy biến được chức năng của chuột giữa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        109,
+        117,
+        "thiết kế đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        119,
+        126,
+        "nhỏ gọn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        128,
+        138,
+        "dùng êm tay",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "ấm bị rỉ sét bên trong dù chưa sd lần nào. nhưng tiki đã giải quyết tốt!",
+    "labels": [
+      [
+        0,
+        40,
+        "ấm bị rỉ sét bên trong dù chưa sd lần nào",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        42,
+        63,
+        "tiki đã giải quyết tốt!",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "chuột xài êm, giao hàng nhanh, nói chung cũng xứng đáng đồng tiền",
+    "labels": [
+      [
+        0,
+        10,
+        "chuột xài êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        12,
+        25,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        27,
+        52,
+        "nói chung cũng xứng đáng đồng tiền",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm như mô tả, giao hàng đúng hẹn.",
+    "labels": [
+      [
+        0,
+        19,
+        "Sản phẩm như mô tả",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        21,
+        38,
+        "giao hàng đúng hẹn",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "chất lượng ẩn phẩm tuyệt vời",
+    "labels": [
+      [
+        0,
+        25,
+        "chất lượng ẩn phẩm tuyệt vời",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mua màu đỏ vì đang cần ngay mà chỉ có màu này ship nhanh 2h và Tiki Trading. Nhận được sau khi đặt hàng chỉ khoảng hơn 1 tiếng. Hàng đóng gói kĩ càng, nguyên vẹn bao bì không 1 vết rách nhỏ. Sản phẩm mới cóng nguyên seal. Nhạy và siêu êm, êm đến mức không quen vì không có tiếng click Lúc nào cũng mua được hàng ngon như thế này trên Tiki thì thật tuyệt.",
+    "labels": [
+      [
+        43,
+        53,
+        "ship nhanh 2h",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        79,
+        102,
+        "Hàng đóng gói kĩ càng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        104,
+        136,
+        "nguyên vẹn bao bì không 1 vết rách nhỏ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        138,
+        162,
+        "Sản phẩm mới cóng nguyên seal",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        164,
+        201,
+        "Nhạy và siêu êm, êm đến mức không quen",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        223,
+        263,
+        "Lúc nào cũng mua được hàng ngon như thế này trên Tiki thì thật tuyệt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hành nhanh, sản phẩm chất lượng và sale sâu nữa ! cảm ơn Tiki !!!",
+    "labels": [
+      [
+        0,
+        12,
+        "giao hành nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        14,
+        30,
+        "sản phẩm chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        33,
+        43,
+        "sale sâu nữa",
+        "Giá cả#Tích cực"
+      ],
+      [
+        46,
+        59,
+        "cảm ơn Tiki !!!",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "kem dưỡng đỏ mình chưa dùng. nhưng bộ 3 siêu nhân xanh dùng 1 tháng mới hết sữa rửa mặt. dùng ngon, da mịn . cưng xỉu. tiết kiệm nữa.",
+    "labels": [
+      [
+        67,
+        75,
+        "dùng ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        77,
+        83,
+        "da mịn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        86,
+        94,
+        "cưng xỉu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        96,
+        106,
+        "tiết kiệm nữa",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tiki giao hàng nhanh! Mình mua đồ của Sunhouse nhiều rồi! Giá cạnh tranh, mẫu mã đẹp, giao nhanh! Mê khoản này! Ấm đẹp, sáng bóng. Mới nên hơi có mùi nhựa nhẹ! Mình cắm thử 1 ít nước và bỏ đi thì thấy đỡ mùi hơn nhiều! Cắm 1 ấm đầy 1.8 lít mất 6 phút thì sôi nhé mọi người! Nắp mở cảm giác nhẹ nhàng là được ! Nói chung ổn! Độ bền thì dùng 1 thời gian nữa mới biết được nè! Mà đồ của Sunhouse chắc ok! Hì",
+    "labels": [
+      [
+        0,
+        18,
+        "Tiki giao hàng nhanh!",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        43,
+        66,
+        "Giá cạnh tranh, mẫu mã đẹp, giao nhanh!",
+        "Giá cả#Tích cực"
+      ],
+      [
+        67,
+        79,
+        "Mê khoản này!",
+        "Khác#Tích cực"
+      ],
+      [
+        80,
+        97,
+        "Ấm đẹp, sáng bóng.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        98,
+        122,
+        "Mới nên hơi có mùi nhựa nhẹ!",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        156,
+        200,
+        "Cắm 1 ấm đầy 1.8 lít mất 6 phút thì sôi nhé mọi người!",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        201,
+        232,
+        "Nắp mở cảm giác nhẹ nhàng là được !",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        233,
+        244,
+        "Nói chung ổn!",
+        "Khác#Tích cực"
+      ],
+      [
+        287,
+        307,
+        "đồ của Sunhouse chắc ok!",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giẻ lau dày dặn, cây lau cứng cáp, chắc chắn, sản phẩm đựng trong hộp đẹp và giao nhanh.",
+    "labels": [
+      [
+        0,
+        32,
+        "Giẻ lau dày dặn, cây lau cứng cáp, chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        34,
+        57,
+        "sản phẩm đựng trong hộp đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        62,
+        70,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh, đóng gói ok, sp dùng ok, tóm lại ổn mn nên mua nhoa, .......................................................................................",
+    "labels": [
+      [
+        0,
+        13,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        25,
+        "đóng gói ok",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        27,
+        36,
+        "sp dùng ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        38,
+        46,
+        "tóm lại ổn",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sạc chính hãng, giao nhanh, giá hợp lý",
+    "labels": [
+      [
+        0,
+        12,
+        "Sạc chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        22,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        24,
+        34,
+        "giá hợp lý",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm dữ nhiệt tốt. Nên mua",
+    "labels": [
+      [
+        0,
+        18,
+        "Sản phẩm dữ nhiệt tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        20,
+        27,
+        "Nên mua",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Với mức giá này thì chất lượng quá ok. Da mình hơi khô, sữa rửa mặt cấp ẩm tốt. Mình ít make up nên về độ làm sạch mình thấy ổn. Hôm nào mình make up thì mình dùng thêm tẩy trang nữa hoặc rửa hai lần, vẫn ok nhé ạ",
+    "labels": [
+      [
+        0,
+        30,
+        "Với mức giá này thì chất lượng quá ok",
+        "Giá cả#Tích cực"
+      ],
+      [
+        45,
+        68,
+        "sữa rửa mặt cấp ẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        89,
+        113,
+        "về độ làm sạch mình thấy ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        157,
+        170,
+        "vẫn ok nhé ạ",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, hạn sử dụng lâu, sản phẩm từ tiki trading nên bảo đảm chính hãng. Rất hài lòng!",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        30,
+        "hạn sử dụng lâu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        69,
+        "sản phẩm từ tiki trading nên bảo đảm chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        71,
+        83,
+        "Rất hài lòng!",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chưa thử nữa nên cũng không rõ cơ mà nó to hơn mình nghĩ kkk",
+    "labels": [
+      [
+        28,
+        44,
+        "nó to hơn mình nghĩ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình đặt sản phẩm này cách đây hơn một tháng, đã và đang sử dụng. Khi đặt hàng trên Tiki mình hoàn toàn yên tâm sản phẩm chính hãng. Tiki giao hàng nhanh, bọc cẩn thận, bọc thêm một lớp túi bóng chống va đập. Tóm lại là hoàn toàn hài lòng về dịch vụ của Tiki. Còn sản phẩm thì phải dùng lâu dài mới biết được. Mỗi ngày mình uống 1 viên. Dùng cả năm mới hết",
+    "labels": [
+      [
+        61,
+        86,
+        "mình hoàn toàn yên tâm sản phẩm chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        88,
+        101,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        103,
+        116,
+        "bọc cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        118,
+        147,
+        "bọc thêm một lớp túi bóng chống va đập",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        161,
+        191,
+        "hoàn toàn hài lòng về dịch vụ của Tiki",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        193,
+        226,
+        "Còn sản phẩm thì phải dùng lâu dài mới biết được",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "K có gì đặc biệt, 3 sao.......",
+    "labels": [
+      [
+        2,
+        16,
+        "có gì đặc biệt",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Chất lượng sản phẩm : Với chất gel mỏng nhẹ, dễ thấm, hôm nào vội, mình chỉ cần apply 30s là đã có thể đi ra ngoài đường luôn r. Không hề bết rít hay nhờn đâu nhé. Em này có khả năng nâng tông da nhẹ nhàng. Bạn nào đi học thì chỉ cần 1 lớp này là đã sáng bừng gương mặt rùi á. Thêm chút son là tự tin liền. Còn bạn nào có makeup thì có thể dùng như 1 lớp kem lót nâng tông, giúp nền không bị trơn trượt hay mốc nè Chỉ số chống nắng chuẩn: SPF50, PA, bảo vệ da tối ưu, làm da không bị đen sạm, tàn nhang nhé Chất lượng dịch vụ : Ta nói, Tiki giao siêu nhanh, hú hồn luôn á. Mình đặt lúc Sì Gòn đang còn giãn cách, đặt hàng online mãi không thấy giao. Vậy mà bỗng dưng 2 ngày sau, anh shipper quen đã hú xuống lấy. U là trời, nó mừng như crush mới tỏ tình á. App thân thiện, dễ dùng, giao diện xanh tươi, phù hợp với con dân Song Tử như mình",
+    "labels": [
+      [
+        22,
+        174,
+        "Với chất gel mỏng nhẹ, dễ thấm, hôm nào vội, mình chỉ cần apply 30s là đã có thể đi ra ngoài đường luôn r. Không hề bết rít hay nhờn đâu nhé. Em này có khả năng nâng tông da nhẹ nhàng. Bạn nào đi học thì chỉ cần 1 lớp này là đã sáng bừng gương mặt rùi á. Thêm chút son là tự tin liền.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        175,
+        259,
+        "Còn bạn nào có makeup thì có thể dùng như 1 lớp kem lót nâng tông, giúp nền không bị trơn trượt hay mốc nè",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        260,
+        343,
+        "Chỉ số chống nắng chuẩn: SPF50, PA, bảo vệ da tối ưu, làm da không bị đen sạm, tàn nhang nhé",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        368,
+        398,
+        "Ta nói, Tiki giao siêu nhanh, hú hồn luôn á.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        479,
+        513,
+        "U là trời, nó mừng như crush mới tỏ tình á.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        514,
+        587,
+        "App thân thiện, dễ dùng, giao diện xanh tươi, phù hợp với con dân Song Tử như mình",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "mình mua sữa thấy yên tâm khi vỏ có mã QR quét nè, với cũng mua nhiều lần rồi nên thấy sữa nan optipro plus mát lắm, giúp con bụng êm tiêu hóa khỏe hơn ạ",
+    "labels": [
+      [
+        13,
+        33,
+        "thấy yên tâm khi vỏ có mã QR quét nè",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        52,
+        60,
+        "mát lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        62,
+        91,
+        "giúp con bụng êm tiêu hóa khỏe hơn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "chuột cũ chưa hư, mua trừ hao, chưa xài chưa biết nhưng tiki giá tốt và giao hàng nhanh nha",
+    "labels": [
+      [
+        0,
+        12,
+        "chuột cũ chưa hư",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        35,
+        43,
+        "giá tốt",
+        "Giá cả#Tích cực"
+      ],
+      [
+        47,
+        62,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "mới đặt hôm qua hôm nay đã giao đúng nhanh siêu tốc hàng đẹp đóng góp cẩn thận",
+    "labels": [
+      [
+        28,
+        39,
+        "giao đúng nhanh siêu tốc",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        40,
+        48,
+        "hàng đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        65,
+        "đóng góp cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chất lượng ổn, dùng cho ẩm kế chưa thấy hết",
+    "labels": [
+      [
+        0,
+        12,
+        "Chất lượng ổn",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Thành phần sữa đầy đủ dinh dưỡng, dễ hấp thụ vì làm từ đạm thực vật, nhưng nếu pha theo hướng dẫn của nhà sản xuất thì sữa quá ngọt. Nhà mình thường làm sữa hạt, hoặc sữa đậu nành và pha thêm ensure gold 1 nồi sữa 4 người uống chỉ bỏ thêm 3, 4 muỗng ensure. Giá trên tiki cũng được, có lúc rẻ có lúc mắc hơn chỗ khác. Nói chung mình hài lòng với sản phẩm này",
+    "labels": [
+      [
+        0,
+        48,
+        "Thành phần sữa đầy đủ dinh dưỡng, dễ hấp thụ vì làm từ đạm thực vật",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        80,
+        "nhưng nếu pha theo hướng dẫn của nhà sản xuất thì sữa quá ngọt",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        177,
+        220,
+        "Giá trên tiki cũng được, có lúc rẻ có lúc mắc hơn chỗ khác",
+        "Giá cả#Bình thường"
+      ],
+      [
+        222,
+        250,
+        "Nói chung mình hài lòng với sản phẩm này",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình không yêu cầu quá nhiều về chuột máy tính, chỉ cần đủ sử dụng lên mạng, soạn thảo, công việc văn phòng, click lung tung các thứ. Nên như vậy là ổn. Giá ok, chất lượng ổn áp. 5 sao nhaaaa",
+    "labels": [
+      [
+        99,
+        105,
+        "Nên như vậy là ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        107,
+        113,
+        "Giá ok",
+        "Giá cả#Tích cực"
+      ],
+      [
+        115,
+        126,
+        "chất lượng ổn áp",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh như đi mua siêu thị mà không mất công tìm kiếm. Gía rẻ Chất lượng tốt",
+    "labels": [
+      [
+        0,
+        53,
+        "Giao hàng nhanh như đi mua siêu thị mà không mất công tìm kiếm",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        55,
+        61,
+        "Gía rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        62,
+        74,
+        "Chất lượng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng giao nhanh. Date xa. Uống cực phê!",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh chóng",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        14,
+        22,
+        "Ngày sản xuất còn xa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        23,
+        34,
+        "Uống rất thích",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Cán chổi khi xoay nhấn xuống bị trượt, không dùng được",
+    "labels": [
+      [
+        0,
+        44,
+        "Cán chổi khi xoay nhấn xuống bị trượt, không dùng được",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop đóng gói hàng cực tệ, nhận hàng lần nào cũng móp méo",
+    "labels": [
+      [
+        4,
+        13,
+        "đóng gói hàng cực tệ",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        33,
+        40,
+        "móp méo",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao nhanh hạn sử dụng còn dài",
+    "labels": [
+      [
+        0,
+        9,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        10,
+        25,
+        "hạn sử dụng còn dài",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng đẹp, còn thời gian giữ lạnh để mình sử dụng mới biết được",
+    "labels": [
+      [
+        0,
+        8,
+        "Hàng đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        10,
+        53,
+        "còn thời gian giữ lạnh để mình sử dụng mới biết được",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Phím bấm êm, di chuột mượt, mình có 2 laptop nên mua cả 2 con chuột",
+    "labels": [
+      [
+        0,
+        10,
+        "Phím bấm êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        12,
+        23,
+        "di chuột mượt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chất liệu an toàn, thấm hút tốt, mùi dịu nhẹ",
+    "labels": [
+      [
+        0,
+        12,
+        "Chất liệu an toàn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        26,
+        "thấm hút tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        28,
+        39,
+        "mùi dịu nhẹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "mình mới đổi sang nan optipro plus tăng đề kháng tốt hơn vì gấp 5 lần hmo, vị dễ uống, con em rất kén mà tv chịu sữa. à dòng mới này thêm được điểm cộng nữa là bao bì rất chất lượng nhé",
+    "labels": [
+      [
+        33,
+        52,
+        "tăng đề kháng tốt hơn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        62,
+        72,
+        "vị dễ uống",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        98,
+        106,
+        "chịu sữa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        135,
+        153,
+        "bao bì rất chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Một chiếc cảm nhận nho nhỏ cho Tiki : rất ưng từ sản phẩm đến vận chuyển : siêu nhanh từ Tikinow",
+    "labels": [
+      [
+        28,
+        35,
+        "rất ưng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        39,
+        47,
+        "vận chuyển",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        50,
+        58,
+        "siêu nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nên hỗ trợ giao hàng tới các tỉnh, chỉ thấ tiki giao Hà Nội trong khi lotte mart giao đến Nam Định. Cấn hỗ trợ tốt hơn",
+    "labels": [
+      [
+        0,
+        19,
+        "Nên hỗ trợ giao hàng tới các tỉnh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        83,
+        96,
+        "Cấn hỗ trợ tốt hơn",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh, mua được giá rẻ hơn ngoài đại lý, nhưng mà chưa nhận được quà tặng 512k 2 thùng",
+    "labels": [
+      [
+        0,
+        14,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        42,
+        "mua được giá rẻ hơn ngoài đại lý",
+        "Giá cả#Tích cực"
+      ],
+      [
+        51,
+        77,
+        "chưa nhận được quà tặng 512k 2 thùng",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Máy vắt cực êm và nhanh, dễ dàng vệ sinh. Từ ngày có máy ck mình siêng vắt cam cho cả nhà uống.",
+    "labels": [
+      [
+        0,
+        32,
+        "Máy vắt cực êm và nhanh, dễ dàng vệ sinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        34,
+        79,
+        "Từ ngày có máy ck mình siêng vắt cam cho cả nhà uống",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nhận được nhận hàng cũng khá nhanh, đóng gói kỹ, sp ok sáng đẹp. Dù không canh được sale được giá hạt dẻ như nhiều bạn nhưng sp vậy cũng ưng bụng rồi. Cho shop 5 sao.",
+    "labels": [
+      [
+        0,
+        32,
+        "Nhận được nhận hàng cũng khá nhanh, đóng gói kỹ",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        34,
+        48,
+        "sp ok sáng đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        50,
+        87,
+        "Dù không canh được sale được giá hạt dẻ như nhiều bạn",
+        "Giá cả#Tiêu cực"
+      ],
+      [
+        88,
+        106,
+        "nhưng sp vậy cũng ưng bụng rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        108,
+        120,
+        "Cho shop 5 sao.",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tuyệt vời nhất là sữa này ạ",
+    "labels": [
+      [
+        0,
+        13,
+        "Tuyệt vời nhất là sữa này",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tốt. Con mình djngf từ bé đến 5 tháng chưa thấy sao cả",
+    "labels": [
+      [
+        0,
+        4,
+        "Tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        5,
+        42,
+        "Con mình djngf từ bé đến 5 tháng chưa thấy sao cả",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chăm sóc khách hàng tệ đến mức đáng thương",
+    "labels": [
+      [
+        0,
+        34,
+        "Chăm sóc khách hàng tệ đến mức đáng thương",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "chuột đúng mẫu mã như ảnh, dùng thích, nhạy, click êm, kêu tiếng nhẹ. hài lòng",
+    "labels": [
+      [
+        0,
+        46,
+        "chuột đúng mẫu mã như ảnh, dùng thích, nhạy, click êm, kêu tiếng nhẹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        48,
+        55,
+        "hài lòng",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, hàng mới.",
+    "labels": [
+      [
+        0,
+        14,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        24,
+        "hàng mới",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng đóng gói cẩn thận. Đúng sản phẩm và đủ số lượng Giá cả tốt chuẩn bị lâu quá",
+    "labels": [
+      [
+        0,
+        20,
+        "Hàng đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        22,
+        46,
+        "Đúng sản phẩm và đủ số lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        47,
+        57,
+        "Giá cả tốt",
+        "Giá cả#Tích cực"
+      ],
+      [
+        58,
+        71,
+        "chuẩn bị lâu quá",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao nhanh, hàng không bị trầy xước gì, chưa sử dụng nên không bình thường hiệu quả ra sao, sẽ đánh giá sau!",
+    "labels": [
+      [
+        0,
+        9,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        11,
+        30,
+        "hàng không bị trầy xước gì",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        63,
+        "chưa sử dụng nên không bình thường hiệu quả ra sao",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "san pham tot, mua giao hang nhanh. cũng không biết sao để check được là hàng chính hãng nữa",
+    "labels": [
+      [
+        0,
+        11,
+        "san pham tot",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        30,
+        "mua giao hang nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        32,
+        75,
+        "cũng không biết sao để check được là hàng chính hãng nữa",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm chất lượng . giao hành nhanh. đóng gói cẩn thận . giá cả hợp lý. mình rất tin tưởng chất lượng sản phẩm của shop đúng là địa chỉ đáng tin cậy. sẽ tiếp tục ủng hộ shop",
+    "labels": [
+      [
+        0,
+        17,
+        "sản phẩm chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        20,
+        34,
+        "giao hành nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        36,
+        54,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        57,
+        71,
+        "giá cả hợp lý",
+        "Giá cả#Tích cực"
+      ],
+      [
+        73,
+        152,
+        "mình rất tin tưởng chất lượng sản phẩm của shop đúng là địa chỉ đáng tin cậy",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        154,
+        175,
+        "sẽ tiếp tục ủng hộ shop",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tiki chính hãng từ gian hàng apple thi quá yên tâm , hiện tại dùng thi ok, cục sạc cũng ít nóng và nhận thiet bi nhanh, về lâu dài thi chưa biết. không biét được bảo hành chính hãng bao lâu??",
+    "labels": [
+      [
+        0,
+        34,
+        "Tiki chính hãng từ gian hàng apple thi quá yên tâm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        37,
+        51,
+        "hiện tại dùng thi ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        53,
+        81,
+        "cục sạc cũng ít nóng và nhận thiet bi nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        83,
+        99,
+        "về lâu dài thi chưa biết",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        101,
+        134,
+        "không biét được bảo hành chính hãng bao lâu??",
+        "Dịch vụ#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng cực nhanh,chưa dùng thử, còn về độ bền thì khi sử dụng mới biết được. Mong là ổn",
+    "labels": [
+      [
+        0,
+        17,
+        "Giao hàng cực nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        49,
+        57,
+        "Mong là ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mẫu mã đẹp, dễ lắp, quạt chạy khoẻ nhưng hơi ồn các bạn ạ. Nhưng tầm giá này thì chấp nhận được. Trước mình dùng quạt Mitsubishi nhưng hỏng mạch 2 lần mỗi lần sửa hết 250k nên mình đổi sang quạt này, mong là sẽ bền.",
+    "labels": [
+      [
+        0,
+        27,
+        "Mẫu mã đẹp, dễ lắp, quạt chạy khoẻ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        28,
+        41,
+        "hơi ồn các bạn ạ",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        48,
+        68,
+        "tầm giá này thì chấp nhận được",
+        "Giá cả#Tích cực"
+      ],
+      [
+        136,
+        150,
+        "mong là sẽ bền",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giáo hàng siêu tốc, giá cả rẻ hơn nhiều so với các cửa hàng bán đồ Mẹ và Bé",
+    "labels": [
+      [
+        0,
+        14,
+        "Giáo hàng siêu tốc",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        68,
+        "giá cả rẻ hơn nhiều so với các cửa hàng bán đồ Mẹ và Bé",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "mình không thể tin được là Tiki giao nhanh đến nức không ngờ luôn á mn ơi. Mình đặt hàng lúc 1h chiều hôm trước, 11 giờ sáng hôm sau đã giao , giao quá là nhanh luôn. Đó là vấn đề giao hàng thì không chê vào đâu được. Còn vấn đề chất lượng sản phẩm thì phải nói cực kì hài lòng luôn, rất êm tay luôn. Nói chung là cả vấn đề giao hàng và cả chất lượng sản phẩm rất tốt luôn nha.",
+    "labels": [
+      [
+        28,
+        56,
+        "giao nhanh đến nức không ngờ luôn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        87,
+        107,
+        "giao quá là nhanh luôn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        130,
+        155,
+        "không chê vào đâu được",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        181,
+        208,
+        "cực kì hài lòng luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        210,
+        224,
+        "rất êm tay luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        260,
+        275,
+        "rất tốt luôn",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình anhận hàng lần này rất thất vọng. Hộp không được đóng gói kỹ, móp kéo rất nhiều, thập chí còn bị rách cả hộp",
+    "labels": [
+      [
+        30,
+        39,
+        "không được đóng gói kỹ",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        41,
+        57,
+        "móp kéo rất nhiều",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        59,
+        75,
+        "bị rách cả hộp",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        26,
+        29,
+        "rất thất vọng",
+        "Khác#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "sữa dễ uống, bé nhà mình ti một vèo là hết lun nha, giao hàng khá nhanh mà đóng gói cẩn thận lắm, trên sữa có mã QR quét nên cũng yên tâm hơn",
+    "labels": [
+      [
+        0,
+        13,
+        "sữa dễ uống",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        42,
+        60,
+        "giao hàng khá nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        64,
+        84,
+        "đóng gói cẩn thận lắm",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        90,
+        110,
+        "cũng yên tâm hơn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng tốt xài ok nhé. Giao hàng nhanh",
+    "labels": [
+      [
+        0,
+        16,
+        "Hàng tốt xài ok nhé",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        18,
+        30,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng châm gần 1 tháng shop mới chịu giao hàng",
+    "labels": [
+      [
+        0,
+        44,
+        "giao hàng châm gần 1 tháng shop mới chịu giao hàng",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng đúng sản phẩm, mà shipper không giao đến nhà, bắt khách tự đến bưu cục nhận., nếu không thì hủy đơn. do đơn hàng đã thanh toán trước rồi nên phải rán đi nhận. đề nghị tiki không nên gửi hàng qua bên nhà vận chuyển này nửa. không hài lòng tí nào",
+    "labels": [
+      [
+        0,
+        21,
+        "giao hàng đúng sản phẩm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        23,
+        76,
+        "shipper không giao đến nhà, bắt khách tự đến bưu cục nhận., nếu không thì hủy đơn",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        116,
+        167,
+        "đề nghị tiki không nên gửi hàng qua bên nhà vận chuyển này nửa",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        169,
+        186,
+        "không hài lòng tí nào",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đặt hàng là LockLock hình ảnh quảng cáo cũng vậy. Hàng giao là LocknLock",
+    "labels": [
+      [
+        0,
+        52,
+        "Đặt hàng là LockLock hình ảnh quảng cáo cũng vậy. Hàng giao là LocknLock",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "sữa tơi mịn, giao nhanh",
+    "labels": [
+      [
+        0,
+        9,
+        "sữa tơi mịn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        11,
+        19,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "bàn phím và chuột dùng tốt, đã thử tất cả các phím không có vần đề gì, chuột hơi nặng.",
+    "labels": [
+      [
+        0,
+        20,
+        "bàn phím và chuột dùng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        22,
+        51,
+        "đã thử tất cả các phím không có vần đề gì",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        53,
+        65,
+        "chuột hơi nặng",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop giao hàng nhanh, shop giao đúng hàng như quảng cáo và đơn đặt hàng, Giá cả phải chăng chấp nhận được. Cam on shop va shipper",
+    "labels": [
+      [
+        0,
+        19,
+        "Shop giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        21,
+        67,
+        "shop giao đúng hàng như quảng cáo và đơn đặt hàng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        69,
+        99,
+        "Giá cả phải chăng chấp nhận được",
+        "Giá cả#Tích cực"
+      ],
+      [
+        101,
+        123,
+        "Cam on shop va shipper",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm tốt, vị rất ngon, tiki giao hành nhanh đóng gói cẩn thận",
+    "labels": [
+      [
+        0,
+        12,
+        "sản phẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        24,
+        "vị rất ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        26,
+        51,
+        "tiki giao hành nhanh đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm chắc chắn, không tì vết, còn bền hay không phải sử dụng mới biết được nè. Giao hàng 2h nhưng do dịch có trễ hơn nên mình thông cảm",
+    "labels": [
+      [
+        11,
+        26,
+        "chắc chắn, không tì vết",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        58,
+        69,
+        "mình thông cảm",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "hàng giao nhanh, đóng gói kỷ, cho shop năm sao, cảm ơn tiki, ủng hộ tiki nhiều",
+    "labels": [
+      [
+        0,
+        13,
+        "hàng giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        25,
+        "đóng gói kỷ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        27,
+        40,
+        "cho shop năm sao",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        42,
+        53,
+        "cảm ơn tiki",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        55,
+        69,
+        "ủng hộ tiki nhiều",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, đúng mẫu Giữ nhiệt lâu, đẹp , gọn , dễ vệ sinh Sản phẩm chất lượng , mẫu mã đẹp. Đáng đồng tiền, bát gạo Đã mua 2 cái",
+    "labels": [
+      [
+        0,
+        14,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        0,
+        19,
+        "Giao hàng nhanh, đúng mẫu",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        20,
+        45,
+        "Giữ nhiệt lâu, đẹp , gọn , dễ vệ sinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        46,
+        68,
+        "Sản phẩm chất lượng , mẫu mã đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        69,
+        92,
+        "Đáng đồng tiền, bát gạo",
+        "Giá cả#Tích cực"
+      ],
+      [
+        93,
+        104,
+        "Đã mua 2 cái",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Tiki giao hàng rất nhanh, máy đẹp chuẩn, đầy đủ phiếu bảo hành với hd sử dụng, đã thử xài luôn, lần đầu tiên đug là máy có khói nhẹ, hơi khét, lần 2 không khói, cắm vào sáng hai đèn, sau khoảng gần 2 phút đèn xanh tắt thì rút điện lấy bánh ra, ngon giòn tan không cháy khét, rát ưng ý, đã giới thiệu bạn bè mua tiếp ug hộ shop",
+    "labels": [
+      [
+        0,
+        19,
+        "Tiki giao hàng rất nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        21,
+        32,
+        "máy đẹp chuẩn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        34,
+        69,
+        "đầy đủ phiếu bảo hành với hd sử dụng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        88,
+        111,
+        "máy có khói nhẹ, hơi khét",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        173,
+        203,
+        "ngon giòn tan không cháy khét",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        205,
+        213,
+        "rát ưng ý",
+        "Khác#Tích cực"
+      ],
+      [
+        215,
+        251,
+        "đã giới thiệu bạn bè mua tiếp ug hộ shop",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Cà phê thơm, ngon, rất hài lòng",
+    "labels": [
+      [
+        7,
+        12,
+        "thơm, ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        27,
+        "rất hài lòng",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm ok, giá thành như những lần trước đã mua, lần đầu mua nhưng sản phảm giống với những lần trước, tôi sài hãng này hơn 1 năm nay rồi thấy da cải thiện thâm, da sáng hơn",
+    "labels": [
+      [
+        0,
+        12,
+        "Sản phẩm ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        43,
+        "giá thành như những lần trước đã mua",
+        "Giá cả#Bình thường"
+      ],
+      [
+        82,
+        110,
+        "da cải thiện thâm, da sáng hơn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đặt 2 món chung 1 đơn hàng để được khuyến thêm quà mà gửi 2 đơn. Biết vậy không mua thêm",
+    "labels": [
+      [
+        0,
+        61,
+        "Đặt 2 món chung 1 đơn hàng để được khuyến thêm quà mà gửi 2 đơn. Biết vậy không mua thêm",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop đóng gói rất chỉn chu, quà tặng cũng rất có tâm! Dưỡng da lần đầu xài nên chưa có nhận xét hy vọng xài hợp để được ủng hộ shop dài dài",
+    "labels": [
+      [
+        0,
+        34,
+        "Shop đóng gói rất chỉn chu, quà tặng cũng rất có tâm!",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        60,
+        73,
+        "chưa có nhận xét",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        74,
+        110,
+        "hy vọng xài hợp để được ủng hộ shop dài dài",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop bán hàng giá tốt, giao hàng nhanh. Có điều chưa được hài lòng lắm khi mô tả xuất xứ hàng là Indonesia nhưng giao hàng Trung Quốc. Chưa biết chất lượng hàng thế nào xài thời gian rồi mới biết.",
+    "labels": [
+      [
+        15,
+        23,
+        "giá tốt",
+        "Giá cả#Tích cực"
+      ],
+      [
+        25,
+        37,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        47,
+        72,
+        "chưa được hài lòng lắm",
+        "Khác#Tiêu cực"
+      ],
+      [
+        129,
+        152,
+        "chưa biết chất lượng hàng thế nào",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Loại này con mih dùng từ bé rồi, thấy ok, không so sánh vì không dùng sữa khác.",
+    "labels": [
+      [
+        30,
+        32,
+        "thấy ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mới nhận hàng thấy vỏ hộp móp nên khá lo lắng về chất lượng sản phẩm bên trong. Nhưng may là sản phẩm bên trong không việc gì. Chưa nên không biết sản phẩm có giữ nhiệt như quảng cáo không. Hi vọng chất lượng sản phẩm sẽ đẹp như mẫu mã và quảng cáo về sản phẩm.",
+    "labels": [
+      [
+        29,
+        51,
+        "khá lo lắng về chất lượng sản phẩm",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        61,
+        79,
+        "sản phẩm bên trong không việc gì",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        81,
+        120,
+        "Chưa nên không biết sản phẩm có giữ nhiệt như quảng cáo không",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        121,
+        172,
+        "Hi vọng chất lượng sản phẩm sẽ đẹp như mẫu mã và quảng cáo về sản phẩm",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình mới đặt mua ấm đun nước này. Sử dụng được một thời gian thì thấy cực kì hài lòng. Ấm rất đẹp, trong suốt, khi đun lên có màu xanh. Để trong phòng khách tiếp khách thì tuyệt Có vạch min, max khá tiện. Do bình trong suốt nên thấy rõ bên trong, giúp mình phát hiện nước có cặn hoặc bẩn Thời gian đun nhanh. Lúc đun rất êm ái so với những bình cũ của mình Sản phẩm rất tốt trong tầm giá.",
+    "labels": [
+      [
+        44,
+        59,
+        "cực kì hài lòng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        61,
+        102,
+        "Ấm rất đẹp, trong suốt, khi đun lên có màu xanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        142,
+        148,
+        "tuyệt",
+        "Khác#Tích cực"
+      ],
+      [
+        150,
+        171,
+        "Có vạch min, max khá tiện",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        223,
+        239,
+        "Thời gian đun nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        241,
+        283,
+        "Lúc đun rất êm ái so với những bình cũ của mình",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        284,
+        310,
+        "Sản phẩm rất tốt trong tầm giá",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình dùng chủ yếu để ép tóc mái, máy nóng nhanh tạo kiểu khá ổn tuy nhiên chỉ có 1 mức nhiệt thôi nha các b",
+    "labels": [
+      [
+        28,
+        44,
+        "máy nóng nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        45,
+        53,
+        "tạo kiểu khá ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        63,
+        81,
+        "chỉ có 1 mức nhiệt thôi",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mua nhầm loại da kghoo, nhưng không sa",
+    "labels": [
+      [
+        0,
+        29,
+        "Mua nhầm loại da kghoo, nhưng không sa",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop đóng gói hàng rất cẩn thận, giao hàng rất nhanh nữa! chất lượng sản phẩm rất ok, rất hợp bé nhà mình!",
+    "labels": [
+      [
+        0,
+        41,
+        "Shop đóng gói hàng rất cẩn thận, giao hàng rất nhanh nữa!",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        42,
+        77,
+        "chất lượng sản phẩm rất ok, rất hợp bé nhà mình!",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng giao trước dự kiến 1 ngày, bao bì đóng gói rất kín đáo, cẩn thận. Nguyên seal",
+    "labels": [
+      [
+        0,
+        26,
+        "Hàng giao trước dự kiến 1 ngày",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        28,
+        53,
+        "bao bì đóng gói rất kín đáo, cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        55,
+        64,
+        "Nguyên seal",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop giao hàng nhanh, đủ số lượng. Ủng hộ lần sau",
+    "labels": [
+      [
+        5,
+        17,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        19,
+        31,
+        "đủ số lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        33,
+        46,
+        "Ủng hộ lần sau",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hộp cơm đẹp chất lượng, nhưng quá là to. Huhu mình mua để con mang cơm đi học mà nhìn muốn ngất luôn. Có trả hàng được không nhỉ. Huhu",
+    "labels": [
+      [
+        0,
+        19,
+        "Hộp cơm đẹp chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        26,
+        37,
+        "quá là to",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        38,
+        69,
+        "Huhu mình mua để con mang cơm đi học mà nhìn muốn ngất luôn",
+        "Khác#Tiêu cực"
+      ],
+      [
+        71,
+        89,
+        "Có trả hàng được không nhỉ",
+        "Dịch vụ#Bình thường"
+      ],
+      [
+        90,
+        94,
+        "Huhu",
+        "Khác#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Không kèm bình giữ nhiệt như quảng cáo",
+    "labels": [
+      [
+        0,
+        33,
+        "Không kèm bình giữ nhiệt như quảng cáo",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đã sử dụng rồi. Nhà sản xuất khuyến cáo bị khô tóc, nhưng mình thấy tùy loại tóc, cơ địa mỗi người. Loai này phù hợp với người có mồ hôi dầu Tóc không khô, khá mượt, không gàu, không ngứa. Có thể 34 ngày không gội đầu cũng được.",
+    "labels": [
+      [
+        49,
+        70,
+        "phù hợp với người có mồ hôi dầu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        71,
+        97,
+        "Tóc không khô, khá mượt, không gàu, không ngứa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        98,
+        131,
+        "Có thể 34 ngày không gội đầu cũng được",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh có quà đẹp, nhân viên giao hàng ok",
+    "labels": [
+      [
+        0,
+        12,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        13,
+        22,
+        "có quà đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        40,
+        "nhân viên giao hàng ok",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đặt từ tháng 8 đến tháng 11 mới giao, hàng bị móp méo nghiêm trọng Chat với CSKH không ai trả lời",
+    "labels": [
+      [
+        0,
+        31,
+        "Đặt từ tháng 8 đến tháng 11 mới giao",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        33,
+        55,
+        "hàng bị móp méo nghiêm trọng",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        56,
+        86,
+        "Chat với CSKH không ai trả lời",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tiki đóng hàng cẩn thận, bạn shipper thân thiện. SP chất lượng, mình uống hộp thứ 2 đã cảm nhận có chút sự thay đổi về da, da sáng và căng hơn nên quyết định sẽ tin tưởng sử dụng lâu dài. Thật tốt là cũng tốt cho dạ dày của mình nữa. Tính ra mua trên Tiki hời hơn so với mua hiệu thuốc nếu các bạn áp mã giảm giá nhé. Chúc shop bán được nhiều hàng.",
+    "labels": [
+      [
+        0,
+        32,
+        "Tiki đóng hàng cẩn thận, bạn shipper thân thiện",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        34,
+        144,
+        "SP chất lượng, mình uống hộp thứ 2 đã cảm nhận có chút sự thay đổi về da, da sáng và căng hơn nên quyết định sẽ tin tưởng sử dụng lâu dài",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        145,
+        180,
+        "Thật tốt là cũng tốt cho dạ dày của mình nữa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        181,
+        242,
+        "Tính ra mua trên Tiki hời hơn so với mua hiệu thuốc nếu các bạn áp mã giảm giá nhé",
+        "Giá cả#Tích cực"
+      ],
+      [
+        243,
+        271,
+        "Chúc shop bán được nhiều hàng.",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Sẽ tiếp tục mua ủng hộ shop. Hàng đóng gói kỹ",
+    "labels": [
+      [
+        0,
+        26,
+        "Sẽ tiếp tục mua ủng hộ shop",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        28,
+        41,
+        "Hàng đóng gói kỹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ống hút bể hết. Không hiểu do đâu",
+    "labels": [
+      [
+        0,
+        10,
+        "Ống hút bể hết",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        12,
+        25,
+        "Không hiểu do đâu",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Mẫu mã đẹp,cực kì dễ lắp ráp..trong vòng 5p Mua cho người già sử dụng,có remote rất tiện lợi. Giao hàng tiêu chuẩn nhanh chóng..trước khi giao có gọi điện thoại confirm thông tin.. Sẽ tiếp tục ủng hộ sản phẩm trong thời gian tới.",
+    "labels": [
+      [
+        0,
+        31,
+        "Mẫu mã đẹp,cực kì dễ lắp ráp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        48,
+        67,
+        "có remote rất tiện lợi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        69,
+        99,
+        "Giao hàng tiêu chuẩn nhanh chóng",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        101,
+        148,
+        "trước khi giao có gọi điện thoại confirm thông tin",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        150,
+        190,
+        "Sẽ tiếp tục ủng hộ sản phẩm trong thời gian tới",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Nồi nhỏ gọn , áp suất nồi rất tốt , sp đúng chính hãng check được bảo hành chính hãng . Giao hàng của TIKI rất nhanh,đồng kiểm dễ dàng . Chưa biết sử dụng nv cskh của Elmich hướng dẫn , trả lời thắc mắc rất nhiệt tình . Nên mua tại đây nha mn .TIKI trading và cskh Elmich",
+    "labels": [
+      [
+        0,
+        69,
+        "Nồi nhỏ gọn , áp suất nồi rất tốt , sp đúng chính hãng check được bảo hành chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        72,
+        103,
+        "Giao hàng của TIKI rất nhanh,đồng kiểm dễ dàng",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        119,
+        172,
+        "nv cskh của Elmich hướng dẫn , trả lời thắc mắc rất nhiệt tình",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        175,
+        194,
+        "Nên mua tại đây nha mn",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Gì cũng hài lòng trừ xuất hoá đơn chậm. Đơn hàng giao 221 tới nay là 102 mà vẫn chưa thấy gửi hoá đơn.",
+    "labels": [
+      [
+        0,
+        14,
+        "Gì cũng hài lòng",
+        "Khác#Tích cực"
+      ],
+      [
+        15,
+        29,
+        "xuất hoá đơn chậm",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        54,
+        78,
+        "chưa thấy gửi hoá đơn",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sp ok, đóng gói cẩn thận, mùa dịch nên hơi lâu mới tới cảm ơn tiki.",
+    "labels": [
+      [
+        0,
+        5,
+        "Sp ok",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        7,
+        22,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        47,
+        57,
+        "cảm ơn tiki",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        24,
+        45,
+        "mùa dịch nên hơi lâu mới tới",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, đóng gói cẩn thận, loại này dùng mỏng nhẹ, bao bì nhỏ xinh, được tặng thêm quà xinh",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        31,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        33,
+        46,
+        "loại này dùng mỏng nhẹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        48,
+        62,
+        "bao bì nhỏ xinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        64,
+        83,
+        "được tặng thêm quà xinh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm chất lượng, giao hàng nhanh, đúng nhu cầu. Đồ bền phải đợi thời gian kiểm chứng.",
+    "labels": [
+      [
+        0,
+        16,
+        "Sản phẩm chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        18,
+        31,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        33,
+        44,
+        "đúng nhu cầu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        46,
+        77,
+        "Đồ bền phải đợi thời gian kiểm chứng",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "sp rất tốt nên mua",
+    "labels": [
+      [
+        0,
+        19,
+        "sp rất tốt nên mua",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm đúng mô tả của nhà bán hàng, dịch vụ giao hàng tốt, sẽ tiếp tục ủng hộ shop, giá cả phải chăng.",
+    "labels": [
+      [
+        0,
+        33,
+        "sản phẩm đúng mô tả của nhà bán hàng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        35,
+        53,
+        "dịch vụ giao hàng tốt",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        55,
+        79,
+        "sẽ tiếp tục ủng hộ shop",
+        "Khác#Tích cực"
+      ],
+      [
+        81,
+        97,
+        "giá cả phải chăng",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Gia hàng nhanh , máy sấy ngon , bọc cẩn thận",
+    "labels": [
+      [
+        0,
+        12,
+        "Gia hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        26,
+        "máy sấy ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        29,
+        42,
+        "bọc cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình hợp với sản phẩm nên mua lại nhiều lần. Lần trước đánh giá chất lượng thì lần này đánh giá dịch vụ. Dịch vụ siêu siêu tốt. Giao hàng lần nào cũng sớm hơn 1 ngày dự kiến, đã vậy mình săn lúc 77 còn được tặng thêm son màu cam đất bao xinh. Lời 200 5 sao",
+    "labels": [
+      [
+        0,
+        34,
+        "Mình hợp với sản phẩm nên mua lại nhiều lần",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        67,
+        82,
+        "Dịch vụ siêu siêu tốt",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        84,
+        126,
+        "Giao hàng lần nào cũng sớm hơn 1 ngày dự kiến",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        135,
+        166,
+        "tặng thêm son màu cam đất bao xinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        168,
+        180,
+        "Lời 200 5 sao",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Màu sắc, mẫu mã không khớp với giới thiệu sản phẩm, trên cán không có logo Sunhouse. Sản phẩm đựng trong hộp mực HP chứ không trong bao bì Sunhouse như các khách hàng khác nhận. Có lẽ là hàng giả. Sản phẩm chưa hề dùng, đề nghị Tiki đổi trả.",
+    "labels": [
+      [
+        0,
+        66,
+        "Màu sắc, mẫu mã không khớp với giới thiệu sản phẩm, trên cán không có logo Sunhouse",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        68,
+        151,
+        "Sản phẩm đựng trong hộp mực HP chứ không trong bao bì Sunhouse như các khách hàng khác nhận",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        153,
+        169,
+        "Có lẽ là hàng giả",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        188,
+        213,
+        "đề nghị Tiki đổi trả",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tuyet voi vs cam on shop",
+    "labels": [
+      [
+        0,
+        9,
+        "Tuyet voi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        21,
+        "cam on shop",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Không biết thế nào nhưng giao đúng hẹn",
+    "labels": [
+      [
+        20,
+        33,
+        "giao đúng hẹn",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm dùng tốt, bé rất thích. bé sử dụng từ nhỏ đến giờ thấy rất hiệu quả. mọi người nên mua nhé.",
+    "labels": [
+      [
+        0,
+        15,
+        "sản phẩm dùng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        17,
+        28,
+        "bé rất thích",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        30,
+        61,
+        "bé sử dụng từ nhỏ đến giờ thấy rất hiệu quả",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        63,
+        79,
+        "mọi người nên mua nhé",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giá sữa mới cao quá.",
+    "labels": [
+      [
+        0,
+        18,
+        "Giá sữa mới cao quá",
+        "Giá cả#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao đúng và nhanh. Hàng real",
+    "labels": [
+      [
+        0,
+        17,
+        "Giao đúng và nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        19,
+        28,
+        "Hàng real",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bàn phím ok, còn về giao hàng 2h thì nhanh khỏi nói , chưa có mã OTP nữa đã giao đến địa chỉ mình,nên lúc đó hàng trước mặt mà không được nhận, không có mã nên phải đợi cho đợt giao hàng lần 2!",
+    "labels": [
+      [
+        0,
+        10,
+        "Bàn phím ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        26,
+        40,
+        "nhanh khỏi nói",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        43,
+        171,
+        "chưa có mã OTP nữa đã giao đến địa chỉ mình,nên lúc đó hàng trước mặt mà không được nhận, không có mã nên phải đợi cho đợt giao hàng lần 2!",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Pin tốt, mua về thay cho pin main pc chạy tốt.",
+    "labels": [
+      [
+        0,
+        7,
+        "Pin tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        34,
+        42,
+        "chạy tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao nhanh. sữa date nửa năm. quà tặng thì cute, mà không bít cho ai",
+    "labels": [
+      [
+        0,
+        9,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        11,
+        27,
+        "sữa date nửa năm",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        29,
+        38,
+        "quà tặng thì cute",
+        "Khác#Tích cực"
+      ],
+      [
+        40,
+        59,
+        "mà không bít cho ai",
+        "Khác#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Chuột đi mượt, giao nhanh , đóng gói cẩn thận",
+    "labels": [
+      [
+        0,
+        11,
+        "Chuột đi mượt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        21,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        23,
+        40,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ok, nói chung là hài lòng.",
+    "labels": [
+      [
+        4,
+        22,
+        "nói chung là hài lòng",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "San pham rat tot, rat hai long",
+    "labels": [
+      [
+        10,
+        17,
+        "rat tot",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        19,
+        30,
+        "rat hai long",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói cẩn thận, bao bì nhãn mác rõ ràng. Nhưng tờ HDSD gốc của NSX bị thay thế bằng HDSD do nhà bán hàng dịch ra sơ sài, không rõ ràng lắm, cảm giác kg an tâm về nội dung! Mua Tiki rẻ hơn mua trực tiếp ở cửa hàng 1k nhé! Vẫn shop này mà đến tận nơi mua thì chém 1.1tr còn shop khác có thể đến 1,2tr. Lại còn kg chịu xuất hoá đơn Tikis better! 1. like",
+    "labels": [
+      [
+        0,
+        33,
+        "Đóng gói cẩn thận, bao bì nhãn mác rõ ràng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        39,
+        142,
+        "tờ HDSD gốc của NSX bị thay thế bằng HDSD do nhà bán hàng dịch ra sơ sài, không rõ ràng lắm, cảm giác kg an tâm về nội dung!",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        143,
+        180,
+        "Mua Tiki rẻ hơn mua trực tiếp ở cửa hàng 1k nhé!",
+        "Giá cả#Tích cực"
+      ],
+      [
+        181,
+        259,
+        "Vẫn shop này mà đến tận nơi mua thì chém 1.1tr còn shop khác có thể đến 1,2tr",
+        "Giá cả#Tiêu cực"
+      ],
+      [
+        261,
+        291,
+        "Lại còn kg chịu xuất hoá đơn",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        292,
+        304,
+        "Tikis better!",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Kcn của Sunplay thì nổi và được đánh giá dùng tốt cũng nhiều, mình cũng dùng qua vài loại thấy ok lắm. Loại Super Block này dạng sữa dễ thấm, mùi thơm dịu nhẹ, chai 70g chắc xài được lâu lắm. Date T42025, được tặng thêm lọ dưỡng ẩm 20ml của Hada Labo nữa",
+    "labels": [
+      [
+        0,
+        59,
+        "Kcn của Sunplay thì nổi và được đánh giá dùng tốt cũng nhiều, mình cũng dùng qua vài loại thấy ok lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        61,
+        138,
+        "Loại Super Block này dạng sữa dễ thấm, mùi thơm dịu nhẹ, chai 70g chắc xài được lâu lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        140,
+        184,
+        "Date T42025, được tặng thêm lọ dưỡng ẩm 20ml của Hada Labo nữa",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa chuẩn cho bé, luôn tin tưởng Tiki khi mua sữa cho con!",
+    "labels": [
+      [
+        0,
+        14,
+        "Sữa chuẩn cho bé",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        16,
+        49,
+        "luôn tin tưởng Tiki khi mua sữa cho con!",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mua được flashsale lại còn được giảm thêm 60k, tính ra rẻ hơn tận 80k so với mua tạp hoá, quá rẻ!!!",
+    "labels": [
+      [
+        0,
+        64,
+        "Mua được flashsale lại còn được giảm thêm 60k, tính ra rẻ hơn tận 80k so với mua tạp hoá",
+        "Giá cả#Tích cực"
+      ],
+      [
+        66,
+        72,
+        "quá rẻ!!!",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đã sử dụng, bao thơm, không bị dậy mùi cao su. Đợt trước mua bên ham rẻ dính bao cao su giả của durex vừa mùi cao su, vừa ít nhờn. Đành bỏ luôn cả 2 hộp. Hàng official qua Tiki Trading ok.",
+    "labels": [
+      [
+        13,
+        33,
+        "không bị dậy mùi cao su",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        48,
+        88,
+        "dính bao cao su giả của durex vừa mùi cao su, vừa ít nhờn",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        113,
+        139,
+        "Hàng official qua Tiki Trading ok",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đã nhận được hàng rồi.Giao hàng rất là nhanh. Sản phẩm đúng như mô tả.",
+    "labels": [
+      [
+        19,
+        37,
+        "Giao hàng rất là nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        39,
+        60,
+        "Sản phẩm đúng như mô tả",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ấm đẹp. Còi hú an toàn",
+    "labels": [
+      [
+        0,
+        7,
+        "Ấm đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        9,
+        21,
+        "Còi hú an toàn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nhìn xịn xò, chất lượng, hợp giá tiền",
+    "labels": [
+      [
+        5,
+        13,
+        "xịn xò",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        15,
+        23,
+        "chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        25,
+        37,
+        "hợp giá tiền",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ngoại hình đẹp. Nấu nhanh. Cơm ráo nước. Tôi rất thích sản phẩm này. Giá cả phải chăng, công suất cao. Nên mua. Dùng mấy tháng rồi mới đánh giá.",
+    "labels": [
+      [
+        0,
+        12,
+        "Ngoại hình đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        22,
+        "Nấu nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        35,
+        "Cơm ráo nước",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        37,
+        61,
+        "Tôi rất thích sản phẩm này",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        63,
+        86,
+        "Giá cả phải chăng, công suất cao",
+        "Giá cả#Tích cực"
+      ],
+      [
+        88,
+        95,
+        "Nên mua",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Siêu nhẹ siêu thoáng, cảm giác dùng không bị nặng mặt mín nào hết ý. Hiệu ứng down tone vào cuối ngày cũng không quá rõ rệt, chất kem dễ tán chứ không bị quá đặc. Mùi hơi hắc nên cân nhắc nếu bạn nhạy cảm với mùi hương",
+    "labels": [
+      [
+        0,
+        43,
+        "Siêu nhẹ siêu thoáng, cảm giác dùng không bị nặng mặt mín nào hết ý",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        44,
+        89,
+        "Hiệu ứng down tone vào cuối ngày cũng không quá rõ rệt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        90,
+        130,
+        "chất kem dễ tán chứ không bị quá đặc",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        132,
+        176,
+        "Mùi hơi hắc nên cân nhắc nếu bạn nhạy cảm với mùi hương",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sử dụng qua loại khác không hợp nên vẫn phải quay lại sữa rửa mặt chân ái là em Cerave này. Rất phù hợp cho mọi loại da, rửa mặt mà không cảm thấy bị khô. Tiki giảm giá nhiều, còn có 2 quà tặng thêm nữa, quá hài lòng",
+    "labels": [
+      [
+        48,
+        67,
+        "sữa rửa mặt chân ái",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        69,
+        104,
+        "Rất phù hợp cho mọi loại da, rửa mặt mà không cảm thấy bị khô",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        106,
+        121,
+        "Tiki giảm giá nhiều",
+        "Giá cả#Tích cực"
+      ],
+      [
+        123,
+        145,
+        "còn có 2 quà tặng thêm nữa",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        147,
+        158,
+        "quá hài lòng",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói cẩn thận ạ bé m dùng sp này từ lúc ss đến giờ",
+    "labels": [
+      [
+        0,
+        16,
+        "Đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        17,
+        49,
+        "bé m dùng sp này từ lúc ss đến giờ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm đúng như hình, đóng gói cẩn thận, giao hàng nhanh mình mới đặt hôm qua, hôm nay đã có. Cám ơn shop",
+    "labels": [
+      [
+        0,
+        20,
+        "Sản phẩm đúng như hình",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        22,
+        39,
+        "đóng gói cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        41,
+        61,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        79,
+        91,
+        "Cám ơn shop",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chuột dùng tốt, nhạy giao hàng nhanh chính hãng",
+    "labels": [
+      [
+        0,
+        12,
+        "Chuột dùng tốt, nhạy",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        26,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        27,
+        35,
+        "chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, máy đẹp, dễ sử dụng, ép kiệt bã",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        41,
+        "máy đẹp, dễ sử dụng, ép kiệt bã",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm chính hãng, kiểu dáng nhỏ gọn , đẹp mắt, tiện lợi. tiki giao hàng nhanh chóng, tưởng phải qua tháng 10 mới nhận được hàng. không ngờ được nhận sớm hơn. rất hài lòng với sản phẩm",
+    "labels": [
+      [
+        0,
+        43,
+        "sản phẩm chính hãng, kiểu dáng nhỏ gọn , đẹp mắt, tiện lợi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        45,
+        69,
+        "tiki giao hàng nhanh chóng",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        99,
+        124,
+        "không ngờ được nhận sớm hơn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        126,
+        155,
+        "rất hài lòng với sản phẩm",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm chất lượng tốt rồi. tiki phân phối chính thức",
+    "labels": [
+      [
+        0,
+        22,
+        "sản phẩm chất lượng tốt rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        46,
+        "tiki phân phối chính thức",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hộp cơm phù hợp với các bạn nữ, còn nam chắc phải mua loại khác vì ngăn đựng cơm hơi nhỏ",
+    "labels": [
+      [
+        0,
+        24,
+        "Hộp cơm phù hợp với các bạn nữ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        67,
+        "ngăn đựng cơm hơi nhỏ",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "cơm giữ nhiệt siêu xịn ạ mỗi tội lúc lấy ra thì phải dùng khăn cầm chứ không bị bỏng tay:",
+    "labels": [
+      [
+        0,
+        17,
+        "cơm giữ nhiệt siêu xịn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        26,
+        67,
+        "lúc lấy ra thì phải dùng khăn cầm chứ không bị bỏng tay",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm đóng gói tốt, giao hàng nhanh",
+    "labels": [
+      [
+        10,
+        13,
+        "tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        23,
+        27,
+        "nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Máy ngoại hình đẹp mắt. Xay thử thấy khá ổn. Lâu dài thì chưa thể đánh giá. Nói chung ok trong tầm giá",
+    "labels": [
+      [
+        0,
+        19,
+        "Máy ngoại hình đẹp mắt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        21,
+        36,
+        "Xay thử thấy khá ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        59,
+        79,
+        "Nói chung ok trong tầm giá",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ly cách nhiệt tốt, nhất là đừng đồ uống có đá, vừa xinh! Mùa đông mình đựng nước ấm uống rất tiện, cứ định mực ở văn phòng là ngày 03 ly là ổn!",
+    "labels": [
+      [
+        0,
+        14,
+        "Ly cách nhiệt tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        41,
+        49,
+        "vừa xinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        51,
+        75,
+        "đựng nước ấm uống rất tiện",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng quá lâu tới 13 ngày mới có hàng",
+    "labels": [
+      [
+        0,
+        36,
+        "giao hàng quá lâu tới 13 ngày mới có hàng",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Canh sale mua được một bộ vô cùng ưng ý. Mn lưu ý là 3 hộp nhỏ không giữ nhiệt, chỉ có hộp lớn 2L là giữ nhiệt nhé. Mua về độ giữ nhiệt. Mình bỏ đá từ 8h tối để tới 8h sáng, 10 tiếng đúng, đã mở ra còn khoảng 60, không tan nhiều mấy. Quá đỉnh. Mua được giá rẻ mà chất lượng không hề rẻ nên vô cùng hài lòng.",
+    "labels": [
+      [
+        28,
+        37,
+        "vô cùng ưng ý",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        121,
+        130,
+        "không tan nhiều mấy",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        132,
+        140,
+        "Quá đỉnh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        142,
+        190,
+        "Mua được giá rẻ mà chất lượng không hề rẻ nên vô cùng hài lòng",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phầm giá rẻ, vận chuyển nhanh, bàn phím gõ êm, nhậy.hàng logitech thì yên tâm rồi",
+    "labels": [
+      [
+        9,
+        15,
+        "giá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        17,
+        30,
+        "vận chuyển nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        32,
+        49,
+        "bàn phím gõ êm, nhậy",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        50,
+        70,
+        "hàng logitech thì yên tâm rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chia sẻ nhận xét và đánh giá của bản thân bạn",
+    "labels": [
+      [
+        0,
+        37,
+        "Chia sẻ nhận xét và đánh giá của bản thân bạn",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa mát tốt cho hệ tiêu hóa, sản xuất tại Thụy Sỹ, giá cả phải chăng.",
+    "labels": [
+      [
+        0,
+        37,
+        "Sữa mát tốt cho hệ tiêu hóa, sản xuất tại Thụy Sỹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        39,
+        58,
+        "giá cả phải chăng",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói cẩn thận, giao hàng nhanh",
+    "labels": [
+      [
+        0,
+        15,
+        "Đóng gói cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        17,
+        30,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng giao nhanh, sản phẩm đúng với mô tả.",
+    "labels": [
+      [
+        0,
+        12,
+        "Hàng giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        14,
+        32,
+        "sản phẩm đúng với mô tả",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Thấy các bạn chê nhiều chứ mình thì thấy mọi thứ ok Hàng nguyên seal, chưa bóc hộp số seri trên hộp khác với trên chuột là bình thường, vì nguyên seal thì không tráo đổi đế cao su có hơi dính sẵn là bình thường vì rõ ràng là chuột mới thì không thể qua sử dụng như một số bạn trước đó comment connect nhanh, mượt, chưa thấy giật lác gì kích thước cầm tay vừa vặn, giá cả hợp lý",
+    "labels": [
+      [
+        34,
+        36,
+        "ok",
+        "Khác#Tích cực"
+      ],
+      [
+        37,
+        240,
+        "Hàng nguyên seal, chưa bóc hộp số seri trên hộp khác với trên chuột là bình thường, vì nguyên seal thì không tráo đổi đế cao su có hơi dính sẵn là bình thường vì rõ ràng là chuột mới thì không thể qua sử dụng như một số bạn trước đó comment",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        241,
+        272,
+        "connect nhanh, mượt, chưa thấy giật lác gì",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        273,
+        300,
+        "kích thước cầm tay vừa vặn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        302,
+        315,
+        "giá cả hợp lý",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Rất tốt. Mong lf đúng hành chính hãng ah",
+    "labels": [
+      [
+        0,
+        7,
+        "Rất tốt",
+        "Khác#Tích cực"
+      ],
+      [
+        9,
+        32,
+        "Mong lf đúng hành chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình đặt nhằm Pin CR2025 thành CR2032 giờ có đổ lại được không.",
+    "labels": [
+      [
+        0,
+        58,
+        "Mình đặt nhằm Pin CR2025 thành CR2032 giờ có đổ lại được không.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "vị Nest thì tuyệt rồi",
+    "labels": [
+      [
+        0,
+        19,
+        "vị Nest thì tuyệt rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Màu đẹp. Chất dưỡng mềm môi. Không che được khuyết điểm môi vì lớp son trong mỏng. Thiết kế thỏi son đẹp. Dạo này Tiki không thưởng xu khi nhận xét sản phẩm nữa nhỉ?",
+    "labels": [
+      [
+        0,
+        8,
+        "Màu đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        10,
+        24,
+        "Chất dưỡng mềm môi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        25,
+        68,
+        "Không che được khuyết điểm môi vì lớp son trong mỏng",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        69,
+        89,
+        "Thiết kế thỏi son đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        90,
+        138,
+        "Dạo này Tiki không thưởng xu khi nhận xét sản phẩm nữa nhỉ?",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói đẹp, chắc chắn. Giao hành nhanh, chuột màu hồng xinh xỉu, chuột nhạy lắm lại êm vừa tay.",
+    "labels": [
+      [
+        0,
+        19,
+        "Đóng gói đẹp, chắc chắn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        21,
+        34,
+        "Giao hành nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        36,
+        53,
+        "chuột màu hồng xinh xỉu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        55,
+        76,
+        "chuột nhạy lắm lại êm vừa tay",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chất lượng tuyệt vời. Thank shop",
+    "labels": [
+      [
+        0,
+        17,
+        "Chất lượng tuyệt vời",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        19,
+        28,
+        "Thank shop",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "màu son đánh lên đẹp á, màu đỏ rượu vang tuy tone màu môi mà sẽ lên thiên đỏ nhiều hay hồng nhiều. Màu này xài đi tiệc hoặc đánh lòng môi hàng ngày khá đẹp",
+    "labels": [
+      [
+        0,
+        18,
+        "màu son đánh lên đẹp á",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        85,
+        104,
+        "đánh lòng môi hàng ngày khá đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hi Tiki! Tôi rất hài lòng nhận được quạt đứng ưng ý, đúng với với ý của mình Ngày tháng sản xuất số serial trùng nhau từ thùng, quạt, giấy bảo hành, quạt đẹp, êm Cảm ơn Tiki, và mong rất Quý Tiki phát huy, Chúc Tiki ngày càng thịnh vượng. Xin gửi hình ảnh đến TIKI. Vỏ thùng, Giấy BH, Quạt.",
+    "labels": [
+      [
+        9,
+        36,
+        "Tôi rất hài lòng nhận được quạt đứng ưng ý",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        77,
+        86,
+        "quạt đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        88,
+        90,
+        "êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        91,
+        101,
+        "Cảm ơn Tiki",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        106,
+        119,
+        "Quý Tiki phát huy",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        121,
+        146,
+        "Chúc Tiki ngày càng thịnh vượng",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giá rẻ hơn mua ở tạp hóa, vận chuyển tận nhà, vùng sâu vùng xa vẫn mua được hàng chất lượng với giá ưu đãi, cảm ơn tiki",
+    "labels": [
+      [
+        0,
+        24,
+        "Giá rẻ hơn mua ở tạp hóa",
+        "Giá cả#Tích cực"
+      ],
+      [
+        26,
+        42,
+        "vận chuyển tận nhà",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        44,
+        91,
+        "vùng sâu vùng xa vẫn mua được hàng chất lượng với giá ưu đãi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        93,
+        103,
+        "cảm ơn tiki",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Âm thanh tốt, giao hàng nhanh",
+    "labels": [
+      [
+        0,
+        11,
+        "Âm thanh tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        13,
+        26,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa đúng như quảng cáo. Nên mua nha moin người ơi",
+    "labels": [
+      [
+        0,
+        22,
+        "Sữa đúng như quảng cáo",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        23,
+        39,
+        "Nên mua nha moin người ơi",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Da dat lan 2 va tiki Giao hành đúng ngày, lần này đóng gói kĩ có giấy lót trong chống xốc Okkkkkkkkkkk",
+    "labels": [
+      [
+        22,
+        35,
+        "Giao hành đúng ngày",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        42,
+        77,
+        "đóng gói kĩ có giấy lót trong chống xốc Okkkkkkkkkkk",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "chai này mình dùng nhiều lần rồi, mua 2 được tặng thêm cả son. hàng chính hãng, kiềm dầu ổn, nâng tone ok, đeo khẩu trang thì hay bị trôi ở mũi thôi",
+    "labels": [
+      [
+        33,
+        62,
+        "mua 2 được tặng thêm cả son",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        64,
+        76,
+        "hàng chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        78,
+        87,
+        "kiềm dầu ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        89,
+        98,
+        "nâng tone ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        100,
+        141,
+        "đeo khẩu trang thì hay bị trôi ở mũi thôi",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nồi to, máy chạy êm, dễ thao tác điều khiển và vệ sinh, nấu thử khá nhanh và tiện lợi, có nồi này rồi sẽ hạn chế ít ăn dầu mỡ tốt cho sức khoẻ, không biết có tiết kiệm điện năng và bền hay không, cần theo dõi một thời gian mới đánh giá kỹ được",
+    "labels": [
+      [
+        0,
+        2,
+        "Nồi to",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        5,
+        13,
+        "máy chạy êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        15,
+        40,
+        "dễ thao tác điều khiển và vệ sinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        42,
+        60,
+        "nấu thử khá nhanh và tiện lợi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        62,
+        97,
+        "có nồi này rồi sẽ hạn chế ít ăn dầu mỡ tốt cho sức khoẻ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        99,
+        142,
+        "không biết có tiết kiệm điện năng và bền hay không",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        144,
+        176,
+        "cần theo dõi một thời gian mới đánh giá kỹ được",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Vừa lấy về đã nấu cháo gà và gà kho, gà chín nhừ, nhanh và ngon lắm",
+    "labels": [
+      [
+        31,
+        38,
+        "gà chín nhừ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        40,
+        44,
+        "nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        47,
+        53,
+        "ngon lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "màu trắng xinh, giao hàng nhanh",
+    "labels": [
+      [
+        0,
+        12,
+        "màu trắng xinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        28,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa Chua Lên Men Tự Nhiên Yomost Vị Dâu giá rẻ giao hàng nhanh",
+    "labels": [
+      [
+        36,
+        42,
+        "giá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        43,
+        54,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm ổn,dùng được tiki giao hàng nhanh, được free ship nên rất hài lòng",
+    "labels": [
+      [
+        0,
+        17,
+        "Sản phẩm ổn,dùng được",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        18,
+        36,
+        "tiki giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        38,
+        62,
+        "được free ship nên rất hài lòng",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, đóng gói cẩn thận, sữa uống ngon.",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        32,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        34,
+        46,
+        "sữa uống ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nên mua mọi người nhé, Sài chắc chắn lắm",
+    "labels": [
+      [
+        0,
+        29,
+        "Nên mua mọi người nhé, Sài chắc chắn lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng chất lượng, giao hàng hơi lâu nhưng chấp nhận được. Hình mang tính chất nhận xu",
+    "labels": [
+      [
+        0,
+        14,
+        "Hàng chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        16,
+        41,
+        "giao hàng hơi lâu nhưng chấp nhận được",
+        "Dịch vụ#Bình thường"
+      ],
+      [
+        43,
+        65,
+        "Hình mang tính chất nhận xu",
+        "Khác#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Sạch,rẻ ,dễ chịu,mua 3 sp được nhận 4 phần quà ,vẫn luôn mua hàng của Tiki,đương nhiên không tránh khỏi sai sót.",
+    "labels": [
+      [
+        0,
+        10,
+        "Sạch,rẻ ,dễ chịu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        11,
+        36,
+        "mua 3 sp được nhận 4 phần quà",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        65,
+        75,
+        "sai sót",
+        "Khác#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm dùng tốt tiện lợi cho nhà có người hay quên tắt bếp . Khi sôi nước còi kêu vang nhà",
+    "labels": [
+      [
+        0,
+        48,
+        "Sản phẩm dùng tốt tiện lợi cho nhà có người hay quên tắt bếp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        51,
+        69,
+        "Khi sôi nước còi kêu vang nhà",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chuột đẹp, nhạy, mượt mà, kết nối ổn định Hợp với tay của nữa dùng hơn nam",
+    "labels": [
+      [
+        0,
+        32,
+        "Chuột đẹp, nhạy, mượt mà, kết nối ổn định",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        33,
+        58,
+        "Hợp với tay của nữa dùng hơn nam",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "giá hợp lý, đóng gói nhanh giao tận nhà, cho shop 10 điểm",
+    "labels": [
+      [
+        0,
+        10,
+        "giá hợp lý",
+        "Giá cả#Tích cực"
+      ],
+      [
+        12,
+        32,
+        "đóng gói nhanh giao tận nhà",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        34,
+        48,
+        "cho shop 10 điểm",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, đã dùng hơn 7 tháng, h mới quay lại đánh giá : mua loại này là lần thứ 2, trước đó làm quà tặng. Khó có loại nào cùng tầm giá có 3 chế độ sấy gọn nhẹ như vầy, hợp lý với giá tiền. Vẫn chưa bị thất vọng với tiêu chuẩn hàng Philips lần nào cả.",
+    "labels": [
+      [
+        0,
+        14,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        88,
+        132,
+        "Khó có loại nào cùng tầm giá có 3 chế độ sấy gọn nhẹ như vầy",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        134,
+        155,
+        "hợp lý với giá tiền",
+        "Giá cả#Tích cực"
+      ],
+      [
+        157,
+        211,
+        "Vẫn chưa bị thất vọng với tiêu chuẩn hàng Philips lần nào cả",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm giá cả hợp lý, giao hàng nhanh",
+    "labels": [
+      [
+        10,
+        19,
+        "giá cả hợp lý",
+        "Giá cả#Tích cực"
+      ],
+      [
+        21,
+        32,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng đóng gói cẩn thận có điều thời gian giao hàng vẫn không thể nào nhanh hơn được : Bàn phím phải xài mấy năm coi có ổn không rồi quay lại review sau nhưng đánh giá tổng quan thì đẹp, gõ phím êm tay",
+    "labels": [
+      [
+        0,
+        25,
+        "Giao hàng đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        29,
+        67,
+        "thời gian giao hàng vẫn không thể nào nhanh hơn được",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        113,
+        117,
+        "đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        119,
+        129,
+        "gõ phím êm tay",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ksnsie kd ekdhdkd dkdleoeodnd f dmldlddpd fkdl",
+    "labels": [
+      [
+        0,
+        45,
+        "Ksnsie kd ekdhdkd dkdleoeodnd f dmldlddpd fkdl",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "nan optipro plus bột tơi xốp, dễ pha thật, với cả vị thì dễ uống, bao bì cũng chất lượng lắm, chọn dòng này là số dzách",
+    "labels": [
+      [
+        21,
+        37,
+        "bột tơi xốp, dễ pha",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        47,
+        56,
+        "dễ uống",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        58,
+        75,
+        "bao bì cũng chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        77,
+        93,
+        "chọn dòng này là số dzách",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Dòng chuột silent mouse ưa thích, ấn cực êm, gần như không gây tiếng ồn. Con lăn dùng thoải mái, không có dấu hiệu lỏng lẻo rung lắc. Rất thích hợp với các bạn dùng chuột ban đêm không muốn ảnh hưởng đến bạn cùng phòng, hoặc dùng trong văn phòng tránh ồn ào đến đồng nghiệp. Đã mua tổng cộng 4 chiếc dòng này, 3 chiếc tại Tiki, rất hài lòng. Màu đỏ có vẻ hơi chói so với hình quảng cáo, nhưng màu xám rất đẹp, màu xanh chưa thử.",
+    "labels": [
+      [
+        0,
+        48,
+        "Dòng chuột silent mouse ưa thích, ấn cực êm, gần như không gây tiếng ồn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        91,
+        "Con lăn dùng thoải mái, không có dấu hiệu lỏng lẻo rung lắc",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        158,
+        228,
+        "Đã mua tổng cộng 4 chiếc dòng này, 3 chiếc tại Tiki, rất hài lòng",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        230,
+        260,
+        "Màu đỏ có vẻ hơi chói so với hình quảng cáo",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        265,
+        279,
+        "màu xám rất đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đeo hơi đau tai do phần đệm áp vào",
+    "labels": [
+      [
+        4,
+        11,
+        "hơi đau tai",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Pin giá rẻ, dùng một thời gian mình sẽ quay lại edit",
+    "labels": [
+      [
+        4,
+        10,
+        "giá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        29,
+        33,
+        "edit",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng rất nhanh,đặt 1010 thì 1110 giao phải nói là rất tuyệt vời",
+    "labels": [
+      [
+        0,
+        18,
+        "Giao hàng rất nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        50,
+        63,
+        "rất tuyệt vời",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao nhanh , hình thức thùng đẹp , nguyên seal",
+    "labels": [
+      [
+        0,
+        8,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        11,
+        27,
+        "hình thức thùng đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        30,
+        40,
+        "nguyên seal",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm có chất lượng đúng như mô tả, đóng gói chắc chắn, giao hàng nhanh, rất đáng tiền Ps: không có thời gian chụp hình nên mình lấy đỡ hình trên mạng up",
+    "labels": [
+      [
+        0,
+        32,
+        "Sản phẩm có chất lượng đúng như mô tả",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        34,
+        49,
+        "đóng gói chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        51,
+        65,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        67,
+        79,
+        "rất đáng tiền",
+        "Giá cả#Tích cực"
+      ],
+      [
+        83,
+        123,
+        "không có thời gian chụp hình nên mình lấy đỡ hình trên mạng up",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm thì mình dùng trước đó rồi, sản phảm trị gàu và nấm da đầu hiệu quả Ai đang bị nhiều thì cứ 1 tuần 2 lần. Sau đó duy trì 1 tuần 1 lần để không bị tái lại Gội thì ủ tầm 23 phút rồi xả với nước Gội xong thì rít cứng tóc nên mấy bạn dùng thêm dầu xả tóc nữa cho mềm mượt",
+    "labels": [
+      [
+        31,
+        42,
+        "hiệu quả",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        98,
+        110,
+        "rít cứng tóc",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        127,
+        135,
+        "mềm mượt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh. tiền nào của đó, đủ nhu cầu không đòi hỏi nhiều. hàng logi không bao giờ kén phần cứng siêu bền",
+    "labels": [
+      [
+        0,
+        13,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        31,
+        "tiền nào của đó",
+        "Giá cả#Bình thường"
+      ],
+      [
+        33,
+        59,
+        "đủ nhu cầu không đòi hỏi nhiều",
+        "Khác#Bình thường"
+      ],
+      [
+        61,
+        94,
+        "hàng logi không bao giờ kén phần cứng siêu bền",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói kỹ càng, giao hàng tận tay",
+    "labels": [
+      [
+        0,
+        15,
+        "Đóng gói kỹ càng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        17,
+        33,
+        "giao hàng tận tay",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tiki giao hàng nhanh, đóng gói cẩn thận, bình thiết kế đơn giản, đẹp. Có nút mở rất tiện và nắp kín nên khi bị dốc ngược nước không trào ra. Sản phẩm này nên mua!",
+    "labels": [
+      [
+        0,
+        17,
+        "Tiki giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        19,
+        36,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        38,
+        59,
+        "bình thiết kế đơn giản, đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        61,
+        80,
+        "Có nút mở rất tiện",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        83,
+        120,
+        "nắp kín nên khi bị dốc ngược nước không trào ra",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        122,
+        138,
+        "Sản phẩm này nên mua!",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hộp cơm nhìn sang, giữ nhiệt tốt, để từ sáng tới trưa đem ra ăn cơm canh còn nóng",
+    "labels": [
+      [
+        12,
+        20,
+        "giữ nhiệt tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        56,
+        "còn nóng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        9,
+        11,
+        "sang",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm chất lượng tốt giao hàng nhanh",
+    "labels": [
+      [
+        9,
+        21,
+        "chất lượng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        22,
+        34,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng chính hãng, được nhạp khẩu và phân phối bởi Rohto VN, hsd còn tới 2023 nên an tâm. Mới dùng nên tác dụng chưa rõ, hy vọng tốt. Thích bộ quà tặng. Định mua thêm nhưng đã hết quà.",
+    "labels": [
+      [
+        57,
+        64,
+        "an tâm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        74,
+        86,
+        "tác dụng chưa rõ",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        88,
+        96,
+        "hy vọng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        98,
+        113,
+        "Thích bộ quà tặng",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        129,
+        142,
+        "đã hết quà",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Kem dùng tốt rất nâng tông da",
+    "labels": [
+      [
+        0,
+        26,
+        "Kem dùng tốt rất nâng tông da",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa uống thìngon giao hàng nhanh lại được tặng kèm quà nữa",
+    "labels": [
+      [
+        0,
+        14,
+        "Sữa uống thìngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        15,
+        27,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        28,
+        45,
+        "lại được tặng kèm quà nữa",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm tốt, giao hàng nhanh",
+    "labels": [
+      [
+        0,
+        13,
+        "Sản phẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        15,
+        27,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Lõi lọc chính hãng, giá Tiki siêu tốt, sản phẩm lọc nước sạch, dễ dàng thay thế, an tâm khi dùng nước chung cư",
+    "labels": [
+      [
+        0,
+        16,
+        "Lõi lọc chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        18,
+        34,
+        "giá Tiki siêu tốt",
+        "Giá cả#Tích cực"
+      ],
+      [
+        36,
+        55,
+        "sản phẩm lọc nước sạch",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        57,
+        73,
+        "dễ dàng thay thế",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        75,
+        97,
+        "an tâm khi dùng nước chung cư",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Vận chuyển hộp bị móp nhiều, làm quà cho người lớn tuổi thì kì quá.",
+    "labels": [
+      [
+        0,
+        21,
+        "Vận chuyển hộp bị móp nhiều",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        23,
+        46,
+        "làm quà cho người lớn tuổi thì kì quá",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh, đúng sản phẩm, date xa",
+    "labels": [
+      [
+        0,
+        14,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        30,
+        "đúng sản phẩm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        39,
+        "date xa",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm được đóng gói cực kì cẩn thận. Có lớp lót để hộp sữa không bị ảnh hưởng bởi quá trình vận chuyển. Ship hàng siêu nhanh. Tin dùng sữa cho cả 2 bé nhà mình. Luôn ủng hộ shop nhiệt tình.",
+    "labels": [
+      [
+        0,
+        37,
+        "Sản phẩm được đóng gói cực kì cẩn thận.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        38,
+        98,
+        "Có lớp lót để hộp sữa không bị ảnh hưởng bởi quá trình vận chuyển.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        99,
+        118,
+        "Ship hàng siêu nhanh.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        119,
+        152,
+        "Tin dùng sữa cho cả 2 bé nhà mình.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        153,
+        183,
+        "Luôn ủng hộ shop nhiệt tình.",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bền xài cả năm chưa hư",
+    "labels": [
+      [
+        0,
+        19,
+        "Bền xài cả năm chưa hư",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "cafe uống cũng bình thường. Tuy lượng nhiều hơn nhưng vị vẫn nhạt như loại cũ.",
+    "labels": [
+      [
+        0,
+        23,
+        "cafe uống cũng bình thường",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        39,
+        59,
+        "vị vẫn nhạt như loại cũ",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Rất tiện lợi và tiết kiệm.",
+    "labels": [
+      [
+        0,
+        12,
+        "Rất tiện lợi",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        24,
+        "tiết kiệm",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chổi dễ lắp, dùng ổn",
+    "labels": [
+      [
+        0,
+        18,
+        "Chổi dễ lắp, dùng ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, đóng gói cẩn thận, chất lượng tốt. Sẽ mua thêm nhiều sản phẩm của shop để ủng hộ.",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        32,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        34,
+        47,
+        "chất lượng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        79,
+        "Sẽ mua thêm nhiều sản phẩm của shop để ủng hộ",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng trước ngày dự kiến, thêm các sản phẩm tặng kèm thì tính ra sản phẩm khá rẻ. Tổng đơn hàng kèm phí vận chuyển chỉ 562k cho 3 gói tã 706 miếng, một giỏ Huggies, một bịch khăn ướt Huggies. Nv giao hàng thân thiện, giao cả buổi tối luôn. Giá sp riêng một gói vẫn rẻ hơn giá bán bên ngoài... Đáng mua.",
+    "labels": [
+      [
+        0,
+        50,
+        "Giao hàng trước ngày dự kiến, thêm các sản phẩm tặng kèm",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        37,
+        50,
+        "sản phẩm khá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        172,
+        200,
+        "Nv giao hàng thân thiện, giao cả buổi tối luôn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        202,
+        238,
+        "Giá sp riêng một gói vẫn rẻ hơn giá bán bên ngoài",
+        "Giá cả#Tích cực"
+      ],
+      [
+        241,
+        251,
+        "Đáng mua",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mình thấy nhiều bạn thắc mắc chuột tại sao bị khui ra. Mình cũng mua thử và thấy rằng chuột bị khui ra để dán tem bảo hành cho sản phẩm thôi. Nếu các bạn lo về chất lượng sản phẩm thì tốt nhất chọn Tiki Trading để yên tâm, mình chưa bao giờ thất vọng về Tiki hết",
+    "labels": [
+      [
+        79,
+        90,
+        "lo về chất lượng sản phẩm",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        104,
+        111,
+        "để yên tâm",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        113,
+        143,
+        "mình chưa bao giờ thất vọng về Tiki hết",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh nhưng hộp móp, may trong không sao. chưa dùng nên chưa đánh giá xem mượt hay không: nhưng cái mình mua trực tiếp ngoài benstore thì rất ok, mong mua đây cũng vậy, giá rẻ hơn khá nhiều",
+    "labels": [
+      [
+        0,
+        13,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        14,
+        23,
+        "hộp móp",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        25,
+        39,
+        "may trong không sao",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        75,
+        82,
+        "rất ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        102,
+        122,
+        "giá rẻ hơn khá nhiều",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "mua tiki chuẩn rồi, chất lượng khỏi lo giao hàng now nhanh lắm luôn. 10 điểm",
+    "labels": [
+      [
+        0,
+        16,
+        "mua tiki chuẩn rồi",
+        "Khác#Tích cực"
+      ],
+      [
+        18,
+        31,
+        "chất lượng khỏi lo",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        53,
+        "giao hàng now nhanh lắm luôn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        55,
+        62,
+        "10 điểm",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Công suất 1000W nên tương đối thôi. Mẫu mã đẹp gọn. Giá rẻ thích hợp dùng trong gia đình. Hàng chính hãng đóng gói cẩn thận.",
+    "labels": [
+      [
+        0,
+        30,
+        "Công suất 1000W nên tương đối thôi.",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        32,
+        46,
+        "Mẫu mã đẹp gọn.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        47,
+        74,
+        "Giá rẻ thích hợp dùng trong gia đình.",
+        "Giá cả#Tích cực"
+      ],
+      [
+        75,
+        105,
+        "Hàng chính hãng đóng gói cẩn thận.",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mua hàng tiki rất là thích. Sản phẩm dùng rất ok. Giao hàng rất nhanh ah",
+    "labels": [
+      [
+        20,
+        25,
+        "thích",
+        "Khác#Tích cực"
+      ],
+      [
+        28,
+        40,
+        "Sản phẩm dùng rất ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        42,
+        55,
+        "Giao hàng rất nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "hàng vận chuyển từ Hà Nội vào mà tiki không đóng thùng nên sữa bị móp méo nhìu cảm thấy không hài lòng",
+    "labels": [
+      [
+        0,
+        55,
+        "hàng vận chuyển từ Hà Nội vào mà tiki không đóng thùng nên sữa bị móp méo nhìu",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        56,
+        73,
+        "cảm thấy không hài lòng",
+        "Khác#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm tốt mua tiki nên yên tâm lắm",
+    "labels": [
+      [
+        0,
+        11,
+        "sản phẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        22,
+        32,
+        "yên tâm lắm",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao nhanh, đóng gói kỹ",
+    "labels": [
+      [
+        0,
+        9,
+        "Giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        11,
+        22,
+        "đóng gói kỹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa chuẩn. Con mình ăn sữa này từ khi sơ sinh đến giờ được 4.5tháng rất hợp, tiêu hoá tốt, con hấp thụ tốt. Giao hàng nhanh.",
+    "labels": [
+      [
+        0,
+        9,
+        "Sữa chuẩn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        51,
+        58,
+        "rất hợp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        60,
+        72,
+        "tiêu hoá tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        74,
+        89,
+        "con hấp thụ tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        91,
+        105,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng chất lượng, đẹp và đòng hàng kỹ, giao hàng nhanh. Cám ơn shop nhé. Tuyệt với",
+    "labels": [
+      [
+        0,
+        26,
+        "Hàng chất lượng, đẹp và đòng hàng kỹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        28,
+        42,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        44,
+        60,
+        "Cám ơn shop nhé",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        62,
+        70,
+        "Tuyệt với",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hành nhanh, hộp bao bì cẩn thận. Bên trong có đủ 48 miếng dán. Uy tín",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hành nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        33,
+        "hộp bao bì cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        46,
+        68,
+        "có đủ 48 miếng dán",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        70,
+        75,
+        "Uy tín",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "San pham ok giao hang nhanh",
+    "labels": [
+      [
+        0,
+        10,
+        "San pham ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        11,
+        24,
+        "giao hang nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm chính hãng, đóng gói cẩn thận, có tem thư điện tử chống giả, check mã vạch đều được, giao hàng nhanh hơn dự kiến. chưa dùng sản phẩm nhưng vẫn thấy hài lòng về giao hàng và sản phẩm 5",
+    "labels": [
+      [
+        0,
+        51,
+        "sản phẩm chính hãng, đóng gói cẩn thận, có tem thư điện tử chống giả, check mã vạch đều được",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        53,
+        77,
+        "giao hàng nhanh hơn dự kiến",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        96,
+        133,
+        "vẫn thấy hài lòng về giao hàng và sản phẩm",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm tốt, giao hàng tikinow thật nhanh.",
+    "labels": [
+      [
+        0,
+        12,
+        "sản phẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        36,
+        "giao hàng tikinow thật nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "san pham tot .giao hang nhanh.cam on Tiki",
+    "labels": [
+      [
+        0,
+        11,
+        "san pham tot",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        12,
+        26,
+        "giao hang nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        27,
+        37,
+        "cam on Tiki",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bé mình ti mẹ trực tiếp hoàn toàn, thử sữa Nan bé hợp tác",
+    "labels": [
+      [
+        33,
+        38,
+        "bé hợp tác",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa giao nhanh, sớm hơn dự kiến, thùng sữa nguyên vẹn không móp méo, hạn sử dụng còn 4 tháng, tốt.",
+    "labels": [
+      [
+        0,
+        16,
+        "Sữa giao nhanh, sớm hơn dự kiến",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        18,
+        42,
+        "thùng sữa nguyên vẹn không móp méo",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        44,
+        67,
+        "hạn sử dụng còn 4 tháng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        69,
+        72,
+        "tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng được đóng gói cẩn thận chắc chắn",
+    "labels": [
+      [
+        13,
+        31,
+        "cẩn thận chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chất lượng và nguồn gốc sữa thì mình tuyệt đối tin tưởng tiki, mặc dù bên ngoài nhiều chỗ rẻ hơn nhưng mình không dám mua. Vali kéo tặng nhỏ, phù hợp du lịch 23 ngày. Sữa nhãn mới hơi lạt hơn sữa nhãn cũ 1 chút.",
+    "labels": [
+      [
+        0,
+        41,
+        "Chất lượng và nguồn gốc sữa thì mình tuyệt đối tin tưởng tiki",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        43,
+        74,
+        "mặc dù bên ngoài nhiều chỗ rẻ hơn nhưng mình không dám mua",
+        "Giá cả#Tiêu cực"
+      ],
+      [
+        76,
+        105,
+        "Vali kéo tặng nhỏ, phù hợp du lịch 23 ngày",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        107,
+        142,
+        "Sữa nhãn mới hơi lạt hơn sữa nhãn cũ 1 chút",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Quai ấm hơi yếu, khó cần để rót nước khi ấm đầy.",
+    "labels": [
+      [
+        0,
+        22,
+        "Quai ấm hơi yếu, khó cần để rót nước khi ấm đầy.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Loại này không hề thua kém bàn chải Trắng Răng Tự Nhiên nha. Chải răng cũng sạch và êm. Bên trong hộp có 2 chiếc, được bọc trong bao bì ép chân không. Pin đt sắp hết, nên không chụp thêm hình được.",
+    "labels": [
+      [
+        0,
+        49,
+        "Loại này không hề thua kém bàn chải Trắng Răng Tự Nhiên nha",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        51,
+        70,
+        "Chải răng cũng sạch và êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        72,
+        120,
+        "Bên trong hộp có 2 chiếc, được bọc trong bao bì ép chân không",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        122,
+        163,
+        "Pin đt sắp hết, nên không chụp thêm hình được.",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Mình mua rất nhiều cho nhóm sử dụng làm meeting daily. Nói chung chất lượng và tầm giá phù hợp cho nghe nói hội họp còn mà chuyên nghe nhạc thì nên lựa dòng cao cấp hơn.",
+    "labels": [
+      [
+        23,
+        51,
+        "chất lượng và tầm giá phù hợp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        78,
+        96,
+        "nên lựa dòng cao cấp hơn",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Tai nghe tốt, nghe rất rõ.",
+    "labels": [
+      [
+        0,
+        10,
+        "Tai nghe tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        12,
+        22,
+        "nghe rất rõ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm ike nha mn, 10đ về chôz luôn",
+    "labels": [
+      [
+        0,
+        29,
+        "sản phẩm ike nha mn, 10đ về chôz luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "gia rẻ hơn thị trường chât lượng ok",
+    "labels": [
+      [
+        0,
+        20,
+        "gia rẻ hơn thị trường",
+        "Giá cả#Tích cực"
+      ],
+      [
+        21,
+        31,
+        "chât lượng ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Dễ thương. Click êm, nhạy. Hàng của Logitech thì thôi rồi. Cứ yên tâm mà xài",
+    "labels": [
+      [
+        0,
+        8,
+        "Dễ thương",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        9,
+        22,
+        "Click êm, nhạy",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        23,
+        36,
+        "Hàng của Logitech",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        37,
+        55,
+        "Cứ yên tâm mà xài",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chất liệu màu sắc rất đẹp, bình giữ lạnh rất tốt: đá để từ sáng tới chiều tối vẫn chưa tan. Nút bấm khóa bình không chắc lắm nên bình để nằm ngang khi di chuyển dễ bị đổ, mình để trong túi treo lên thì không có vấn đề gì, màu hường nhìn siêu xinh luôn",
+    "labels": [
+      [
+        0,
+        57,
+        "Chất liệu màu sắc rất đẹp, bình giữ lạnh rất tốt: đá để từ sáng tới chiều tối vẫn chưa tan.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        58,
+        139,
+        "Nút bấm khóa bình không chắc lắm nên bình để nằm ngang khi di chuyển dễ bị đổ, mình để trong túi treo lên thì không có vấn đề gì",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        141,
+        169,
+        "màu hường nhìn siêu xinh luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đợt mình mua sale 11.11 mà giờ mới có thời gian ngồi viết đánh giá. Serum dùng khá ổn có mùi nhẹ nhưng là mùi dễ chịu mới đầu dùng không quen kiểu hơi bị châm chích ở mặt. Một vài ngày sau sẽ hết. Dùng C mng nhớ bôi kem chống nắng khi ra đường nha",
+    "labels": [
+      [
+        45,
+        53,
+        "khá ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        64,
+        73,
+        "mùi dễ chịu",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        74,
+        99,
+        "dùng không quen kiểu hơi bị châm chích ở mặt",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "ấm đẹp, sang, chắc chắn",
+    "labels": [
+      [
+        0,
+        7,
+        "ấm đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        9,
+        12,
+        "sang",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        22,
+        "chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm chính hãng, giao nhanh, giao đúng hẹn",
+    "labels": [
+      [
+        0,
+        16,
+        "Sản phẩm chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        18,
+        26,
+        "giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        28,
+        42,
+        "giao đúng hẹn",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "nan thụy sĩ sữa mát vị nhạt thanh dễ uống, tiêu hóa tốt, tăng đề kháng rất tốt, vỏ chắc chắn, có thanh đặt muỗng luôn",
+    "labels": [
+      [
+        15,
+        26,
+        "vị nhạt thanh dễ uống",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        28,
+        39,
+        "tiêu hóa tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        41,
+        59,
+        "tăng đề kháng rất tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        61,
+        72,
+        "vỏ chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        74,
+        96,
+        "có thanh đặt muỗng luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Vừa mua 2 máy, chất lượng tốt, giá cả phải chăng. Tôi đã xài máy sấy Philips loại này rồi và rất tín nhiệm thương hiệu này. Chạy tuy ồn, nhưng chất lượng tốt, bền, gia đình dùng hàng ngày hơ sấy tóc và body trên 5 năm máy vẫn chạy tốt.",
+    "labels": [
+      [
+        14,
+        27,
+        "chất lượng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        29,
+        45,
+        "giá cả phải chăng",
+        "Giá cả#Tích cực"
+      ],
+      [
+        77,
+        103,
+        "rất tín nhiệm thương hiệu này",
+        "Thương hiệu#Tích cực"
+      ],
+      [
+        113,
+        116,
+        "ồn",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        122,
+        142,
+        "chất lượng tốt, bền",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        169,
+        184,
+        "máy vẫn chạy tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nhỏ gọn, sài ok, khá mượt. Với giá tiền này rất phù hợp",
+    "labels": [
+      [
+        0,
+        21,
+        "Nhỏ gọn, sài ok, khá mượt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        23,
+        39,
+        "Với giá tiền này rất phù hợp",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm mua xong quét mã vạch hợp lệ. Mình rất an tâm khi mua của tiki không phải shop bán trên tiki. Mình sẽ ủng hộ tiki thêm nữa. Các shop khác thì mình không có niềm tin.",
+    "labels": [
+      [
+        0,
+        30,
+        "Sản phẩm mua xong quét mã vạch hợp lệ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        32,
+        89,
+        "Mình rất an tâm khi mua của tiki không phải shop bán trên tiki",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        91,
+        116,
+        "Mình sẽ ủng hộ tiki thêm nữa",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        118,
+        149,
+        "Các shop khác thì mình không có niềm tin",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Máy êm, dễ vệ sinh, tháo lắp dễ dàng. Đóng gói kỹ, giao hàng nhanh. Tuyệt vời",
+    "labels": [
+      [
+        0,
+        34,
+        "Máy êm, dễ vệ sinh, tháo lắp dễ dàng.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        36,
+        59,
+        "Đóng gói kỹ, giao hàng nhanh.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        61,
+        70,
+        "Tuyệt vời",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng chính hãng giá tốt . Mua giá rẻ . Mùi như mùi cũ",
+    "labels": [
+      [
+        0,
+        19,
+        "Hàng chính hãng giá tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        22,
+        31,
+        "Mua giá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        34,
+        48,
+        "Mùi như mùi cũ",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop giao hàng nhanh, đúng thời gian. Chuột dùng mượt, tiếng click cũng không to lắm.",
+    "labels": [
+      [
+        0,
+        29,
+        "Shop giao hàng nhanh, đúng thời gian.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        31,
+        42,
+        "Chuột dùng mượt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        44,
+        71,
+        "tiếng click cũng không to lắm.",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "lúc trc mình có sài loại màu đen mua ở , sau 1 năm sài thì nó đứt, nên giờ tìm mua trên tiki thấy giá ổn, tai nghe êm, thích hợp nghe tiếng anh và nghe nhạc, sẽ tiếp tục ủng hộ, tai màu xanh rất xinh, tiki giao cực nhanh, mới đặt hôm qua, hôm nay đã có",
+    "labels": [
+      [
+        48,
+        55,
+        "giá ổn",
+        "Giá cả#Tích cực"
+      ],
+      [
+        57,
+        64,
+        "tai nghe êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        88,
+        94,
+        "ủng hộ",
+        "Khác"
+      ],
+      [
+        96,
+        107,
+        "tai màu xanh rất xinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        109,
+        125,
+        "tiki giao cực nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng tồn, xấu và còn bị chảy!!!",
+    "labels": [
+      [
+        0,
+        30,
+        "Hàng tồn, xấu và còn bị chảy thể hiện chất lượng sản phẩm rất kém.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, shipper thân thiện,tuy nhiên đóng gói hàng còn sơ sài,lâu không đặt hàng ở tiki nên hơi bất ngờ vs cách đóng hành như vậy,trong và ngoài đều không có lớp chống sốc mặc dán nhãn hàng dễ vỡ.May hàng bên trong không sao,máy dùng ổn,chế độ gió ở mức tạm ổn so với giá tiển,chế độ nhiệt ok.",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        30,
+        "shipper thân thiện",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        38,
+        59,
+        "đóng gói hàng còn sơ sài",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        162,
+        178,
+        "hàng bên trong không sao",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        179,
+        187,
+        "máy dùng ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        188,
+        226,
+        "chế độ gió ở mức tạm ổn so với giá tiển",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        227,
+        240,
+        "chế độ nhiệt ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nhìn chất lượng và chắc chắn, đóng gói cẩn thận. 5 sao.",
+    "labels": [
+      [
+        4,
+        23,
+        "chất lượng và chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        25,
+        41,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đặt hàng ngày 66, sáng 76 đã nhận được hàng. đóng gói cẩn thận, mới dùng nên chưa có đánh giá chính xác Chuột có kèm theo ?, nên có thể sử dụng ngay ??",
+    "labels": [
+      [
+        41,
+        56,
+        "đóng gói cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        58,
+        87,
+        "mới dùng nên chưa có đánh giá chính xác",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Hsd kg có mộc xanh nhu hợp mua ở con cưng hàng qua sữa hang du dung hay sao sop",
+    "labels": [
+      [
+        0,
+        54,
+        "Hsd kg có mộc xanh nhu hợp mua ở con cưng hàng qua sữa hang du dung hay sao sop",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bình giữ nhiệt chắc chắn, chất lượng, chưa sử dụng nên không biết giữ nhiệt được bao lâu. Ko định mua màu trắng vì sợ mau thấy dơ, nhưng chưa kịp mua thì đã hết bình màu.",
+    "labels": [
+      [
+        16,
+        25,
+        "chắc chắn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        27,
+        35,
+        "chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        92,
+        110,
+        "chưa kịp mua thì đã hết",
+        "Dịch vụ#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "mua cho nên không bik đánh giá chất lượng sản phẩm ra sao. gói hàng thì ổn có che tên tế nhị tiki giao cũng siêu nhanh",
+    "labels": [
+      [
+        35,
+        37,
+        "ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        57,
+        66,
+        "siêu nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ổn sử dụng hợp con gái",
+    "labels": [
+      [
+        0,
+        19,
+        "Ổn sử dụng hợp con gái",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa chính hãng hàng lại date xa. Bé nhà mình đổi sữa nhưng rất hợp tác. Hàng giao nhanh hơn dự kiến :",
+    "labels": [
+      [
+        0,
+        27,
+        "Sữa chính hãng hàng lại date xa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        29,
+        46,
+        "Bé nhà mình ... hợp tác",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        48,
+        72,
+        "Hàng giao nhanh hơn dự kiến",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ổn, xài cam lưu trữ được nhiều ngày Hàng chuẩn Giao từ hcm nên hơi lâu xíu, nhưng chất lượng ok",
+    "labels": [
+      [
+        0,
+        2,
+        "Ổn",
+        "Khác#Tích cực"
+      ],
+      [
+        29,
+        39,
+        "Hàng chuẩn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        40,
+        59,
+        "Giao từ hcm nên hơi lâu xíu",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        65,
+        77,
+        "chất lượng ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng giao nhanh, đúng loại, cho shop 5 sao, mua hàng lần sau tiếp theo",
+    "labels": [
+      [
+        0,
+        12,
+        "Hàng giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        14,
+        22,
+        "đúng loại",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        37,
+        "cho shop 5 sao",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        39,
+        60,
+        "mua hàng lần sau tiếp theo",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bình đẹp, cầm rất chắc tay luôn, còn chất lượng của LL thì khỏi bàn rồi. Ngoài ra TIKI giao hàng rất nhanh, mình ord hôm trước là hôm sau đã có.",
+    "labels": [
+      [
+        0,
+        27,
+        "Bình đẹp, cầm rất chắc tay luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        33,
+        57,
+        "chất lượng của LL thì khỏi bàn rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        68,
+        92,
+        "TIKI giao hàng rất nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Dễ uống, bé rất hợp tác, sẽ quay lại mua thêm",
+    "labels": [
+      [
+        0,
+        8,
+        "Dễ uống",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        10,
+        22,
+        "bé rất hợp tác",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        39,
+        "sẽ quay lại mua thêm",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop giao hàng nhanh sản phẩm chính hãng",
+    "labels": [
+      [
+        0,
+        18,
+        "Shop giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        19,
+        35,
+        "sản phẩm chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "tiki giao hàng nhanh dù mới xong giãn cách. Chuột dùng vừa tay, đủ nhạy trên mặt bàn inox, tạm thời mình chưa thấy bị vấn đề gì",
+    "labels": [
+      [
+        0,
+        35,
+        "tiki giao hàng nhanh dù mới xong giãn cách",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        37,
+        74,
+        "Chuột dùng vừa tay, đủ nhạy trên mặt bàn inox",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        76,
+        104,
+        "tạm thời mình chưa thấy bị vấn đề gì",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Mới đặt buổi sáng buổi chiều đã nhận được hàng, trẻ con bóc ra uống luôn. Hàng mới ,date xa tít mù tắp.",
+    "labels": [
+      [
+        0,
+        48,
+        "Mới đặt buổi sáng buổi chiều đã nhận được hàng, trẻ con bóc ra uống luôn.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        49,
+        73,
+        "Hàng mới ,date xa tít mù tắp.",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nồi chiên siêu to khổng lồ. Tiki giao hàng nhanh. Quạt kêu hơi to. Phải chờ time sử dụng mới đánh giá được chất lượng. Hy vọng nồi bền. Nếu nhà chỉ có 45 thành viên thì nên mua nồi loại 5 tới 5.5L là ok. Nồi này to lắm. Mọi người nên cân nhắc về kích cỡ của nồi.",
+    "labels": [
+      [
+        0,
+        23,
+        "Nồi chiên siêu to khổng lồ.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        24,
+        42,
+        "Tiki giao hàng nhanh.",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        43,
+        58,
+        "Quạt kêu hơi to.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        78,
+        94,
+        "Hy vọng nồi bền.",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        141,
+        155,
+        "Nồi này to lắm.",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Mình dùng 3 tháng rồi hnay mới vào đánh giá, về cơ bản là máy dùng ổn, ép kiệt 95 ấy, ngày nào cũng ép luôn, máy dễ tháo lắp, dễ vệ sinh",
+    "labels": [
+      [
+        42,
+        48,
+        "máy dùng ổn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        72,
+        84,
+        "máy dễ tháo lắp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        86,
+        97,
+        "dễ vệ sinh",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bình bị hở, bỏ cốp xe chảy ướt hết đồ, phải vứt đi luôn",
+    "labels": [
+      [
+        0,
+        44,
+        "Bình bị hở, bỏ cốp xe chảy ướt hết đồ, phải vứt đi luôn",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "sữa tốt, hạn dài, độ ngọt vừa phải.",
+    "labels": [
+      [
+        0,
+        8,
+        "sữa tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        10,
+        17,
+        "hạn dài",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        19,
+        38,
+        "độ ngọt vừa phải",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bàn phím êm đẹp đã từng dùng, giá lại quá hạt dẻ, hàng logitech gõ êm rồi",
+    "labels": [
+      [
+        0,
+        27,
+        "Bàn phím êm đẹp đã từng dùng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        29,
+        45,
+        "giá lại quá hạt dẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        47,
+        71,
+        "hàng logitech gõ êm rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Dùng anker nano mà thấy nóng quá nên đổi sang cục chính hãng này cho an tâm. Check bên ngoài cũng như mọi thứ thấy ok",
+    "labels": [
+      [
+        20,
+        27,
+        "nóng quá",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        44,
+        52,
+        "cho an tâm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        69,
+        71,
+        "ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao nhanh. Check mã vạch hiện ra tương tự như sữa mua ở .",
+    "labels": [
+      [
+        0,
+        8,
+        "Giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        9,
+        51,
+        "Check mã vạch hiện ra tương tự như sữa mua ở",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "SP sd rất tuyệt, không đau rát lại sạch sẽ. Tuy mới làm xong thì 1 lúc sẽ có mùi nhưng rất nhanh hết",
+    "labels": [
+      [
+        8,
+        16,
+        "rất tuyệt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        18,
+        34,
+        "không đau rát lại sạch sẽ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        41,
+        50,
+        "sẽ có mùi",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        55,
+        64,
+        "rất nhanh hết",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sữa tốt cả cho tiêu hóa với đề kháng, 10đ không có nhưng",
+    "labels": [
+      [
+        0,
+        35,
+        "sữa tốt cả cho tiêu hóa với đề kháng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        37,
+        51,
+        "10đ không có nhưng",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Lớp đế đun nóng bị thu hẹp nên hiệu suất kém. Thời gian đun trên cùng một loại bếp từ gấp 1,5 lần so với ấm khác",
+    "labels": [
+      [
+        0,
+        30,
+        "Lớp đế đun nóng bị thu hẹp nên hiệu suất kém",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        32,
+        95,
+        "Thời gian đun trên cùng một loại bếp từ gấp 1,5 lần so với ấm khác",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "giao hàng nhanh, mới dùng không biết bền không, thấy ổn trong tầm giá",
+    "labels": [
+      [
+        0,
+        14,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        37,
+        "mới dùng không biết bền không",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        39,
+        60,
+        "thấy ổn trong tầm giá",
+        "Giá cả#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hình ảnh minh hoạ . Sp tốt",
+    "labels": [
+      [
+        18,
+        24,
+        "Sp tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Lần đầu tiên trải nghiệm mua tại tiki giá cũng rẻ hơn mà luôn được nhận hàng siêu nhanh Cảm ơn sự phục vụ này ạ",
+    "labels": [
+      [
+        31,
+        39,
+        "giá cũng rẻ hơn",
+        "Giá cả#Tích cực"
+      ],
+      [
+        43,
+        61,
+        "luôn được nhận hàng siêu nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        62,
+        79,
+        "Cảm ơn sự phục vụ này",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Âm thanh tốt, êm tại, chống ồn.",
+    "labels": [
+      [
+        0,
+        10,
+        "Âm thanh tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        12,
+        17,
+        "êm tại",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        19,
+        27,
+        "chống ồn",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sản phẩm rất tốt, thời dài chưa biết bền hay không",
+    "labels": [
+      [
+        0,
+        14,
+        "sản phẩm rất tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        16,
+        39,
+        "thời dài chưa biết bền hay không",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Nồi rộng, nướng ngon hơn nhiều so với nồi chiên nội địa khác trước mình mua một cái 5 lit đâu đó 1tr nhưng nướng chán lắm, nhưng cái này ưng thực sự, rất to nha mn. To lắm, vệ sinh hơi mệt. Nhưng được cái ngon, bữa mua được chai nước chấm ớt xanh ngon quá nên mua nồi về để nướng thịt ăn kèm đó, nhưng ngon hơn cả tưởng tượng. nói chung là tiền nào của nấy.",
+    "labels": [
+      [
+        0,
+        10,
+        "Nồi rộng, nướng ngon hơn nhiều",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        68,
+        77,
+        "nướng chán lắm",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        89,
+        97,
+        "ưng thực sự",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        99,
+        111,
+        "rất to nha mn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        113,
+        128,
+        "To lắm, vệ sinh hơi mệt",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        135,
+        143,
+        "được cái ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        220,
+        243,
+        "ngon hơn cả tưởng tượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        256,
+        275,
+        "nói chung là tiền nào của nấy",
+        "Giá cả#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng giao nhanh và đúng chất lượng.",
+    "labels": [
+      [
+        0,
+        12,
+        "Hàng giao nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        30,
+        "đúng chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa thơm nhạt, nhiều dinh dưỡng, phù hợp cho bé",
+    "labels": [
+      [
+        0,
+        10,
+        "Sữa thơm nhạt",
+        "Chất lượng sản phẩm#Bình thường"
+      ],
+      [
+        12,
+        26,
+        "nhiều dinh dưỡng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        28,
+        39,
+        "phù hợp cho bé",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chính hãng, giá tốt lại được nhận kèm gấu bông",
+    "labels": [
+      [
+        0,
+        9,
+        "Chính hãng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        11,
+        18,
+        "giá tốt",
+        "Giá cả#Tích cực"
+      ],
+      [
+        23,
+        37,
+        "được nhận kèm gấu bông",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đây là cái thứ 2 mình mua, mua cho nhà ba mẹ chồng. Xài 1 cái ở nhà ưng ý nên mới mua thêm cái nữa. Nấu sôi nhanh, không bị hôi, bình thuỷ tinh nên đảm bảo. Có đèn led mày xanh rất đẹp.",
+    "labels": [
+      [
+        39,
+        45,
+        "ưng ý",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        59,
+        70,
+        "Nấu sôi nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        72,
+        79,
+        "không bị hôi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        81,
+        92,
+        "bình thuỷ tinh nên đảm bảo",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        94,
+        117,
+        "Có đèn led mày xanh rất đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "xuất xứ thụy sĩ rõ ràng lắm, bao bì chất lượng, vị nhạt thanh không quá ngọt, thơm, sữa tiêu êm nha các mẹ",
+    "labels": [
+      [
+        0,
+        25,
+        "xuất xứ thụy sĩ rõ ràng lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        27,
+        41,
+        "bao bì chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        43,
+        77,
+        "vị nhạt thanh không quá ngọt, thơm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        79,
+        93,
+        "sữa tiêu êm nha",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Bình dùng được cho bếp điện từ và hồng ngoại. Rất đẹp và đóng gói kỹ.",
+    "labels": [
+      [
+        38,
+        45,
+        "Rất đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        49,
+        58,
+        "đóng gói kỹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Shop giao hàng rất nhanh, sản phẩm dùng tốt.",
+    "labels": [
+      [
+        4,
+        18,
+        "giao hàng rất nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        20,
+        34,
+        "sản phẩm dùng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Cafe thơm của cafe pha phin, còn độ ngọt đắng tuỳ khẩu vị mỗi người",
+    "labels": [
+      [
+        0,
+        24,
+        "Cafe thơm của cafe pha phin",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        26,
+        51,
+        "độ ngọt đắng tuỳ khẩu vị mỗi người",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Hộp chất lượng, đúng hàng xịn có khác nên mua nha mấy đứa. Ly km sẽ được gửi về sau khi nhận hộp cơm thành công.",
+    "labels": [
+      [
+        0,
+        20,
+        "Hộp chất lượng, đúng hàng xịn có khác nên mua nha mấy đứa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        44,
+        82,
+        "Ly km sẽ được gửi về sau khi nhận hộp cơm thành công.",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Oke cho biết là có một mình em thôi",
+    "labels": [
+      [
+        0,
+        34,
+        "Oke cho biết là có một mình em thôi",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Máy xay nhỏ gọn, thiết kế sang. Hãng hafele thì nổi tiếng trong thiết bị nhà cửa rồi. Mới xài một lần nhưng thấy ổn, máy xay mạnh và nhuyễn. Có một điều mình mình không hài lòng lắm, là có thêm 1 bình dự trữ nữa, nhưng shop lấy ra, mở ra hơi buồn cười xíu nhưng không sao. Máy đẹp nên thathu",
+    "labels": [
+      [
+        0,
+        24,
+        "Máy xay nhỏ gọn, thiết kế sang",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        62,
+        84,
+        "máy xay mạnh và nhuyễn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        86,
+        112,
+        "không hài lòng lắm",
+        "Khác#Tiêu cực"
+      ],
+      [
+        129,
+        157,
+        "shop lấy ra, mở ra hơi buồn cười xíu",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        158,
+        167,
+        "nhưng không sao",
+        "Khác#Bình thường"
+      ],
+      [
+        169,
+        180,
+        "Máy đẹp nên thathu",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng quá nhanh, đóng gói chắc chắn. Ly đẹp, nhẹ, chất lượng dù chưa dùng thử nhưng của LocknLock thì tin tưởng.",
+    "labels": [
+      [
+        0,
+        28,
+        "Giao hàng quá nhanh, đóng gói chắc chắn",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        30,
+        37,
+        "Ly đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        39,
+        42,
+        "nhẹ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        44,
+        79,
+        "chất lượng dù chưa dùng thử nhưng của LocknLock thì tin tưởng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Hàng ok. Date xa. Chuẩn công ty. Nhưng bị móp. Không biết do quá trình vận chuyển hay cố tình.",
+    "labels": [
+      [
+        0,
+        7,
+        "Hàng ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        8,
+        16,
+        "Date xa",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        17,
+        29,
+        "Chuẩn công ty",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        36,
+        43,
+        "bị móp",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        44,
+        79,
+        "Không biết do quá trình vận chuyển hay cố tình.",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "Mẫu bếp đẹp, đói hàng rất kỹ, giao hàng nhanh bất ngờ; về chất lượng thì chưa đánh giá được vì bếp chưa kết nối nguồn điện để sử dụng, chưa kích hoạt bảo hành điện tử!",
+    "labels": [
+      [
+        0,
+        11,
+        "Mẫu bếp đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        27,
+        46,
+        "giao hàng nhanh bất ngờ",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        48,
+        91,
+        "về chất lượng thì chưa đánh giá được",
+        "Chất lượng sản phẩm#Bình thường"
+      ]
+    ]
+  },
+  {
+    "text": "Đây là lần thứ 2 mình mua nồi chiên không dầu của locklock. Lần trước mình mua cho mẹ dùng rất ưng nên lần này mình đặt thêm 1 cái nữa cho mình. Nồi chiên của locklock thì khỏi phải chê rồi. Dùng nồi chiên này rất tiện, những món trước phải rán thì giờ có thể dùng nồi chiên để nấu mà không cần dùng đến dầu ăn, rất bảo vệ sức khoẻ. Mình đặt được tặng thêm 1 khay nướng của máy và được tặng thêm 1 ấm nước như hình.",
+    "labels": [
+      [
+        50,
+        57,
+        "rất ưng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        79,
+        99,
+        "khỏi phải chê rồi",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        101,
+        111,
+        "rất tiện",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        197,
+        265,
+        "Mình đặt được tặng thêm 1 khay nướng của máy và được tặng thêm 1 ấm nước như hình.",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sữa ngon rẻ được freeship, hàng gói cẩn thận",
+    "labels": [
+      [
+        0,
+        9,
+        "Sữa ngon rẻ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        22,
+        "freeship",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        24,
+        39,
+        "hàng gói cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giá shop bán mắc hơn shop gần nhà 1 hộp 20 không Mua lần này thôi Uống hết bước 5 bước mua rẻ hơn Được bình trà km coi như mua 40 không Nhưng bình trà nhỏ xíu khg đuoc nhiêu nước",
+    "labels": [
+      [
+        0,
+        45,
+        "Giá shop bán mắc hơn shop gần nhà 1 hộp 20 không",
+        "Giá cả#Tiêu cực"
+      ],
+      [
+        68,
+        79,
+        "mua rẻ hơn",
+        "Giá cả#Tích cực"
+      ],
+      [
+        111,
+        141,
+        "Nhưng bình trà nhỏ xíu khg đuoc nhiêu nước",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "vận chuyển nhanh. giao hàng xinh",
+    "labels": [
+      [
+        0,
+        14,
+        "vận chuyển nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        16,
+        28,
+        "giao hàng xinh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nồi xinh, gọn. Nhà 23 người ăn cũng ổn nha nấu tầm 1 chén gạo thì ok",
+    "labels": [
+      [
+        0,
+        12,
+        "Nồi xinh, gọn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        14,
+        48,
+        "Nhà 23 người ăn cũng ổn nha nấu tầm 1 chén gạo thì ok",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nồi Cơm Điện Midea CM06SA Hàng Chính Hãng gọn nhỏ tiện du5g cho cặp gia đình ít người , nấu rất nhanh , không hao điện , độ hâm nòng cơm tốt , thiết kế gọn nhẹ trang nhã , kah1 tốt",
+    "labels": [
+      [
+        35,
+        63,
+        "gọn nhỏ tiện du5g cho cặp gia đình ít người",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        66,
+        77,
+        "nấu rất nhanh",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        80,
+        92,
+        "không hao điện",
+        "Giá cả#Tích cực"
+      ],
+      [
+        95,
+        116,
+        "độ hâm nòng cơm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        119,
+        142,
+        "thiết kế gọn nhẹ trang nhã",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        145,
+        153,
+        "kah1 tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "thông tin sản phẩm em thấy đúng mà ta ? chuột tiền nào của đó luôn, click nghe êm gần như kh phát ra tiếng. vẫn nhạy khi để trực tiếp lên mặt bàn luôn. cầm chắc tay lắm giao hàng cực kì nhanh. và kh có tình trạng bóc mở hàng",
+    "labels": [
+      [
+        34,
+        52,
+        "chuột tiền nào của đó luôn",
+        "Giá cả#Tích cực"
+      ],
+      [
+        54,
+        85,
+        "click nghe êm gần như kh phát ra tiếng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        87,
+        122,
+        "vẫn nhạy khi để trực tiếp lên mặt bàn luôn",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        124,
+        137,
+        "cầm chắc tay lắm",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        138,
+        160,
+        "giao hàng cực kì nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        162,
+        192,
+        "và kh có tình trạng bóc mở hàng",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm y hình, đẹp mới. Nhà mình đã dùng luôn hôm qua thì bếp nhanh nóng, sd dễ. Hy vọng bếp dùng bền được 2 năm là rất oki. Giá tiền khá ổn. Vì mình cũng sd nhiều loại bếp điện rồi. Hồi trc mua bếp đơn Sakyo của Nhật giá 3 triệu mình ds được 2 năm thì hư rùi.v",
+    "labels": [
+      [
+        0,
+        19,
+        "Sản phẩm y hình, đẹp mới",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        45,
+        52,
+        "bếp nhanh nóng",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        54,
+        59,
+        "sd dễ",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        61,
+        89,
+        "Hy vọng bếp dùng bền được 2 năm là rất oki",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        91,
+        104,
+        "Giá tiền khá ổn",
+        "Giá cả#Tích cực"
+      ],
+      [
+        154,
+        160,
+        "hư rùi",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "chất lượng sản phẩm tốt, date 52024.",
+    "labels": [
+      [
+        0,
+        24,
+        "chất lượng sản phẩm tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        26,
+        36,
+        "date 52024",
+        "Khác"
+      ]
+    ]
+  },
+  {
+    "text": "về quê hết sữa đặt 400g bên xxx giao hàng ngay, 2h là nhận đóng gói cẩn thận",
+    "labels": [
+      [
+        31,
+        41,
+        "giao hàng ngay",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        44,
+        62,
+        "2h là nhận đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm cực kì tốt nha mng nên mua sau mình sẽ mua tiếp",
+    "labels": [
+      [
+        10,
+        13,
+        "tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sữa ngon cực kỳ bổ dưỡng",
+    "labels": [
+      [
+        0,
+        22,
+        "sữa ngon cực kỳ bổ dưỡng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "nấu cơm ngon, màu đẹp",
+    "labels": [
+      [
+        0,
+        10,
+        "nấu cơm ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        12,
+        19,
+        "màu đẹp",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Combo 8 băng vệ sinh Kotex MiniMeow : Mặc thoải mái, thoáng mát, thấm hút tốt, chống tràn tốt. Kèm khuyến mãi quà xinh. Nên mua.",
+    "labels": [
+      [
+        34,
+        70,
+        "Mặc thoải mái, thoáng mát, thấm hút tốt, chống tràn tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        72,
+        93,
+        "Kèm khuyến mãi quà xinh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        95,
+        103,
+        "Nên mua",
+        "Khác#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Sản phẩm dùng tốt. Tiki đóng gói hàng vừa đẹp vừa kỹ và cẩn thận.",
+    "labels": [
+      [
+        0,
+        16,
+        "Sản phẩm dùng tốt",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        18,
+        58,
+        "Tiki đóng gói hàng vừa đẹp vừa kỹ và cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Nhỏ gọn cực kì thích luôn",
+    "labels": [
+      [
+        0,
+        22,
+        "Sản phẩm nhỏ gọn và được yêu thích.",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "sữa ngon, giá săn sale tốt , đóng gói cẩn thận",
+    "labels": [
+      [
+        0,
+        8,
+        "sữa ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        10,
+        24,
+        "giá săn sale tốt",
+        "Giá cả#Tích cực"
+      ],
+      [
+        26,
+        42,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh ,không có bọc chống xốc nhưng hộp nhận được vẫn còn nguyên không bị móp",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        35,
+        69,
+        "vẫn còn nguyên không bị móp",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Tiki xem lại chứ hộp cơm vừa nhận mà đã bị móp méo mó rồi là sao. Móp mất 10cm.Hàng mới mà chán quá. Thất vọng tràn trề",
+    "labels": [
+      [
+        0,
+        52,
+        "Tiki xem lại chứ hộp cơm vừa nhận mà đã bị móp méo mó rồi là sao.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        53,
+        66,
+        "Móp mất 10cm.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        67,
+        78,
+        "Hàng mới mà chán quá.",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ],
+      [
+        79,
+        95,
+        "Thất vọng tràn trề",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "Ok bàn phím êm, gẩy nhe",
+    "labels": [
+      [
+        3,
+        11,
+        "bàn phím êm",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giao hàng nhanh, đóng gói cẩn thận sữa rất ngon hạn sd dài",
+    "labels": [
+      [
+        0,
+        13,
+        "Giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        15,
+        30,
+        "đóng gói cẩn thận",
+        "Dịch vụ#Tích cực"
+      ],
+      [
+        31,
+        40,
+        "sữa rất ngon",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        41,
+        51,
+        "hạn sd dài",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói đẹp, cẩn thận, tuy nhiên giao hàng hơi lâu HN cỡ 67 ngày mới nhận được sản phẩm giá cũng nhỉnh hơn Tiki trading 1020k.",
+    "labels": [
+      [
+        0,
+        19,
+        "Đóng gói đẹp, cẩn thận",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        27,
+        57,
+        "giao hàng hơi lâu HN cỡ 67 ngày",
+        "Dịch vụ#Tiêu cực"
+      ],
+      [
+        80,
+        110,
+        "giá cũng nhỉnh hơn Tiki trading 1020k",
+        "Giá cả#Tiêu cực"
+      ]
+    ]
+  },
+  {
+    "text": "ơ nhà ai cũng nhơ dat hàng tiki giá rẻ, mà chất lượng nữa",
+    "labels": [
+      [
+        25,
+        31,
+        "giá rẻ",
+        "Giá cả#Tích cực"
+      ],
+      [
+        37,
+        45,
+        "chất lượng",
+        "Chất lượng sản phẩm#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Đóng gói rất chuyên nghiệp giao hàng nhanh",
+    "labels": [
+      [
+        0,
+        21,
+        "Đóng gói rất chuyên nghiệp",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        22,
+        35,
+        "giao hàng nhanh",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Giá rẻ hơn ngoài tiệm nhưng mà chất lượng các thứ thì ok phết nói chung là 5 sao à với lại giao hàng cũng nhanh nữa",
+    "labels": [
+      [
+        0,
+        20,
+        "Giá rẻ hơn ngoài tiệm",
+        "Giá cả#Tích cực"
+      ],
+      [
+        25,
+        48,
+        "chất lượng các thứ thì ok phết",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        68,
+        86,
+        "giao hàng cũng nhanh nữa",
+        "Dịch vụ#Tích cực"
+      ]
+    ]
+  },
+  {
+    "text": "Chuột đẹp, nhạy và bấm cực êm, gần như không phát ra tiếng động nào. Ngoài ra thì cục kết nối USB đi kèm là loại thông thường, chỉ có thể connect được 1 thiết bị",
+    "labels": [
+      [
+        0,
+        50,
+        "Chuột đẹp, nhạy và bấm cực êm, gần như không phát ra tiếng động nào",
+        "Chất lượng sản phẩm#Tích cực"
+      ],
+      [
+        55,
+        128,
+        "cục kết nối USB đi kèm là loại thông thường, chỉ có thể connect được 1 thiết bị",
+        "Chất lượng sản phẩm#Tiêu cực"
+      ]
+    ]
+  }
+]

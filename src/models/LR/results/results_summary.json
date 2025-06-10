@@ -1,0 +1,20 @@
+{
+  "train_aspect_acc": 0.6644788074313049,
+  "train_sentiment_acc": 0.8416954054956057,
+  "val_aspect_acc": 0.6363636363636364,
+  "val_sentiment_acc": 0.8502066115702479,
+  "test_aspect_acc": 0.6824949698189134,
+  "test_sentiment_acc": 0.8173038229376257,
+  "train_aspect_f1_macro": 0.393411225300076,
+  "train_sentiment_f1_macro": 0.37169980203107295,
+  "val_aspect_f1_macro": 0.28109484718180366,
+  "val_sentiment_f1_macro": 0.3408709231879964,
+  "test_aspect_f1_macro": 0.251458295450196,
+  "test_sentiment_f1_macro": 0.3450873307482735,
+  "train_aspect_f1_weighted": 0.617753993183345,
+  "train_sentiment_f1_weighted": 0.7999127107184859,
+  "val_aspect_f1_weighted": 0.5891390933297149,
+  "val_sentiment_f1_weighted": 0.8043114672826425,
+  "test_aspect_f1_weighted": 0.6364061828863387,
+  "test_sentiment_f1_weighted": 0.7706752612136685
+}

@@ -1,0 +1,60 @@
+2025-06-08 14:54:20,880 - INFO - Starting training for 15 epochs
+2025-06-08 14:54:20,880 - INFO - Total training steps: 2730
+2025-06-08 14:54:20,896 - INFO - Epoch 1/15
+2025-06-08 15:18:47,785 - INFO - Train Loss: 1.2128
+2025-06-08 15:18:48,634 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 15:18:48,634 - INFO - New best F1: 0.3695
+2025-06-08 15:18:48,635 - INFO - Epoch 2/15
+2025-06-08 15:43:10,657 - INFO - Train Loss: 0.8898
+2025-06-08 15:43:11,424 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 15:43:11,432 - INFO - New best F1: 0.4684
+2025-06-08 15:43:11,432 - INFO - Epoch 3/15
+2025-06-08 16:07:50,936 - INFO - Train Loss: 0.7354
+2025-06-08 16:07:54,155 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 16:07:54,156 - INFO - New best F1: 0.5005
+2025-06-08 16:07:54,156 - INFO - Epoch 4/15
+2025-06-08 16:32:43,484 - INFO - Train Loss: 0.6197
+2025-06-08 16:32:44,384 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 16:32:44,394 - INFO - New best F1: 0.6090
+2025-06-08 16:32:44,395 - INFO - Epoch 5/15
+2025-06-08 16:57:20,575 - INFO - Train Loss: 0.5231
+2025-06-08 16:57:21,401 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 16:57:21,414 - INFO - New best F1: 0.6141
+2025-06-08 16:57:21,415 - INFO - Epoch 6/15
+2025-06-08 17:21:50,871 - INFO - Train Loss: 0.4537
+2025-06-08 17:21:50,874 - INFO - No improvement. Patience: 1/3
+2025-06-08 17:21:50,881 - INFO - Epoch 7/15
+2025-06-08 17:45:47,576 - INFO - Train Loss: 0.3988
+2025-06-08 17:45:48,404 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 17:45:48,405 - INFO - New best F1: 0.6266
+2025-06-08 17:45:48,406 - INFO - Epoch 8/15
+2025-06-08 18:09:22,284 - INFO - Train Loss: 0.3509
+2025-06-08 18:09:26,178 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 18:09:26,191 - INFO - New best F1: 0.6361
+2025-06-08 18:09:26,191 - INFO - Epoch 9/15
+2025-06-08 18:35:20,544 - INFO - Train Loss: 0.3116
+2025-06-08 18:35:20,544 - INFO - No improvement. Patience: 1/3
+2025-06-08 18:35:20,544 - INFO - Epoch 10/15
+2025-06-08 19:03:43,130 - INFO - Train Loss: 0.2781
+2025-06-08 19:03:44,006 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 19:03:44,006 - INFO - New best F1: 0.6604
+2025-06-08 19:03:44,006 - INFO - Epoch 11/15
+2025-06-08 19:27:59,389 - INFO - Train Loss: 0.2470
+2025-06-08 19:28:00,300 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 19:28:00,301 - INFO - New best F1: 0.6839
+2025-06-08 19:28:00,302 - INFO - Epoch 12/15
+2025-06-08 19:51:56,781 - INFO - Train Loss: 0.2259
+2025-06-08 19:51:57,601 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 19:51:57,602 - INFO - New best F1: 0.7129
+2025-06-08 19:51:57,603 - INFO - Epoch 13/15
+2025-06-08 20:17:28,972 - INFO - Train Loss: 0.2073
+2025-06-08 20:17:33,048 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 20:17:33,048 - INFO - New best F1: 0.7194
+2025-06-08 20:17:33,059 - INFO - Epoch 14/15
+2025-06-08 20:41:49,489 - INFO - Train Loss: 0.1921
+2025-06-08 20:41:50,316 - INFO - Model saved to C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints\best_model.pt
+2025-06-08 20:41:50,316 - INFO - New best F1: 0.7274
+2025-06-08 20:41:50,316 - INFO - Epoch 15/15
+2025-06-08 21:06:25,158 - INFO - Train Loss: 0.1836
+2025-06-08 21:06:25,171 - INFO - No improvement. Patience: 1/3
+2025-06-08 21:06:25,171 - INFO - Training completed!

@@ -1,0 +1,389 @@
+{
+  "feature_columns": [
+    "review_id",
+    "text_length",
+    "word_count",
+    "sentence_count",
+    "char_count",
+    "avg_word_length",
+    "punct_count",
+    "upper_count",
+    "digit_count",
+    "stopword_ratio",
+    "exclamation_count",
+    "question_count",
+    "positive_word_count",
+    "negative_word_count",
+    "neutral_word_count",
+    "num_aspects",
+    "num_unique_aspects",
+    "aspect_diversity",
+    "aspect_Chất lượng sản phẩm_count",
+    "aspect_Dịch vụ_count",
+    "aspect_Khác_count",
+    "aspect_Giá cả_count",
+    "positive_aspects",
+    "negative_aspects",
+    "sentiment_ratio",
+    "sentiment_balance",
+    "first_aspect_position",
+    "last_aspect_position",
+    "aspect_span_coverage",
+    "num_dates_mentioned",
+    "mentions_delivery_time",
+    "mentions_price",
+    "mentions_quantity",
+    "num_numbers",
+    "max_number",
+    "min_number",
+    "brand_mentions",
+    "adj_count",
+    "verb_count",
+    "noun_count",
+    "avg_sentence_length",
+    "sentence_length_std",
+    "complex_sentence_ratio",
+    "max_word_freq",
+    "repeated_words_count",
+    "repetition_ratio"
+  ],
+  "total_features": 46,
+  "feature_types": {
+    "text_features": [
+      "text_length",
+      "word_count",
+      "sentence_count",
+      "char_count",
+      "avg_word_length",
+      "punct_count",
+      "upper_count",
+      "digit_count",
+      "stopword_ratio",
+      "exclamation_count",
+      "question_count",
+      "positive_word_count",
+      "negative_word_count",
+      "neutral_word_count",
+      "aspect_Chất lượng sản phẩm_count",
+      "aspect_Dịch vụ_count",
+      "aspect_Khác_count",
+      "aspect_Giá cả_count",
+      "sentiment_ratio",
+      "adj_count",
+      "verb_count",
+      "noun_count",
+      "avg_sentence_length",
+      "sentence_length_std",
+      "complex_sentence_ratio",
+      "repeated_words_count",
+      "repetition_ratio"
+    ],
+    "tfidf_features": [],
+    "aspect_features": [
+      "aspect_diversity",
+      "aspect_Chất lượng sản phẩm_count",
+      "aspect_Dịch vụ_count",
+      "aspect_Khác_count",
+      "aspect_Giá cả_count",
+      "first_aspect_position",
+      "last_aspect_position",
+      "aspect_span_coverage"
+    ],
+    "temporal_features": [
+      "sentiment_ratio",
+      "sentiment_balance",
+      "num_dates_mentioned",
+      "mentions_delivery_time"
+    ],
+    "linguistic_features": [
+      "adj_count",
+      "verb_count",
+      "noun_count"
+    ]
+  },
+  "validation_report": {
+    "total_features": 46,
+    "total_samples": 4039,
+    "missing_values": "0",
+    "infinite_values": "0",
+    "constant_features": "0",
+    "feature_ranges": {
+      "review_id": {
+        "min": "0",
+        "max": "4038",
+        "mean": 2019.0,
+        "std": 1166.103197262861
+      },
+      "text_length": {
+        "min": 16.0,
+        "max": 2225.0,
+        "mean": 119.48130725427086,
+        "std": 120.08730143111244
+      },
+      "word_count": {
+        "min": 5.0,
+        "max": 500.0,
+        "mean": 26.793265659816786,
+        "std": 27.2720975506246
+      },
+      "sentence_count": {
+        "min": 0.0,
+        "max": 87.0,
+        "mean": 1.6820995295865313,
+        "std": 2.8874296655158402
+      },
+      "char_count": {
+        "min": 12.0,
+        "max": 1726.0,
+        "mean": 93.68804159445408,
+        "std": 92.91270585588582
+      },
+      "avg_word_length": {
+        "min": 2.0,
+        "max": 21.785714285714285,
+        "mean": 3.57853387096125,
+        "std": 0.5537816073479213
+      },
+      "punct_count": {
+        "min": 0.0,
+        "max": 91.0,
+        "mean": 3.350581827184947,
+        "std": 3.8133643194123406
+      },
+      "upper_count": {
+        "min": 0.0,
+        "max": 109.0,
+        "mean": 2.4528348601138896,
+        "std": 4.790684709966314
+      },
+      "digit_count": {
+        "min": 0.0,
+        "max": 39.0,
+        "mean": 0.933399356276306,
+        "std": 2.547181547372404
+      },
+      "stopword_ratio": {
+        "min": 0.0,
+        "max": 0.8484848484848485,
+        "mean": 0.25886267061544666,
+        "std": 0.12848740873763878
+      },
+      "exclamation_count": {
+        "min": 0.0,
+        "max": 39.0,
+        "mean": 0.10497647932656598,
+        "std": 0.7955251851135573
+      },
+      "question_count": {
+        "min": 0.0,
+        "max": 15.0,
+        "mean": 0.039613765783609804,
+        "std": 0.3676026363281677
+      },
+      "positive_word_count": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 1.0985392423867293,
+        "std": 0.9785694471194072
+      },
+      "negative_word_count": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.06808615994057936,
+        "std": 0.27986601992303983
+      },
+      "neutral_word_count": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.22084674424362466,
+        "std": 0.4464944365342522
+      },
+      "num_aspects": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 3.0804654617479574,
+        "std": 1.6457465193571592
+      },
+      "num_unique_aspects": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 1.862342163901956,
+        "std": 0.7810697131262497
+      },
+      "aspect_diversity": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6917693139437383,
+        "std": 0.26861144733055337
+      },
+      "aspect_Chất lượng sản phẩm_count": {
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 1.856647685070562,
+        "std": 1.352633866877741
+      },
+      "aspect_Dịch vụ_count": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 0.7821242881901461,
+        "std": 0.8894112356574722
+      },
+      "aspect_Khác_count": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 0.2205991582074771,
+        "std": 0.5110095840169646
+      },
+      "aspect_Giá cả_count": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.2210943302797722,
+        "std": 0.46405270614583083
+      },
+      "positive_aspects": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 2.4382272839811834,
+        "std": 1.5859350934674956
+      },
+      "negative_aspects": {
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 0.4278286704629859,
+        "std": 0.8754411691110557
+      },
+      "sentiment_ratio": {
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.6692057632884569,
+        "std": 0.6104736495454994
+      },
+      "sentiment_balance": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.11417803400967551,
+        "std": 0.2652937349044179
+      },
+      "first_aspect_position": {
+        "min": 0.0,
+        "max": 0.7777777777777778,
+        "mean": 0.04909481437728936,
+        "std": 0.11523867255220312
+      },
+      "last_aspect_position": {
+        "min": 0.0,
+        "max": 1.1450980392156862,
+        "mean": 0.7861041968367264,
+        "std": 0.13573841039980092
+      },
+      "aspect_span_coverage": {
+        "min": 0.0,
+        "max": 1.1450980392156862,
+        "mean": 0.737009382459437,
+        "std": 0.19171009012737703
+      },
+      "num_dates_mentioned": {
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.01163654369893538,
+        "std": 0.1955758077930282
+      },
+      "mentions_delivery_time": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.45506313443921764,
+        "std": 0.49803824137449654
+      },
+      "mentions_price": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.22084674424362466,
+        "std": 0.41486874229926085
+      },
+      "mentions_quantity": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.11933646942312454,
+        "std": 0.3242241555706274
+      },
+      "num_numbers": {
+        "min": 0.0,
+        "max": 17.0,
+        "mean": 0.5808368408021788,
+        "std": 1.3008699770713783
+      },
+      "max_number": {
+        "min": 0.0,
+        "max": 288028347.0,
+        "mean": 115229.3109680614,
+        "std": 4675427.999044488
+      },
+      "min_number": {
+        "min": 0.0,
+        "max": 13112021.0,
+        "mean": 4877.451101757861,
+        "std": 213856.82946237977
+      },
+      "brand_mentions": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.18568952711067097,
+        "std": 0.3952205967881183
+      },
+      "adj_count": {
+        "min": 0.0,
+        "max": 39.0,
+        "mean": 0.9383510769992572,
+        "std": 1.1572337918834608
+      },
+      "verb_count": {
+        "min": 0.0,
+        "max": 11.0,
+        "mean": 1.1223075018568953,
+        "std": 1.2187226172316772
+      },
+      "noun_count": {
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 0.9026986877940084,
+        "std": 1.0980599516106193
+      },
+      "avg_sentence_length": {
+        "min": 1.6666666666666667,
+        "max": 117.0,
+        "mean": 13.731127326199637,
+        "std": 10.568868877774348
+      },
+      "sentence_length_std": {
+        "min": 0.0,
+        "max": 109.0,
+        "mean": 2.5261044391565908,
+        "std": 4.534766476993514
+      },
+      "complex_sentence_ratio": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.2665537961582586,
+        "std": 0.3745803527772673
+      },
+      "max_word_freq": {
+        "min": 1.0,
+        "max": 39.0,
+        "mean": 1.801931171081951,
+        "std": 1.3086696980596384
+      },
+      "repeated_words_count": {
+        "min": 0.0,
+        "max": 89.0,
+        "mean": 2.117850953206239,
+        "std": 4.456100963454676
+      },
+      "repetition_ratio": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.0987951528278619,
+        "std": 0.13110414243203963
+      }
+    }
+  }
+}
