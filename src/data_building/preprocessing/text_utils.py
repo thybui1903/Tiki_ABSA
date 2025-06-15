@@ -1,6 +1,7 @@
 import re
 import unicodedata
 import emoji
+from src.data_building.config import SPAM_PHRASES, MIN_WORDS_IN_COMMENT, SLANG_DICT # Import từ config
 
 # ===== Cleaning functions =====
 
@@ -22,13 +23,8 @@ def remove_special_chars(text):
     return text.strip()
 
 def normalize_slang(text):
-    slang_dict = {
-        "ko": "không", "k": "không", "hok": "không",
-        "dc": "được", "đc": "được", "bt": "bình thường",
-        "thik": "thích", "thấy oke": "thấy ổn", "oke": "ok", "okie": "ok",
-        "mik": "mình", "j": "gì", "cx": "cũng"
-    }
-    for slang, full in slang_dict.items():
+    # Sử dụng SLANG_DICT từ config
+    for slang, full in SLANG_DICT.items():
         text = re.sub(r'\b' + re.escape(slang) + r'\b', full, text)
     return text
 
@@ -36,8 +32,9 @@ def normalize_slang(text):
 
 def is_spam(comment):
     lower = comment.lower()
-    spam_phrases = ["sản phẩm tốt", "giao hàng nhanh", "ok", "được", "ngon", "like", "thanks"]
-    return any(lower == phrase or lower.strip('.') == phrase for phrase in spam_phrases)
+    # Sử dụng SPAM_PHRASES từ config
+    return any(lower == phrase or lower.strip('.') == phrase for phrase in SPAM_PHRASES)
 
 def is_valid_comment(comment, seen_set):
-    return len(comment.split()) >= 5 and comment not in seen_set and not is_spam(comment)
+    # Sử dụng MIN_WORDS_IN_COMMENT từ config
+    return len(comment.split()) >= MIN_WORDS_IN_COMMENT and comment not in seen_set and not is_spam(comment)
