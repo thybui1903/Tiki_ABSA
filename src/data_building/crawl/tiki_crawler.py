@@ -1,6 +1,6 @@
 import requests
 import time
-from src.data.config import HEADERS, SLEEP_TIME # Import từ config
+from src.data_building.config import HEADERS, SLEEP_TIME # Import từ config
 
 def get_products_in_category(category_id, num_pages):
     """Lấy danh sách sản phẩm trong một danh mục cụ thể."""

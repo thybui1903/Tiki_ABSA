@@ -1,5 +1,5 @@
 import json
-from src.data_building.config import CATEGORY_IDS, MAX_PER_CATEGORY, OUTPUT_FILE_NAME, PRODUCT_PAGES_TO_CRAWL, REVIEW_PAGES_PER_PRODUCT
+from src.data_building.config import CATEGORY_IDS, MAX_PER_CATEGORY, OUTPUT_FILE_NAME, CRAWL_PRODUCT_PAGES, CRAWL_REVIEW_PAGES_PER_PRODUCT
 from src.data_building.crawl.tiki_crawler import get_products_in_category, get_reviews_for_product
 
 def main_crawl():
@@ -10,7 +10,7 @@ def main_crawl():
         for cat_id in CATEGORY_IDS:
             print(f"▶️ Bắt đầu crawl danh mục {cat_id}")
             category_comments = 0
-            products = get_products_in_category(cat_id, PRODUCT_PAGES_TO_CRAWL)
+            products = get_products_in_category(cat_id, CRAWL_PRODUCT_PAGES)
 
             for product in products:
                 if category_comments >= MAX_PER_CATEGORY or all_comments >= max_total:
@@ -22,7 +22,7 @@ def main_crawl():
                 if not spid or not product_id:
                     continue
 
-                reviews = get_reviews_for_product(spid, product_id, REVIEW_PAGES_PER_PRODUCT)
+                reviews = get_reviews_for_product(spid, product_id, CRAWL_REVIEW_PAGES_PER_PRODUCT)
 
                 for review in reviews:
                     if category_comments >= MAX_PER_CATEGORY or all_comments >= max_total:
