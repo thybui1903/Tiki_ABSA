@@ -6,13 +6,13 @@ HEADERS = {
 }
 CATEGORY_IDS = [2549, 1815,]  # danh mục cần crawl
 MAX_PER_CATEGORY = 1000  # Số lượng comment mỗi danh mục
-OUTPUT_FILE_NAME = "data/raw/raw_data.json"
+RAW_DATA_PATH = "data/raw/raw_data.json"
 CRAWL_PRODUCT_PAGES = 10  # Số trang sản phẩm cần crawl
 CRAWL_REVIEW_PAGES_PER_PRODUCT = 20 # Số trang bình luận mỗi sản phẩm
 SLEEP_TIME = 0.5 # Thời gian chờ giữa các request để tránh bị block
 
 # Cấu hình đường dẫn file cho Preprocessing
-RAW_DATA_PATH = 'data/raw/raw_data.jsonl' # Đường dẫn đến file dữ liệu thô (ví dụ từ bước crawl)
+RAW_DATA_PATH = 'data/raw/raw_data.json' # Đường dẫn đến file dữ liệu thô (ví dụ từ bước crawl)
 PROCESSED_DATA_PATH = 'data/processed/processed_data.json' # Đường dẫn đến file dữ liệu đã được tiền xử lý
 
 # Cấu hình cho hàm filtering (is_spam) trong text_utils

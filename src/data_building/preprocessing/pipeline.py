@@ -1,4 +1,4 @@
-from .text_utils import (
+from src.data_building.preprocessing.text_utils import (
     normalize_whitespace,
     remove_urls,
     remove_emojis,
