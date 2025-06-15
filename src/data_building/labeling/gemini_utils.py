@@ -1,6 +1,6 @@
 import re
 import json
-from config import DEFAULT_MODEL
+from src.data_building.config import DEFAULT_MODEL
 import google.generativeai as genai
 
 def call_gemini_sentiment(review_text):

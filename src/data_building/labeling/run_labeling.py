@@ -1,4 +1,4 @@
-from src.labeling.batch_labeling import process_reviews_by_batch
+from src.data_building.labeling.batch_labeling import process_reviews_by_batch
 
 if __name__ == "__main__":
     process_reviews_by_batch(

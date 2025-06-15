@@ -2,7 +2,7 @@ import json
 import os
 import re
 import time
-from gemini_utils import call_gemini_sentiment
+from src.data_building.labeling.gemini_utils import call_gemini_sentiment
 
 def process_reviews_by_batch(input_file, output_file, batch_size=3, sleep_time=2):
     try:

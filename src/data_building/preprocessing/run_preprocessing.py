@@ -1,6 +1,6 @@
 import json
-from src.config import RAW_DATA_PATH, PROCESSED_DATA_PATH
-from src.preprocessing.pipeline import preprocess_pipeline
+from src.data_building.config import RAW_DATA_PATH, PROCESSED_DATA_PATH
+from src.data_building.preprocessing.pipeline import preprocess_pipeline
 
 if __name__ == "__main__":
     print("[INFO] Starting preprocessing...")
