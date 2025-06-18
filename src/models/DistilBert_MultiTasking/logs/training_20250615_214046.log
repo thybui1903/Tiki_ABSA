@@ -1,0 +1,236 @@
+2025-06-15 21:40:46,473 - INFO - Starting training for 15 epochs
+2025-06-15 21:40:46,474 - INFO - Epoch 1/15
+2025-06-15 21:57:06,617 - INFO - 
+Epoch 1 Metrics:
+2025-06-15 21:57:06,617 - INFO -   Training:
+2025-06-15 21:57:06,617 - INFO -     Combined Loss: 1.0734
+2025-06-15 21:57:06,617 - INFO -     Aspect Loss: 0.5364
+2025-06-15 21:57:06,617 - INFO -     Sentiment Loss: 0.5370
+2025-06-15 21:57:06,617 - INFO -   Validation:
+2025-06-15 21:57:06,617 - INFO -     Combined Loss: 0.7816
+2025-06-15 21:57:06,617 - INFO -     Aspect Loss: 0.4078
+2025-06-15 21:57:06,617 - INFO -     Sentiment Loss: 0.3738
+2025-06-15 21:57:06,617 - INFO -     Accuracy: 0.4119
+2025-06-15 21:57:06,617 - INFO -     F1 Macro: 0.4400
+2025-06-15 21:57:06,617 - INFO -     F1 Weighted: 0.7510
+2025-06-15 21:57:07,084 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 21:57:07,084 - INFO - New best F1: 0.4400 - Model saved!
+2025-06-15 21:57:07,084 - INFO - Epoch 2/15
+2025-06-15 22:13:12,202 - INFO - 
+Epoch 2 Metrics:
+2025-06-15 22:13:12,202 - INFO -   Training:
+2025-06-15 22:13:12,202 - INFO -     Combined Loss: 0.7507
+2025-06-15 22:13:12,202 - INFO -     Aspect Loss: 0.3776
+2025-06-15 22:13:12,202 - INFO -     Sentiment Loss: 0.3731
+2025-06-15 22:13:12,202 - INFO -   Validation:
+2025-06-15 22:13:12,202 - INFO -     Combined Loss: 0.6308
+2025-06-15 22:13:12,202 - INFO -     Aspect Loss: 0.3378
+2025-06-15 22:13:12,202 - INFO -     Sentiment Loss: 0.2930
+2025-06-15 22:13:12,202 - INFO -     Accuracy: 0.4516
+2025-06-15 22:13:12,203 - INFO -     F1 Macro: 0.4955
+2025-06-15 22:13:12,203 - INFO -     F1 Weighted: 0.7842
+2025-06-15 22:13:12,719 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 22:13:12,719 - INFO - New best F1: 0.4955 - Model saved!
+2025-06-15 22:13:12,719 - INFO - Epoch 3/15
+2025-06-15 22:30:55,926 - INFO - 
+Epoch 3 Metrics:
+2025-06-15 22:30:55,926 - INFO -   Training:
+2025-06-15 22:30:55,926 - INFO -     Combined Loss: 0.5861
+2025-06-15 22:30:55,926 - INFO -     Aspect Loss: 0.2915
+2025-06-15 22:30:55,926 - INFO -     Sentiment Loss: 0.2946
+2025-06-15 22:30:55,926 - INFO -   Validation:
+2025-06-15 22:30:55,926 - INFO -     Combined Loss: 0.5241
+2025-06-15 22:30:55,927 - INFO -     Aspect Loss: 0.2552
+2025-06-15 22:30:55,927 - INFO -     Sentiment Loss: 0.2689
+2025-06-15 22:30:55,927 - INFO -     Accuracy: 0.5360
+2025-06-15 22:30:55,927 - INFO -     F1 Macro: 0.6368
+2025-06-15 22:30:55,927 - INFO -     F1 Weighted: 0.8508
+2025-06-15 22:30:56,408 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 22:30:56,408 - INFO - New best F1: 0.6368 - Model saved!
+2025-06-15 22:30:56,408 - INFO - Epoch 4/15
+2025-06-15 22:47:23,085 - INFO - 
+Epoch 4 Metrics:
+2025-06-15 22:47:23,085 - INFO -   Training:
+2025-06-15 22:47:23,086 - INFO -     Combined Loss: 0.4816
+2025-06-15 22:47:23,086 - INFO -     Aspect Loss: 0.2373
+2025-06-15 22:47:23,086 - INFO -     Sentiment Loss: 0.2442
+2025-06-15 22:47:23,086 - INFO -   Validation:
+2025-06-15 22:47:23,086 - INFO -     Combined Loss: 0.4929
+2025-06-15 22:47:23,086 - INFO -     Aspect Loss: 0.2404
+2025-06-15 22:47:23,086 - INFO -     Sentiment Loss: 0.2525
+2025-06-15 22:47:23,086 - INFO -     Accuracy: 0.5434
+2025-06-15 22:47:23,086 - INFO -     F1 Macro: 0.6389
+2025-06-15 22:47:23,086 - INFO -     F1 Weighted: 0.8500
+2025-06-15 22:47:23,678 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 22:47:23,679 - INFO - New best F1: 0.6389 - Model saved!
+2025-06-15 22:47:23,679 - INFO - Epoch 5/15
+2025-06-15 23:04:50,381 - INFO - 
+Epoch 5 Metrics:
+2025-06-15 23:04:50,381 - INFO -   Training:
+2025-06-15 23:04:50,381 - INFO -     Combined Loss: 0.4088
+2025-06-15 23:04:50,381 - INFO -     Aspect Loss: 0.2019
+2025-06-15 23:04:50,381 - INFO -     Sentiment Loss: 0.2069
+2025-06-15 23:04:50,381 - INFO -   Validation:
+2025-06-15 23:04:50,381 - INFO -     Combined Loss: 0.4875
+2025-06-15 23:04:50,381 - INFO -     Aspect Loss: 0.2236
+2025-06-15 23:04:50,382 - INFO -     Sentiment Loss: 0.2639
+2025-06-15 23:04:50,382 - INFO -     Accuracy: 0.5459
+2025-06-15 23:04:50,382 - INFO -     F1 Macro: 0.6398
+2025-06-15 23:04:50,382 - INFO -     F1 Weighted: 0.8517
+2025-06-15 23:04:50,869 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 23:04:50,869 - INFO - New best F1: 0.6398 - Model saved!
+2025-06-15 23:04:50,869 - INFO - Epoch 6/15
+2025-06-15 23:22:15,322 - INFO - 
+Epoch 6 Metrics:
+2025-06-15 23:22:15,323 - INFO -   Training:
+2025-06-15 23:22:15,323 - INFO -     Combined Loss: 0.3465
+2025-06-15 23:22:15,323 - INFO -     Aspect Loss: 0.1732
+2025-06-15 23:22:15,323 - INFO -     Sentiment Loss: 0.1732
+2025-06-15 23:22:15,323 - INFO -   Validation:
+2025-06-15 23:22:15,323 - INFO -     Combined Loss: 0.5040
+2025-06-15 23:22:15,323 - INFO -     Aspect Loss: 0.2278
+2025-06-15 23:22:15,323 - INFO -     Sentiment Loss: 0.2762
+2025-06-15 23:22:15,323 - INFO -     Accuracy: 0.5583
+2025-06-15 23:22:15,323 - INFO -     F1 Macro: 0.6754
+2025-06-15 23:22:15,323 - INFO -     F1 Weighted: 0.8624
+2025-06-15 23:22:15,819 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 23:22:15,820 - INFO - New best F1: 0.6754 - Model saved!
+2025-06-15 23:22:15,820 - INFO - Epoch 7/15
+2025-06-15 23:39:40,786 - INFO - 
+Epoch 7 Metrics:
+2025-06-15 23:39:40,786 - INFO -   Training:
+2025-06-15 23:39:40,786 - INFO -     Combined Loss: 0.2908
+2025-06-15 23:39:40,787 - INFO -     Aspect Loss: 0.1474
+2025-06-15 23:39:40,787 - INFO -     Sentiment Loss: 0.1434
+2025-06-15 23:39:40,787 - INFO -   Validation:
+2025-06-15 23:39:40,787 - INFO -     Combined Loss: 0.5391
+2025-06-15 23:39:40,787 - INFO -     Aspect Loss: 0.2373
+2025-06-15 23:39:40,787 - INFO -     Sentiment Loss: 0.3018
+2025-06-15 23:39:40,787 - INFO -     Accuracy: 0.5707
+2025-06-15 23:39:40,787 - INFO -     F1 Macro: 0.7266
+2025-06-15 23:39:40,787 - INFO -     F1 Weighted: 0.8768
+2025-06-15 23:39:41,282 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 23:39:41,282 - INFO - New best F1: 0.7266 - Model saved!
+2025-06-15 23:39:41,282 - INFO - Epoch 8/15
+2025-06-15 23:56:56,820 - INFO - 
+Epoch 8 Metrics:
+2025-06-15 23:56:56,821 - INFO -   Training:
+2025-06-15 23:56:56,821 - INFO -     Combined Loss: 0.2437
+2025-06-15 23:56:56,821 - INFO -     Aspect Loss: 0.1254
+2025-06-15 23:56:56,821 - INFO -     Sentiment Loss: 0.1184
+2025-06-15 23:56:56,821 - INFO -   Validation:
+2025-06-15 23:56:56,821 - INFO -     Combined Loss: 0.5390
+2025-06-15 23:56:56,821 - INFO -     Aspect Loss: 0.2342
+2025-06-15 23:56:56,821 - INFO -     Sentiment Loss: 0.3049
+2025-06-15 23:56:56,821 - INFO -     Accuracy: 0.5831
+2025-06-15 23:56:56,821 - INFO -     F1 Macro: 0.7574
+2025-06-15 23:56:56,821 - INFO -     F1 Weighted: 0.8895
+2025-06-15 23:56:57,320 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-15 23:56:57,320 - INFO - New best F1: 0.7574 - Model saved!
+2025-06-15 23:56:57,320 - INFO - Epoch 9/15
+2025-06-16 00:14:17,064 - INFO - 
+Epoch 9 Metrics:
+2025-06-16 00:14:17,064 - INFO -   Training:
+2025-06-16 00:14:17,064 - INFO -     Combined Loss: 0.2001
+2025-06-16 00:14:17,065 - INFO -     Aspect Loss: 0.1078
+2025-06-16 00:14:17,065 - INFO -     Sentiment Loss: 0.0922
+2025-06-16 00:14:17,065 - INFO -   Validation:
+2025-06-16 00:14:17,065 - INFO -     Combined Loss: 0.5761
+2025-06-16 00:14:17,065 - INFO -     Aspect Loss: 0.2457
+2025-06-16 00:14:17,065 - INFO -     Sentiment Loss: 0.3304
+2025-06-16 00:14:17,065 - INFO -     Accuracy: 0.5757
+2025-06-16 00:14:17,065 - INFO -     F1 Macro: 0.7618
+2025-06-16 00:14:17,065 - INFO -     F1 Weighted: 0.8912
+2025-06-16 00:14:17,571 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-16 00:14:17,572 - INFO - New best F1: 0.7618 - Model saved!
+2025-06-16 00:14:17,572 - INFO - Epoch 10/15
+2025-06-16 00:31:38,926 - INFO - 
+Epoch 10 Metrics:
+2025-06-16 00:31:38,926 - INFO -   Training:
+2025-06-16 00:31:38,927 - INFO -     Combined Loss: 0.1622
+2025-06-16 00:31:38,927 - INFO -     Aspect Loss: 0.0887
+2025-06-16 00:31:38,927 - INFO -     Sentiment Loss: 0.0735
+2025-06-16 00:31:38,927 - INFO -   Validation:
+2025-06-16 00:31:38,927 - INFO -     Combined Loss: 0.6072
+2025-06-16 00:31:38,927 - INFO -     Aspect Loss: 0.2563
+2025-06-16 00:31:38,927 - INFO -     Sentiment Loss: 0.3509
+2025-06-16 00:31:38,928 - INFO -     Accuracy: 0.5881
+2025-06-16 00:31:38,928 - INFO -     F1 Macro: 0.7649
+2025-06-16 00:31:38,928 - INFO -     F1 Weighted: 0.8899
+2025-06-16 00:31:39,416 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-16 00:31:39,416 - INFO - New best F1: 0.7649 - Model saved!
+2025-06-16 00:31:39,416 - INFO - Epoch 11/15
+2025-06-16 00:49:18,237 - INFO - 
+Epoch 11 Metrics:
+2025-06-16 00:49:18,237 - INFO -   Training:
+2025-06-16 00:49:18,237 - INFO -     Combined Loss: 0.1355
+2025-06-16 00:49:18,237 - INFO -     Aspect Loss: 0.0772
+2025-06-16 00:49:18,237 - INFO -     Sentiment Loss: 0.0583
+2025-06-16 00:49:18,237 - INFO -   Validation:
+2025-06-16 00:49:18,237 - INFO -     Combined Loss: 0.6426
+2025-06-16 00:49:18,237 - INFO -     Aspect Loss: 0.2636
+2025-06-16 00:49:18,237 - INFO -     Sentiment Loss: 0.3791
+2025-06-16 00:49:18,237 - INFO -     Accuracy: 0.5707
+2025-06-16 00:49:18,238 - INFO -     F1 Macro: 0.7445
+2025-06-16 00:49:18,238 - INFO -     F1 Weighted: 0.8828
+2025-06-16 00:49:18,238 - INFO - Epoch 12/15
+2025-06-16 01:06:37,650 - INFO - 
+Epoch 12 Metrics:
+2025-06-16 01:06:37,650 - INFO -   Training:
+2025-06-16 01:06:37,650 - INFO -     Combined Loss: 0.1066
+2025-06-16 01:06:37,650 - INFO -     Aspect Loss: 0.0638
+2025-06-16 01:06:37,650 - INFO -     Sentiment Loss: 0.0428
+2025-06-16 01:06:37,650 - INFO -   Validation:
+2025-06-16 01:06:37,650 - INFO -     Combined Loss: 0.6656
+2025-06-16 01:06:37,650 - INFO -     Aspect Loss: 0.2708
+2025-06-16 01:06:37,650 - INFO -     Sentiment Loss: 0.3948
+2025-06-16 01:06:37,650 - INFO -     Accuracy: 0.5707
+2025-06-16 01:06:37,650 - INFO -     F1 Macro: 0.7654
+2025-06-16 01:06:37,650 - INFO -     F1 Weighted: 0.8922
+2025-06-16 01:06:38,178 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-16 01:06:38,178 - INFO - New best F1: 0.7654 - Model saved!
+2025-06-16 01:06:38,178 - INFO - Epoch 13/15
+2025-06-16 01:23:55,678 - INFO - 
+Epoch 13 Metrics:
+2025-06-16 01:23:55,679 - INFO -   Training:
+2025-06-16 01:23:55,679 - INFO -     Combined Loss: 0.0870
+2025-06-16 01:23:55,679 - INFO -     Aspect Loss: 0.0518
+2025-06-16 01:23:55,679 - INFO -     Sentiment Loss: 0.0352
+2025-06-16 01:23:55,679 - INFO -   Validation:
+2025-06-16 01:23:55,679 - INFO -     Combined Loss: 0.6825
+2025-06-16 01:23:55,679 - INFO -     Aspect Loss: 0.2796
+2025-06-16 01:23:55,680 - INFO -     Sentiment Loss: 0.4030
+2025-06-16 01:23:55,680 - INFO -     Accuracy: 0.5757
+2025-06-16 01:23:55,680 - INFO -     F1 Macro: 0.7725
+2025-06-16 01:23:55,680 - INFO -     F1 Weighted: 0.8945
+2025-06-16 01:23:56,180 - INFO - Model saved to checkpoints/best_model.pt
+2025-06-16 01:23:56,180 - INFO - New best F1: 0.7725 - Model saved!
+2025-06-16 01:23:56,180 - INFO - Epoch 14/15
+2025-06-16 01:41:15,994 - INFO - 
+Epoch 14 Metrics:
+2025-06-16 01:41:15,994 - INFO -   Training:
+2025-06-16 01:41:15,994 - INFO -     Combined Loss: 0.0776
+2025-06-16 01:41:15,994 - INFO -     Aspect Loss: 0.0470
+2025-06-16 01:41:15,994 - INFO -     Sentiment Loss: 0.0307
+2025-06-16 01:41:15,994 - INFO -   Validation:
+2025-06-16 01:41:15,994 - INFO -     Combined Loss: 0.6877
+2025-06-16 01:41:15,995 - INFO -     Aspect Loss: 0.2903
+2025-06-16 01:41:15,995 - INFO -     Sentiment Loss: 0.3974
+2025-06-16 01:41:15,995 - INFO -     Accuracy: 0.5831
+2025-06-16 01:41:15,995 - INFO -     F1 Macro: 0.7711
+2025-06-16 01:41:15,995 - INFO -     F1 Weighted: 0.8929
+2025-06-16 01:41:15,995 - INFO - Epoch 15/15
+2025-06-16 01:58:37,060 - INFO - 
+Epoch 15 Metrics:
+2025-06-16 01:58:37,061 - INFO -   Training:
+2025-06-16 01:58:37,061 - INFO -     Combined Loss: 0.0678
+2025-06-16 01:58:37,061 - INFO -     Aspect Loss: 0.0412
+2025-06-16 01:58:37,061 - INFO -     Sentiment Loss: 0.0266
+2025-06-16 01:58:37,061 - INFO -   Validation:
+2025-06-16 01:58:37,061 - INFO -     Combined Loss: 0.6970
+2025-06-16 01:58:37,062 - INFO -     Aspect Loss: 0.2917
+2025-06-16 01:58:37,062 - INFO -     Sentiment Loss: 0.4052
+2025-06-16 01:58:37,062 - INFO -     Accuracy: 0.5806
+2025-06-16 01:58:37,062 - INFO -     F1 Macro: 0.7646
+2025-06-16 01:58:37,062 - INFO -     F1 Weighted: 0.8903
+2025-06-16 01:58:37,062 - INFO - Training completed!

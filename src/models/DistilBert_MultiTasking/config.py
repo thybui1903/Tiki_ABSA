@@ -35,17 +35,18 @@ class ModelConfig:
 @dataclass
 class TrainingConfig:
     """Training configuration"""
-    output_dir: str = "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/output"
-    model_save_path: str = "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints"
-    log_dir: str = "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/logs"
+    output_dir: str = "output"
+    model_save_path: str = "checkpoints"
+    log_dir: str = "logs"
     save_steps: int = 500
     eval_steps: int = 500
     logging_steps: int = 100
     early_stopping_patience: int = 3
     gradient_accumulation_steps: int = 1
     max_grad_norm: float = 1.0
-    
-    # Data paths
-    train_data_path: str = "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/data/data_split/v2_train.json"
-    val_data_path: str = "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/data/data_split/v2_val.json"
-    test_data_path: str = "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/data/data_split/v2_test.json"
+
+    # ✅ Đường dẫn chính xác đến tập dữ liệu nằm ngoài src/
+    train_data_path: str = "../../../data/clean_data/train.json"
+    val_data_path: str = "../../../data/clean_data/dev.json"
+    test_data_path: str = "../../../data/clean_data/test.json"
+

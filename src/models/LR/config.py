@@ -1,11 +1,14 @@
+# config.py 
 import os
 
 class Config:
-    # Đường dẫn dữ liệu
-    DATA_DIR = "data"
-    TRAIN_FILE = os.path.join(DATA_DIR, "C:/Users/DELL/Tiki_ABSA/src/models/LR/data/data_split/v2_train.json")
-    VAL_FILE = os.path.join(DATA_DIR, "C:/Users/DELL/Tiki_ABSA/src/models/LR/data/data_split/v2_val.json")
-    TEST_FILE = os.path.join(DATA_DIR, "C:/Users/DELL/Tiki_ABSA/src/models/LR/data/data_split/v2_test.json")
+    # Đường dẫn dữ liệu (data ở ngoài src/models/LR/)
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
+    DATA_DIR = os.path.join(BASE_DIR, "data", "clean_data")
+
+    TRAIN_FILE = os.path.join(DATA_DIR, "train.json")
+    VAL_FILE = os.path.join(DATA_DIR, "dev.json")
+    TEST_FILE = os.path.join(DATA_DIR, "test.json")
     
     # Model config
     MAX_FEATURES = 10000
@@ -19,6 +22,7 @@ class Config:
     RANDOM_STATE = 42
     
     # Output
-    MODEL_DIR = "C:/Users/DELL/Tiki_ABSA/src/models/LR/checkpoints"
-    RESULTS_DIR = "C:/Users/DELL/Tiki_ABSA/src/models/LR/results"
-    PLOTS_DIR = "C:/Users/DELL/Tiki_ABSA/src/models/LR/visualizations"
+    MODEL_DIR = os.path.join(BASE_DIR, "src", "models", "LR", "checkpoints")
+    RESULTS_DIR = os.path.join(BASE_DIR, "src", "models", "LR", "results")
+    PLOTS_DIR = os.path.join(BASE_DIR, "src", "models", "LR", "visualizations")
+
