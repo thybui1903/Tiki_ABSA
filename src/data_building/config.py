@@ -28,7 +28,6 @@ SLANG_DICT = {
 }
 
 # Cấu hình cho việc label dữ liệu
-
 DEFAULT_MODEL = "gemini-2.0-flash" # Hoặc tên model Gemini bạn đang sử dụng
 BATCH_SIZE = 3 # Kích thước batch mặc định cho quá trình xử lý review
 SLEEP_TIME = 2 # Thời gian chờ giữa các batch để tránh quá tải API hoặc bị block
