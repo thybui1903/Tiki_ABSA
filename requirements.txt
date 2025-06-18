@@ -11,3 +11,7 @@ wordcloud
 scikit-learn
 google.generativeai
 torch
+transformers
+tqdm
+jupyter
+joblib
