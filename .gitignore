@@ -1,0 +1,9 @@
+src/models/**/checkpoints/
+**/checkpoints/
+__pycache__
+*.pyc
+*.pth
+*.bin
+*.csv
+*.json
+*.examine
