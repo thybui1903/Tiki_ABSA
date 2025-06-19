@@ -1,0 +1,49 @@
+=== MODEL EVALUATION SUMMARY ===
+
+ASPECT CLASSIFICATION:
+  Overall F1 (Macro): 0.8057
+  Overall F1 (Weighted): 0.9031
+  Overall Precision (Macro): 0.8299
+  Overall Recall (Macro): 0.7900
+  Subset Accuracy: 0.7407
+  Average Label Accuracy: 0.9185
+  Cross-Entropy Loss: 0.9849
+
+  Per-Class Metrics:
+    Dịch vụ: F1=0.9289, P=0.9469, R=0.9116, Acc=0.9259
+    Chất lượng sản phẩm: F1=0.9658, P=0.9483, R=0.9839, Acc=0.9358
+    Giá cả: F1=0.8927, P=0.8876, R=0.8977, Acc=0.9531
+    Khác: F1=0.4356, P=0.5366, R=0.3667, Acc=0.8593
+
+SENTIMENT CLASSIFICATION:
+  Overall F1 (Macro): 0.7062
+  Overall F1 (Weighted): 0.8647
+  Overall Precision (Macro): 0.7196
+  Overall Recall (Macro): 0.6945
+  Subset Accuracy: 0.7111
+  Average Label Accuracy: 0.8856
+  Cross-Entropy Loss: 1.1228
+
+  Per-Class Metrics:
+    Tiêu cực: F1=0.7397, P=0.7570, R=0.7232, Acc=0.8593
+    Bình thường: F1=0.4124, P=0.4444, R=0.3846, Acc=0.8593
+    Tích cực: F1=0.9664, P=0.9574, R=0.9756, Acc=0.9383
+
+COMBINED ASPECT-SENTIMENT METRICS:
+  Combined F1 (Macro): 0.7631
+  Combined F1 (Weighted): 0.8870
+  Combined F1 (Micro): 0.8925
+  Combined Precision (Macro): 0.7826
+  Combined Precision (Weighted): 0.8895
+  Combined Recall (Macro): 0.7491
+  Combined Recall (Weighted): 0.8865
+  Combined Subset Accuracy: 0.5481
+  Combined Average Label Accuracy: 0.9044
+  Aspect-Sentiment Pair Accuracy: 0.5481
+  Combined Cross-Entropy Loss: 1.0539
+
+ERROR ANALYSIS:
+  Total samples: 405
+  Aspect errors: 105 (25.93%)
+  Sentiment errors: 117 (28.89%)
+  Combined errors: 183 (45.19%)

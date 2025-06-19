@@ -1,9 +1,9 @@
-# detailed_evaluation.py
+# detailed_evaluate.py
 import torch
 import numpy as np
 import json
 import os
-from sklearn.metrics import classification_report, precision_recall_fscore_support, confusion_matrix
+from sklearn.metrics import classification_report, precision_recall_fscore_support, confusion_matrix, accuracy_score
 from transformers import AutoTokenizer
 import pandas as pd
 from typing import Dict, List, Tuple
@@ -34,7 +34,6 @@ class DetailedEvaluator:
         """Load trained model from checkpoint"""
         print(f"Loading model from {model_path}")
 
-        # ✅ Không dùng weights_only vì file là dict
         checkpoint = torch.load(model_path, map_location=self.device)
 
         model = MultiTaskABSAModel(self.config)
@@ -53,20 +52,43 @@ class DetailedEvaluator:
         test_data = self.data_loader.load_data(test_data_path)
         test_dataset = ABSADataset(test_data, self.data_loader)
         
-        # Get predictions
-        aspect_predictions, aspect_labels = self._get_predictions(test_dataset, task='aspect')
-        sentiment_predictions, sentiment_labels = self._get_predictions(test_dataset, task='sentiment')
+        # Get predictions and probabilities
+        aspect_results = self._get_predictions_and_probs(test_dataset, task='aspect')
+        sentiment_results = self._get_predictions_and_probs(test_dataset, task='sentiment')
+        
+        # Calculate losses
+        aspect_loss = self._calculate_cross_entropy_loss(
+            aspect_results['probabilities'], 
+            aspect_results['labels'],
+            'aspect'
+        )
+        sentiment_loss = self._calculate_cross_entropy_loss(
+            sentiment_results['probabilities'], 
+            sentiment_results['labels'],
+            'sentiment'
+        )
+        combined_loss = (aspect_loss + sentiment_loss) / 2
         
         # Calculate detailed metrics
         results = {
             'aspect_metrics': self._calculate_detailed_metrics(
-                aspect_labels, aspect_predictions, 
+                aspect_results['labels'], aspect_results['predictions'], 
                 self.config.aspect_labels, 'Aspect'
             ),
             'sentiment_metrics': self._calculate_detailed_metrics(
-                sentiment_labels, sentiment_predictions,
+                sentiment_results['labels'], sentiment_results['predictions'],
                 self.config.sentiment_labels, 'Sentiment'
-            )
+            ),
+            'combined_metrics': self._calculate_combined_metrics(
+                aspect_results['labels'], aspect_results['predictions'],
+                sentiment_results['labels'], sentiment_results['predictions'],
+                aspect_loss, sentiment_loss, combined_loss
+            ),
+            'losses': {
+                'aspect_loss': aspect_loss,
+                'sentiment_loss': sentiment_loss,
+                'combined_loss': combined_loss
+            }
         }
         
         return results
@@ -99,6 +121,61 @@ class DetailedEvaluator:
         
         return np.array(all_predictions), np.array(all_labels)
     
+    def _get_predictions_and_probs(self, dataset: ABSADataset, task: str) -> Dict:
+        """Get predictions and probabilities for specific task"""
+        all_predictions = []
+        all_probs = []
+        all_labels = []
+        
+        with torch.no_grad():
+            for i in range(len(dataset)):
+                sample = dataset[i]
+                
+                # Prepare input
+                input_ids = sample['input_ids'].unsqueeze(0).to(self.device)
+                attention_mask = sample['attention_mask'].unsqueeze(0).to(self.device)
+                
+                # Get model output
+                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+                
+                if task == 'aspect':
+                    probs = torch.sigmoid(outputs['aspect_logits'])
+                    predictions = (probs > 0.5).int()
+                    labels = sample['aspect_labels']
+                else:  # sentiment
+                    probs = torch.sigmoid(outputs['sentiment_logits'])
+                    predictions = (probs > 0.5).int()
+                    labels = sample['sentiment_labels']
+                
+                all_predictions.append(predictions.cpu().numpy()[0])
+                all_probs.append(probs.cpu().numpy()[0])
+                all_labels.append(labels.numpy())
+        
+        return {
+            'predictions': np.array(all_predictions),
+            'probabilities': np.array(all_probs),
+            'labels': np.array(all_labels)
+        }
+    
+    def _calculate_cross_entropy_loss(self, probs: np.ndarray, labels: np.ndarray, task: str) -> float:
+        """Tính toán cross-entropy loss cho multi-label classification"""
+        epsilon = 1e-7  # Để tránh log(0)
+        probs = np.clip(probs, epsilon, 1 - epsilon)
+        
+        # Tính loss cho từng sample rồi lấy trung bình
+        sample_losses = []
+        for i in range(len(labels)):
+            sample_loss = 0
+            for j in range(len(labels[i])):
+                y_true = labels[i][j]
+                p = probs[i][j]
+                sample_loss += -(y_true * np.log(p) + (1 - y_true) * np.log(1 - p))
+            sample_losses.append(sample_loss)
+        
+        avg_loss = np.mean(sample_losses)
+        print(f"Average {task} Cross-Entropy Loss: {avg_loss:.4f}")
+        return float(avg_loss)
+    
     def _calculate_detailed_metrics(self, y_true: np.ndarray, y_pred: np.ndarray, 
                                   labels: List[str], task_name: str) -> Dict:
         """Tính toán metrics chi tiết cho từng class"""
@@ -124,12 +201,23 @@ class DetailedEvaluator:
             y_true, y_pred, average=None, zero_division=0
         )
         
+        # Calculate accuracy metrics
+        subset_accuracy = self._calculate_subset_accuracy(y_true, y_pred)
+        
+        # Calculate per-label accuracy
+        per_label_accuracy = []
+        for i in range(y_true.shape[1]):
+            acc = accuracy_score(y_true[:, i], y_pred[:, i])
+            per_label_accuracy.append(acc)
+        
         # Organize results
         detailed_metrics = {
             'overall': {
                 'micro_avg': report['micro avg'],
                 'macro_avg': report['macro avg'],
-                'weighted_avg': report['weighted avg']
+                'weighted_avg': report['weighted avg'],
+                'subset_accuracy': subset_accuracy,
+                'average_label_accuracy': np.mean(per_label_accuracy)
             },
             'per_class': {}
         }
@@ -140,10 +228,146 @@ class DetailedEvaluator:
                 'precision': float(precision[i]),
                 'recall': float(recall[i]),
                 'f1_score': float(f1[i]),
-                'support': int(support[i])
+                'support': int(support[i]),
+                'accuracy': float(per_label_accuracy[i])
             }
         
         return detailed_metrics
+    
+    def _calculate_subset_accuracy(self, y_true: np.ndarray, y_pred: np.ndarray) -> float:
+        """Calculate subset accuracy (exact match) for multi-label classification"""
+        return np.mean([np.array_equal(true, pred) for true, pred in zip(y_true, y_pred)])
+    
+    def _calculate_combined_metrics(self, aspect_true: np.ndarray, aspect_pred: np.ndarray,
+                                 sentiment_true: np.ndarray, sentiment_pred: np.ndarray,
+                                 aspect_loss: float, sentiment_loss: float, combined_loss: float) -> Dict:
+        """Calculate combined aspect-sentiment metrics"""
+        print(f"\n=== Combined Aspect-Sentiment Metrics ===")
+        
+        # Combine predictions and labels
+        combined_true = np.concatenate([aspect_true, sentiment_true], axis=1)
+        combined_pred = np.concatenate([aspect_pred, sentiment_pred], axis=1)
+        combined_labels = self.config.aspect_labels + self.config.sentiment_labels
+        
+        # Overall combined metrics
+        subset_accuracy = self._calculate_subset_accuracy(combined_true, combined_pred)
+        
+        # Calculate per-label accuracy for combined
+        per_label_accuracy = []
+        for i in range(combined_true.shape[1]):
+            acc = accuracy_score(combined_true[:, i], combined_pred[:, i])
+            per_label_accuracy.append(acc)
+        
+        # Calculate precision, recall, f1 for combined
+        precision, recall, f1, support = precision_recall_fscore_support(
+            combined_true, combined_pred, average=None, zero_division=0
+        )
+        
+        # Calculate weighted metrics
+        weighted_precision = precision_recall_fscore_support(
+            combined_true, combined_pred, average='weighted', zero_division=0
+        )[0]
+        weighted_recall = precision_recall_fscore_support(
+            combined_true, combined_pred, average='weighted', zero_division=0
+        )[1]
+        weighted_f1 = precision_recall_fscore_support(
+            combined_true, combined_pred, average='weighted', zero_division=0
+        )[2]
+        
+        # Macro averages
+        macro_precision = np.mean(precision)
+        macro_recall = np.mean(recall)
+        macro_f1 = np.mean(f1)
+        
+        # Micro averages
+        micro_precision = precision_recall_fscore_support(
+            combined_true, combined_pred, average='micro', zero_division=0
+        )[0]
+        micro_recall = precision_recall_fscore_support(
+            combined_true, combined_pred, average='micro', zero_division=0
+        )[1]
+        micro_f1 = precision_recall_fscore_support(
+            combined_true, combined_pred, average='micro', zero_division=0
+        )[2]
+        
+        # Calculate aspect-sentiment pair accuracy
+        pair_accuracy = self._calculate_aspect_sentiment_pairs_accuracy(
+            aspect_true, aspect_pred, sentiment_true, sentiment_pred
+        )
+        
+        combined_metrics = {
+            'overall': {
+                'subset_accuracy': subset_accuracy,
+                'average_label_accuracy': np.mean(per_label_accuracy),
+                'macro_precision': macro_precision,
+                'macro_recall': macro_recall,
+                'macro_f1': macro_f1,
+                'weighted_precision': weighted_precision,
+                'weighted_recall': weighted_recall,
+                'weighted_f1': weighted_f1,
+                'micro_precision': micro_precision,
+                'micro_recall': micro_recall,
+                'micro_f1': micro_f1,
+                'aspect_sentiment_pair_accuracy': pair_accuracy,
+                'aspect_cross_entropy_loss': aspect_loss,
+                'sentiment_cross_entropy_loss': sentiment_loss,
+                'combined_cross_entropy_loss': combined_loss
+            },
+            'per_class': {}
+        }
+        
+        # Per-class metrics for combined
+        for i, label in enumerate(combined_labels):
+            combined_metrics['per_class'][label] = {
+                'precision': float(precision[i]),
+                'recall': float(recall[i]),
+                'f1_score': float(f1[i]),
+                'support': int(support[i]),
+                'accuracy': float(per_label_accuracy[i])
+            }
+        
+        # Print summary
+        print(f"Combined Subset Accuracy: {subset_accuracy:.4f}")
+        print(f"Combined Average Label Accuracy: {np.mean(per_label_accuracy):.4f}")
+        print(f"Combined Macro F1: {macro_f1:.4f}")
+        print(f"Combined Weighted F1: {weighted_f1:.4f}")
+        print(f"Combined Micro F1: {micro_f1:.4f}")
+        print(f"Aspect-Sentiment Pair Accuracy: {pair_accuracy:.4f}")
+        print(f"Aspect Cross-Entropy Loss: {aspect_loss:.4f}")
+        print(f"Sentiment Cross-Entropy Loss: {sentiment_loss:.4f}")
+        print(f"Combined Cross-Entropy Loss: {combined_loss:.4f}")
+        
+        return combined_metrics
+        
+    def _calculate_aspect_sentiment_pairs_accuracy(self, aspect_true: np.ndarray, aspect_pred: np.ndarray,
+                                                 sentiment_true: np.ndarray, sentiment_pred: np.ndarray) -> float:
+        """Calculate accuracy for aspect-sentiment pairs"""
+        correct_pairs = 0
+        total_pairs = 0
+        
+        for i in range(len(aspect_true)):
+            # Get true pairs
+            true_aspects = [j for j in range(len(aspect_true[i])) if aspect_true[i][j] == 1]
+            true_sentiments = [j for j in range(len(sentiment_true[i])) if sentiment_true[i][j] == 1]
+            true_pairs_set = set()
+            for a in true_aspects:
+                for s in true_sentiments:
+                    true_pairs_set.add((a, s))
+            
+            # Get predicted pairs
+            pred_aspects = [j for j in range(len(aspect_pred[i])) if aspect_pred[i][j] == 1]
+            pred_sentiments = [j for j in range(len(sentiment_pred[i])) if sentiment_pred[i][j] == 1]
+            pred_pairs_set = set()
+            for a in pred_aspects:
+                for s in pred_sentiments:
+                    pred_pairs_set.add((a, s))
+            
+            # Count correct pairs
+            if true_pairs_set == pred_pairs_set:
+                correct_pairs += 1
+            total_pairs += 1
+        
+        return correct_pairs / total_pairs if total_pairs > 0 else 0.0
     
     def create_confusion_matrices(self, test_data_path: str, save_dir: str = "./evaluation_results"):
         """Tạo confusion matrix cho từng task"""
@@ -167,34 +391,28 @@ class DetailedEvaluator:
             self.config.sentiment_labels, 'Sentiment', save_dir
         )
 
-        """Tạo confusion matrix tổng hợp cho tất cả nhãn aspect + sentiment"""
-        # Combine predictions and labels
+        # Create combined confusion matrix
         y_pred_combined = np.concatenate([aspect_predictions, sentiment_predictions], axis=1)
         y_true_combined = np.concatenate([aspect_labels, sentiment_labels], axis=1)
-
-        # Combine label names
         all_labels = self.config.aspect_labels + self.config.sentiment_labels
-        # Plot combined confusion matrix
         self._plot_combined_confusion_matrix(y_true_combined, y_pred_combined, all_labels, save_dir)
 
     def _plot_combined_confusion_matrix(self, y_true: np.ndarray, y_pred: np.ndarray,
                                      labels: List[str], save_dir: str):
-        """
-        Plot confusion matrix cho toàn bộ nhãn aspect + sentiment (multi-label setting, binary per label)
-        """
+        """Plot confusion matrix cho toàn bộ nhãn aspect + sentiment"""
         n_classes = len(labels)
         cm_all = []
 
         for i in range(n_classes):
             cm = confusion_matrix(y_true[:, i], y_pred[:, i], labels=[0, 1])
             tn, fp, fn, tp = cm.ravel() if cm.size == 4 else (0, 0, 0, cm[0][0] if cm.size == 1 else 0)
-            cm_all.append([tp, fn, fp, tn])  # true positive, false negative, false positive, true negative
+            cm_all.append([tp, fn, fp, tn])
 
         df_cm = pd.DataFrame(cm_all, columns=['TP', 'FN', 'FP', 'TN'], index=labels)
 
         plt.figure(figsize=(10, 0.5 * len(labels) + 2))
         sns.heatmap(df_cm, annot=True, fmt='d', cmap='Blues')
-        plt.title('Confusion Matrix for All Labels')
+        plt.title('Combined Aspect-Sentiment Confusion Matrix')
         plt.xlabel('Metric')
         plt.ylabel('Labels')
         plt.tight_layout()
@@ -204,7 +422,6 @@ class DetailedEvaluator:
         plt.close()
 
         print(f"Combined confusion matrix saved to {output_path}")
-        
         
     def _plot_confusion_matrices(self, y_true: np.ndarray, y_pred: np.ndarray,
                                 labels: List[str], task_name: str, save_dir: str):
@@ -244,6 +461,7 @@ class DetailedEvaluator:
         error_analysis = {
             'aspect_errors': [],
             'sentiment_errors': [],
+            'combined_errors': [],
             'statistics': {}
         }
         
@@ -251,15 +469,20 @@ class DetailedEvaluator:
         sentiment_predictions, sentiment_labels = self._get_predictions(test_dataset, task='sentiment')
         
         # Analyze errors
+        combined_errors = 0
         for i in range(len(test_data)):
             sample = test_data[i]
             text = sample['text']
+            
+            aspect_error = False
+            sentiment_error = False
             
             # Aspect errors
             aspect_true = aspect_labels[i]
             aspect_pred = aspect_predictions[i]
             
             if not np.array_equal(aspect_true, aspect_pred):
+                aspect_error = True
                 error_analysis['aspect_errors'].append({
                     'text': text,
                     'true_labels': [self.config.aspect_labels[j] for j in range(len(aspect_true)) if aspect_true[j] == 1],
@@ -272,10 +495,25 @@ class DetailedEvaluator:
             sentiment_pred = sentiment_predictions[i]
             
             if not np.array_equal(sentiment_true, sentiment_pred):
+                sentiment_error = True
                 error_analysis['sentiment_errors'].append({
                     'text': text,
                     'true_labels': [self.config.sentiment_labels[j] for j in range(len(sentiment_true)) if sentiment_true[j] == 1],
                     'predicted_labels': [self.config.sentiment_labels[j] for j in range(len(sentiment_pred)) if sentiment_pred[j] == 1],
+                    'original_labels': sample['labels']
+                })
+            
+            # Combined errors (either aspect or sentiment error)
+            if aspect_error or sentiment_error:
+                combined_errors += 1
+                error_analysis['combined_errors'].append({
+                    'text': text,
+                    'aspect_error': aspect_error,
+                    'sentiment_error': sentiment_error,
+                    'true_aspect_labels': [self.config.aspect_labels[j] for j in range(len(aspect_true)) if aspect_true[j] == 1],
+                    'predicted_aspect_labels': [self.config.aspect_labels[j] for j in range(len(aspect_pred)) if aspect_pred[j] == 1],
+                    'true_sentiment_labels': [self.config.sentiment_labels[j] for j in range(len(sentiment_true)) if sentiment_true[j] == 1],
+                    'predicted_sentiment_labels': [self.config.sentiment_labels[j] for j in range(len(sentiment_pred)) if sentiment_pred[j] == 1],
                     'original_labels': sample['labels']
                 })
         
@@ -284,8 +522,10 @@ class DetailedEvaluator:
             'total_samples': len(test_data),
             'aspect_errors': len(error_analysis['aspect_errors']),
             'sentiment_errors': len(error_analysis['sentiment_errors']),
+            'combined_errors': combined_errors,
             'aspect_error_rate': len(error_analysis['aspect_errors']) / len(test_data),
-            'sentiment_error_rate': len(error_analysis['sentiment_errors']) / len(test_data)
+            'sentiment_error_rate': len(error_analysis['sentiment_errors']) / len(test_data),
+            'combined_error_rate': combined_errors / len(test_data)
         }
         
         # Save error analysis
@@ -321,62 +561,7 @@ class DetailedEvaluator:
         print(f"Complete evaluation report saved to {output_dir}")
         return results
     
-    """def create_confusion_matrices(self, test_data_path: str, save_dir: str = "./evaluation_results"):
-        # Tạo confusion matrix gộp giữa aspect và sentiment
-        os.makedirs(save_dir, exist_ok=True)
 
-        test_data = self.data_loader.load_data(test_data_path)
-        test_dataset = ABSADataset(test_data, self.data_loader)
-
-        # Get predictions
-        aspect_preds, _ = self._get_predictions(test_dataset, task='aspect')
-        sentiment_preds, _ = self._get_predictions(test_dataset, task='sentiment')
-
-        aspect_labels = self.config.aspect_labels
-        sentiment_labels = self.config.sentiment_labels
-
-        combined_labels = []
-        y_true_combined = []
-        y_pred_combined = []
-
-        for i in range(len(test_dataset)):
-            for a_idx, a_label in enumerate(aspect_labels):
-                if test_dataset[i]['aspect_labels'][a_idx] == 1:
-                    for s_idx, s_label in enumerate(sentiment_labels):
-                        if test_dataset[i]['sentiment_labels'][s_idx] == 1:
-                            true_label = f"{a_label}#{s_label}"
-                            y_true_combined.append(true_label)
-
-            for a_idx, a_label in enumerate(aspect_labels):
-                if aspect_preds[i][a_idx] == 1:
-                    for s_idx, s_label in enumerate(sentiment_labels):
-                        if sentiment_preds[i][s_idx] == 1:
-                            pred_label = f"{a_label}#{s_label}"
-                            y_pred_combined.append(pred_label)
-
-        # Lấy danh sách các nhãn xuất hiện thật sự để sắp xếp theo thứ tự rõ ràng
-        all_labels = sorted(set(y_true_combined + y_pred_combined))
-
-        # Tạo confusion matrix
-        cm = confusion_matrix(y_true_combined, y_pred_combined, labels=all_labels)
-
-        # Plot
-        plt.figure(figsize=(max(10, len(all_labels) * 0.5), max(8, len(all_labels) * 0.5)))
-        sns.heatmap(cm, annot=True, fmt='d', xticklabels=all_labels, yticklabels=all_labels, cmap='Blues')
-        plt.xlabel("Predicted Label")
-        plt.ylabel("True Label")
-        plt.title("Combined Aspect-Sentiment Confusion Matrix")
-        plt.xticks(rotation=90)
-        plt.yticks(rotation=0)
-        plt.tight_layout()
-
-        save_path = os.path.join(save_dir, "combined_confusion_matrix.png")
-        plt.savefig(save_path, dpi=300)
-        plt.close()
-
-        print(f"Combined confusion matrix saved to {save_path}")
-"""
-    
     def _create_summary_report(self, results: Dict, error_analysis: Dict, output_dir: str):
         """Tạo báo cáo tóm tắt"""
         report_lines = []
@@ -389,10 +574,13 @@ class DetailedEvaluator:
         report_lines.append(f"  Overall F1 (Weighted): {aspect_metrics['overall']['weighted_avg']['f1-score']:.4f}")
         report_lines.append(f"  Overall Precision (Macro): {aspect_metrics['overall']['macro_avg']['precision']:.4f}")
         report_lines.append(f"  Overall Recall (Macro): {aspect_metrics['overall']['macro_avg']['recall']:.4f}")
+        report_lines.append(f"  Subset Accuracy: {aspect_metrics['overall']['subset_accuracy']:.4f}")
+        report_lines.append(f"  Average Label Accuracy: {aspect_metrics['overall']['average_label_accuracy']:.4f}")
+        report_lines.append(f"  Cross-Entropy Loss: {results['losses']['aspect_loss']:.4f}")
         
         report_lines.append("\n  Per-Class Metrics:")
         for aspect_name, metrics in aspect_metrics['per_class'].items():
-            report_lines.append(f"    {aspect_name}: F1={metrics['f1_score']:.4f}, P={metrics['precision']:.4f}, R={metrics['recall']:.4f}")
+            report_lines.append(f"    {aspect_name}: F1={metrics['f1_score']:.4f}, P={metrics['precision']:.4f}, R={metrics['recall']:.4f}, Acc={metrics['accuracy']:.4f}")
         
         # Sentiment metrics summary
         report_lines.append("\nSENTIMENT CLASSIFICATION:")
@@ -401,10 +589,28 @@ class DetailedEvaluator:
         report_lines.append(f"  Overall F1 (Weighted): {sentiment_metrics['overall']['weighted_avg']['f1-score']:.4f}")
         report_lines.append(f"  Overall Precision (Macro): {sentiment_metrics['overall']['macro_avg']['precision']:.4f}")
         report_lines.append(f"  Overall Recall (Macro): {sentiment_metrics['overall']['macro_avg']['recall']:.4f}")
+        report_lines.append(f"  Subset Accuracy: {sentiment_metrics['overall']['subset_accuracy']:.4f}")
+        report_lines.append(f"  Average Label Accuracy: {sentiment_metrics['overall']['average_label_accuracy']:.4f}")
+        report_lines.append(f"  Cross-Entropy Loss: {results['losses']['sentiment_loss']:.4f}")
         
         report_lines.append("\n  Per-Class Metrics:")
         for sentiment_name, metrics in sentiment_metrics['per_class'].items():
-            report_lines.append(f"    {sentiment_name}: F1={metrics['f1_score']:.4f}, P={metrics['precision']:.4f}, R={metrics['recall']:.4f}")
+            report_lines.append(f"    {sentiment_name}: F1={metrics['f1_score']:.4f}, P={metrics['precision']:.4f}, R={metrics['recall']:.4f}, Acc={metrics['accuracy']:.4f}")
+        
+        # Combined metrics summary
+        report_lines.append("\nCOMBINED ASPECT-SENTIMENT METRICS:")
+        combined_metrics = results['combined_metrics']['overall']
+        report_lines.append(f"  Combined F1 (Macro): {combined_metrics['macro_f1']:.4f}")
+        report_lines.append(f"  Combined F1 (Weighted): {combined_metrics['weighted_f1']:.4f}")
+        report_lines.append(f"  Combined F1 (Micro): {combined_metrics['micro_f1']:.4f}")
+        report_lines.append(f"  Combined Precision (Macro): {combined_metrics['macro_precision']:.4f}")
+        report_lines.append(f"  Combined Precision (Weighted): {combined_metrics['weighted_precision']:.4f}")
+        report_lines.append(f"  Combined Recall (Macro): {combined_metrics['macro_recall']:.4f}")
+        report_lines.append(f"  Combined Recall (Weighted): {combined_metrics['weighted_recall']:.4f}")
+        report_lines.append(f"  Combined Subset Accuracy: {combined_metrics['subset_accuracy']:.4f}")
+        report_lines.append(f"  Combined Average Label Accuracy: {combined_metrics['average_label_accuracy']:.4f}")
+        report_lines.append(f"  Aspect-Sentiment Pair Accuracy: {combined_metrics['aspect_sentiment_pair_accuracy']:.4f}")
+        report_lines.append(f"  Combined Cross-Entropy Loss: {combined_metrics['combined_cross_entropy_loss']:.4f}")
         
         # Error statistics
         report_lines.append("\nERROR ANALYSIS:")
@@ -412,6 +618,7 @@ class DetailedEvaluator:
         report_lines.append(f"  Total samples: {stats['total_samples']}")
         report_lines.append(f"  Aspect errors: {stats['aspect_errors']} ({stats['aspect_error_rate']:.2%})")
         report_lines.append(f"  Sentiment errors: {stats['sentiment_errors']} ({stats['sentiment_error_rate']:.2%})")
+        report_lines.append(f"  Combined errors: {stats['combined_errors']} ({stats['combined_error_rate']:.2%})")
         
         # Save report
         report_content = "\n".join(report_lines)
@@ -420,43 +627,45 @@ class DetailedEvaluator:
         
         print("\n" + report_content)
 
-def main():
-    """Main function để chạy evaluation"""
+# def main():
+#     """Main function để chạy evaluation"""
     
-    # Khởi tạo config
-    model_config = ModelConfig()
-    training_config = TrainingConfig()
+#     # Khởi tạo config
+#     model_config = ModelConfig()
+#     training_config = TrainingConfig()
     
-    # Đường dẫn model đã train
-    model_path = os.path.join(training_config.model_save_path, "C:/Users/DELL/Tiki_ABSA/src/models/DistilBert_MultiTasking/checkpoints/best_model.pt")
+#     # Đường dẫn model đã train
+#     model_path = os.path.join(training_config.model_save_path, "best_model.pt")
     
-    # Đường dẫn test data
-    test_data_path = training_config.test_data_path
+#     # Đường dẫn test data
+#     test_data_path = training_config.test_data_path
     
-    # Kiểm tra file tồn tại
-    if not os.path.exists(model_path):
-        print(f"Error: Model file not found at {model_path}")
-        return
+#     # Kiểm tra file tồn tại
+#     if not os.path.exists(model_path):
+#         print(f"Error: Model file not found at {model_path}")
+#         return
     
-    if not os.path.exists(test_data_path):
-        print(f"Error: Test data file not found at {test_data_path}")
-        return
+#     if not os.path.exists(test_data_path):
+#         print(f"Error: Test data file not found at {test_data_path}")
+#         return
     
-    # Khởi tạo evaluator
-    evaluator = DetailedEvaluator(model_path, model_config)
+#     # Khởi tạo evaluator
+#     evaluator = DetailedEvaluator(model_path, model_config)
     
-    # Chạy evaluation hoàn chỉnh
-    results = evaluator.generate_evaluation_report(test_data_path)
+#     # Chạy evaluation hoàn chỉnh
+#     results = evaluator.generate_evaluation_report(test_data_path)
     
-    print("\n=== EVALUATION COMPLETED ===")
-    print("Check './evaluation_results/' folder for detailed results:")
-    print("  - detailed_metrics.json: Chi tiết metrics từng class")
-    print("  - error_analysis.json: Phân tích lỗi")
-    print("  - summary_report.txt: Báo cáo tóm tắt")
-    print("  - confusion_matrices.png: Confusion matrices")
+#     print("\n=== EVALUATION COMPLETED ===")
+#     print("Check './evaluation_results/' folder for detailed results:")
+#     print("  - detailed_metrics.json: Chi tiết metrics từng class")
+#     print("  - error_analysis.json: Phân tích lỗi")
+#     print("  - summary_report.txt: Báo cáo tóm tắt")
+#     print("  - confusion_matrices.png: Confusion matrices")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
+
+
 
 # Ví dụ sử dụng riêng lẻ:
 """
