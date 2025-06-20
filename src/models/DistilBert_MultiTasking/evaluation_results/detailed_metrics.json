@@ -1,0 +1,178 @@
+{
+  "aspect_metrics": {
+    "overall": {
+      "micro_avg": {
+        "precision": 0.9171270718232044,
+        "recall": 0.9021739130434783,
+        "f1-score": 0.9095890410958904,
+        "support": 736.0
+      },
+      "macro_avg": {
+        "precision": 0.829851533027549,
+        "recall": 0.7899840138714912,
+        "f1-score": 0.8057495894697299,
+        "support": 736.0
+      },
+      "weighted_avg": {
+        "precision": 0.9070731996477185,
+        "recall": 0.9021739130434783,
+        "f1-score": 0.9030535321635971,
+        "support": 736.0
+      },
+      "subset_accuracy": 0.7407407407407407,
+      "average_label_accuracy": 0.9185185185185185
+    },
+    "per_class": {
+      "Dịch vụ": {
+        "precision": 0.9468599033816425,
+        "recall": 0.9116279069767442,
+        "f1_score": 0.9289099526066351,
+        "support": 215,
+        "accuracy": 0.9259259259259259
+      },
+      "Chất lượng sản phẩm": {
+        "precision": 0.9483204134366925,
+        "recall": 0.9839142091152815,
+        "f1_score": 0.9657894736842105,
+        "support": 373,
+        "accuracy": 0.9358024691358025
+      },
+      "Giá cả": {
+        "precision": 0.8876404494382022,
+        "recall": 0.8977272727272727,
+        "f1_score": 0.8926553672316384,
+        "support": 88,
+        "accuracy": 0.9530864197530864
+      },
+      "Khác": {
+        "precision": 0.5365853658536586,
+        "recall": 0.36666666666666664,
+        "f1_score": 0.43564356435643564,
+        "support": 60,
+        "accuracy": 0.8592592592592593
+      }
+    }
+  },
+  "sentiment_metrics": {
+    "overall": {
+      "micro_avg": {
+        "precision": 0.8731060606060606,
+        "recall": 0.8649155722326454,
+        "f1-score": 0.8689915174363808,
+        "support": 533.0
+      },
+      "macro_avg": {
+        "precision": 0.7196335329164918,
+        "recall": 0.6944798088090772,
+        "f1-score": 0.7061800381460044,
+        "support": 533.0
+      },
+      "weighted_avg": {
+        "precision": 0.8652796063424177,
+        "recall": 0.8649155722326454,
+        "f1-score": 0.864746836213874,
+        "support": 533.0
+      },
+      "subset_accuracy": 0.7111111111111111,
+      "average_label_accuracy": 0.8855967078189301
+    },
+    "per_class": {
+      "Tiêu cực": {
+        "precision": 0.7570093457943925,
+        "recall": 0.7232142857142857,
+        "f1_score": 0.7397260273972602,
+        "support": 112,
+        "accuracy": 0.8592592592592593
+      },
+      "Bình thường": {
+        "precision": 0.4444444444444444,
+        "recall": 0.38461538461538464,
+        "f1_score": 0.41237113402061853,
+        "support": 52,
+        "accuracy": 0.8592592592592593
+      },
+      "Tích cực": {
+        "precision": 0.9574468085106383,
+        "recall": 0.975609756097561,
+        "f1_score": 0.9664429530201343,
+        "support": 369,
+        "accuracy": 0.9382716049382716
+      }
+    }
+  },
+  "combined_metrics": {
+    "overall": {
+      "subset_accuracy": 0.5481481481481482,
+      "average_label_accuracy": 0.9044091710758376,
+      "macro_precision": 0.7826152472656673,
+      "macro_recall": 0.7490536402733137,
+      "macro_f1": 0.7630769246167047,
+      "weighted_precision": 0.8895192317740184,
+      "weighted_recall": 0.8865248226950354,
+      "weighted_f1": 0.8869641161342809,
+      "micro_precision": 0.8985623003194888,
+      "micro_recall": 0.8865248226950354,
+      "micro_f1": 0.8925029750099167,
+      "aspect_sentiment_pair_accuracy": 0.5481481481481482,
+      "aspect_cross_entropy_loss": 0.984854884188659,
+      "sentiment_cross_entropy_loss": 1.1228459819678083,
+      "combined_cross_entropy_loss": 1.0538504330782337
+    },
+    "per_class": {
+      "Dịch vụ": {
+        "precision": 0.9468599033816425,
+        "recall": 0.9116279069767442,
+        "f1_score": 0.9289099526066351,
+        "support": 215,
+        "accuracy": 0.9259259259259259
+      },
+      "Chất lượng sản phẩm": {
+        "precision": 0.9483204134366925,
+        "recall": 0.9839142091152815,
+        "f1_score": 0.9657894736842105,
+        "support": 373,
+        "accuracy": 0.9358024691358025
+      },
+      "Giá cả": {
+        "precision": 0.8876404494382022,
+        "recall": 0.8977272727272727,
+        "f1_score": 0.8926553672316384,
+        "support": 88,
+        "accuracy": 0.9530864197530864
+      },
+      "Khác": {
+        "precision": 0.5365853658536586,
+        "recall": 0.36666666666666664,
+        "f1_score": 0.43564356435643564,
+        "support": 60,
+        "accuracy": 0.8592592592592593
+      },
+      "Tiêu cực": {
+        "precision": 0.7570093457943925,
+        "recall": 0.7232142857142857,
+        "f1_score": 0.7397260273972602,
+        "support": 112,
+        "accuracy": 0.8592592592592593
+      },
+      "Bình thường": {
+        "precision": 0.4444444444444444,
+        "recall": 0.38461538461538464,
+        "f1_score": 0.41237113402061853,
+        "support": 52,
+        "accuracy": 0.8592592592592593
+      },
+      "Tích cực": {
+        "precision": 0.9574468085106383,
+        "recall": 0.975609756097561,
+        "f1_score": 0.9664429530201343,
+        "support": 369,
+        "accuracy": 0.9382716049382716
+      }
+    }
+  },
+  "losses": {
+    "aspect_loss": 0.984854884188659,
+    "sentiment_loss": 1.1228459819678083,
+    "combined_loss": 1.0538504330782337
+  }
+}

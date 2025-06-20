@@ -46,7 +46,7 @@ class TrainingConfig:
     max_grad_norm: float = 1.0
 
     # ✅ Đường dẫn chính xác đến tập dữ liệu nằm ngoài src/
-    train_data_path: str = "../../../data/clean_data/train.json"
-    val_data_path: str = "../../../data/clean_data/dev.json"
-    test_data_path: str = "../../../data/clean_data/test.json"
+    train_data_path: str = "../../clean_data/train.json"
+    val_data_path: str = "../../clean_data/dev.json"
+    test_data_path: str = "../../clean_data/test.json"
 

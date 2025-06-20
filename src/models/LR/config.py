@@ -1,10 +1,9 @@
-# config.py 
 import os
 
 class Config:
-    # Đường dẫn dữ liệu (data ở ngoài src/models/LR/)
+    # Đường dẫn dữ liệu: src/clean_data
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
-    DATA_DIR = os.path.join(BASE_DIR, "data", "clean_data")
+    DATA_DIR = os.path.join(BASE_DIR, "clean_data")
 
     TRAIN_FILE = os.path.join(DATA_DIR, "train.json")
     VAL_FILE = os.path.join(DATA_DIR, "dev.json")
@@ -22,7 +21,6 @@ class Config:
     RANDOM_STATE = 42
     
     # Output
-    MODEL_DIR = os.path.join(BASE_DIR, "src", "models", "LR", "checkpoints")
-    RESULTS_DIR = os.path.join(BASE_DIR, "src", "models", "LR", "results")
-    PLOTS_DIR = os.path.join(BASE_DIR, "src", "models", "LR", "visualizations")
-
+    MODEL_DIR = os.path.join(os.path.dirname(__file__), "checkpoints")
+    RESULTS_DIR = os.path.join(os.path.dirname(__file__), "results")
+    PLOTS_DIR = os.path.join(os.path.dirname(__file__), "visualizations")

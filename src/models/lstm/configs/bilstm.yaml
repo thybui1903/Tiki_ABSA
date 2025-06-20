@@ -1,9 +1,9 @@
 vocab:
   type: Vocab
   path:
-    train: ../../../data/clean_data/train.json
-    dev: ../../../data/clean_data/dev.json
-    test: ../../../data/clean_data/test.json
+    train: ../../../clean_data/train.json
+    dev: ../../../clean_data/dev.json
+    test: ../../../clean_data/test.json
   min_freq: 3
   bos_token: <bos>
   eos_token: <eos>
@@ -13,13 +13,13 @@ vocab:
 dataset:
   train:
     type: SentimentDataset
-    path: ../../../data/clean_data/train.json
+    path: ../../../clean_data/train.json
   dev:
     type: SentimentDataset
-    path: ../../../data/clean_data/dev.json
+    path: ../../../clean_data/dev.json
   test:
     type: SentimentDataset
-    path: ../../../data/clean_data/test.json
+    path: ../../../clean_data/test.json
   batch_size: 32
   num_workers: 16
 
